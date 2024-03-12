@@ -8,3 +8,12 @@
 	path = Llama-2-7B-GPTQ
 	url = https://huggingface.co/TheBloke/Llama-2-7B-GPTQ
 	branch = gptq-4bit-32g-actorder_True
+[submodule "llama-tokenizer"]
+	path = llama-tokenizer
+	url = https://huggingface.co/hf-internal-testing/llama-tokenizer
+[submodule "exllamav2"]
+	path = exllamav2
+	url = https://github.com/turboderp/exllamav2
+[submodule "axolotl"]
+	path = axolotl
+	url = https://github.com/OpenAccess-AI-Collective/axolotl
