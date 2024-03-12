@@ -1,3 +1,10 @@
 [submodule "llama"]
 	path = llama
 	url = https://github.com/facebookresearch/llama
+[submodule "exllama"]
+	path = exllama
+	url = https://github.com/turboderp/exllama
+[submodule "Llama-2-7B-GPTQ"]
+	path = Llama-2-7B-GPTQ
+	url = https://huggingface.co/TheBloke/Llama-2-7B-GPTQ
+	branch = gptq-4bit-32g-actorder_True
