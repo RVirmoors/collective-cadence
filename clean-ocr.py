@@ -147,13 +147,17 @@ def read_words(file_path, chunk_size=3500):
             if len(text) == 0:
                 break
             while text[-1] != '.':
-                text += file.read(1)
+                newchar = file.read(1)
+                if newchar == '':
+                    break 
+                text += newchar
             words = text.split()
             # print("NUMBER OF WORDS:", len(words))
             if not words:
                 break
             # print("LAST WORD:", words[-1])
             yield ' '.join(words)
+    yield ''
 
 
 # Generator
@@ -209,6 +213,8 @@ for filename in os.listdir(input_folder):
     file_path = os.path.join(input_folder, filename)
     output_path = os.path.join(output_folder, filename)
     for text_input in read_words(file_path):
+        if len(text_input) == 0:
+            break
 
         text_input = ocr_prompt + '\n\n' + text_input
 
