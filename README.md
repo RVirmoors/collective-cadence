@@ -19,6 +19,7 @@ python clean-ocr.py
 ```
 
 then manually search for "______" in generated text files and deal with it...
+- other stuff to look for: ©
 
 ## Finetuning
 
