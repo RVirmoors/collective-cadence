@@ -6,3 +6,6 @@ exllamav2
 llama-tokenizer
 /input_texts
 /cleaned_texts
+*.png
+*.jpg
+*.txt

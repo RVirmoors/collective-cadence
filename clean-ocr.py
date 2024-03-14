@@ -147,17 +147,10 @@ def read_words(file_path, chunk_size=3500):
             while text[-1] != '.':
                 text += file.read(1)
             words = text.split()
-            print("NUMBER OF WORDS:", len(words))
+            # print("NUMBER OF WORDS:", len(words))
             if not words:
                 break
-            print("LAST WORD:", words[-1])
-            # while not '.' in words[-1]:
-            #     extra_words = file.read(100).split()
-            #     print("EXTRA WORDS:", extra_words)
-            #     xtra = 0
-            #     while not '.' in words[-1]:
-            #         words.append(extra_words[xtra])
-            #         xtra+=1
+            # print("LAST WORD:", words[-1])
             yield ' '.join(words)
 
 
@@ -195,8 +188,9 @@ col_sysprompt = "\u001b[37;1m"  # Grey
 amnesia = True
 
 # Text I/O
-file_path = "input_texts/backman.txt"
-output_path = "cleaned_texts/backman.txt"
+input_folder = 'input_texts'
+output_folder = 'cleaned_texts'
+ocr_prompt = "The following text is OCRed from a book. Please clean it up, removing extraneous characters and separating wrongly appended words. Important: do not continue unfinished sentences. Reply ONLY with the corrected text:"
 
 # Main loop
 
@@ -205,69 +199,85 @@ print(f" -- System prompt:")
 print()
 print(col_sysprompt + system_prompt.strip() + col_default)
 
-for text_input in read_words(file_path):
+for filename in os.listdir(input_folder):
 
-    text_input = 'The following text is OCRed from a book. Please clean it up, removing extraneous characters and separating wrongly appended words. Important: do not continue unfinished sentences. Reply ONLY with the corrected text:\n\n' + text_input
+    print("==== STARTING", filename)
+    start_time = time.time()
 
-    # print(text_input)
-    user_prompts.append(text_input)
+    file_path = os.path.join(input_folder, filename)
+    output_path = os.path.join(output_folder, filename)
+    for text_input in read_words(file_path):
 
-    # Send tokenized context to generator
+        text_input = ocr_prompt + '\n\n' + text_input
 
-    active_context = get_tokenized_context(model.config.max_seq_len - min_space_in_context)
-    generator.begin_stream_ex(active_context, settings)
+        # print(text_input)
+        user_prompts.append(text_input)
 
-    # Stream response
+        # Send tokenized context to generator
 
-    # if prompt_format.print_bot_name():
-    #     print(col_bot + botname + ": " + col_default, end = "")
+        active_context = get_tokenized_context(model.config.max_seq_len - min_space_in_context)
+        generator.begin_stream_ex(active_context, settings)
 
-    response_tokens = 0
-    response_text = ""
-    responses_ids.append(torch.empty((1, 0), dtype = torch.long))
+        # Stream response
 
-    while True:
-        # Get response stream
-        res = generator.stream_ex()
-        chunk = res["chunk"]
-        eos = res["eos"]
-        tokens = res["chunk_token_ids"]
+        # if prompt_format.print_bot_name():
+        #     print(col_bot + botname + ": " + col_default, end = "")
 
-        if len(response_text) == 0: chunk = chunk.lstrip()
-        response_text += chunk
-        responses_ids[-1] = torch.cat([responses_ids[-1], tokens], dim = -1)
+        response_tokens = 0
+        response_text = ""
+        responses_ids.append(torch.empty((1, 0), dtype = torch.long))
 
-        # Print formatted
-        print(chunk, end = "")
         with open(output_path, 'a') as file:
-            file.write(chunk)
-        
-        sys.stdout.flush()
+            file.write(' ')
 
-        # If model has run out of space, rebuild the context and restart stream
-        if generator.full():
+        while True:
+            # Get response stream
+            res = generator.stream_ex()
+            chunk = res["chunk"]
+            eos = res["eos"]
+            tokens = res["chunk_token_ids"]
 
-            active_context = get_tokenized_context(model.config.max_seq_len - min_space_in_context)
-            generator.begin_stream(active_context, settings)
+            if len(response_text) == 0: chunk = chunk.lstrip()
+            response_text += chunk
+            responses_ids[-1] = torch.cat([responses_ids[-1], tokens], dim = -1)
 
-        # If response is too long, cut it short, and append EOS if that was a stop condition
-        response_tokens += 1
-        if response_tokens == max_response_tokens:
+            # Print formatted
+            chunk = chunk.replace(ocr_prompt, '') # sometimes the prompt is reproduced. Remove it.
+            print(chunk, end = "")
+            with open(output_path, 'a') as file:
+                file.write(chunk)
+            
+            sys.stdout.flush()
 
-            if tokenizer.eos_token_id in generator.stop_tokens:
-                responses_ids[-1] = torch.cat([responses_ids[-1], tokenizer.single_token(tokenizer.eos_token_id)], dim = -1)
+            # If model has run out of space, rebuild the context and restart stream
+            if generator.full():
 
-            print()
-            print(col_error + f" !! Response exceeded {max_response_tokens} tokens and was cut short." + col_default)
-            break
+                active_context = get_tokenized_context(model.config.max_seq_len - min_space_in_context)
+                generator.begin_stream(active_context, settings)
 
-        # EOS signal returned
-        if eos:
-            if prompt_format.print_extra_newline():
+            # If response is too long, cut it short, and append EOS if that was a stop condition
+            response_tokens += 1
+            if response_tokens == max_response_tokens:
+
+                if tokenizer.eos_token_id in generator.stop_tokens:
+                    responses_ids[-1] = torch.cat([responses_ids[-1], tokenizer.single_token(tokenizer.eos_token_id)], dim = -1)
+
                 print()
-            break
+                print(col_error + f" !! Response exceeded {max_response_tokens} tokens and was cut short." + col_default)
+                with open(output_path, 'a') as file:
+                    file.write("______")
+                break
 
-    # Forget context after each response
-    if amnesia:
-        user_prompts = []
-        responses_ids = []
+            # EOS signal returned
+            if eos:
+                if prompt_format.print_extra_newline():
+                    print()
+                break
+
+        # Forget context after each response
+        if amnesia:
+            user_prompts = []
+            responses_ids = []
+
+    print("===== FINISHED", filename)
+    print("===== Duration:", (time.time() - start_time) / 60, "minutes.")
