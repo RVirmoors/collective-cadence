@@ -4,3 +4,5 @@ exllamav2
 /Llama-2-7B-GPTQ
 exllamav2
 llama-tokenizer
+/input_texts
+/cleaned_texts

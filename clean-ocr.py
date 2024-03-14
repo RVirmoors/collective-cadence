@@ -139,6 +139,28 @@ def get_tokenized_context(max_len):
         responses_ids = responses_ids[1:]
 
 
+# read chunk_size characters and return a string
+def read_words(file_path, chunk_size=3500):
+    with open(file_path, 'r') as file:
+        while True:
+            text = file.read(chunk_size)
+            while text[-1] != '.':
+                text += file.read(1)
+            words = text.split()
+            print("NUMBER OF WORDS:", len(words))
+            if not words:
+                break
+            print("LAST WORD:", words[-1])
+            # while not '.' in words[-1]:
+            #     extra_words = file.read(100).split()
+            #     print("EXTRA WORDS:", extra_words)
+            #     xtra = 0
+            #     while not '.' in words[-1]:
+            #         words.append(extra_words[xtra])
+            #         xtra+=1
+            yield ' '.join(words)
+
+
 # Generator
 generator = ExLlamaV2StreamingGenerator(model, cache, tokenizer, None, None)
 
@@ -172,6 +194,10 @@ col_sysprompt = "\u001b[37;1m"  # Grey
 # Other options
 amnesia = True
 
+# Text I/O
+file_path = "input_texts/backman.txt"
+output_path = "cleaned_texts/backman.txt"
+
 # Main loop
 
 print(f" -- Prompt format: {args.mode}")
@@ -179,17 +205,12 @@ print(f" -- System prompt:")
 print()
 print(col_sysprompt + system_prompt.strip() + col_default)
 
-while True:
+for text_input in read_words(file_path):
 
-    # Get user prompt
+    text_input = 'The following text is OCRed from a book. Please clean it up, removing extraneous characters and separating wrongly appended words. Important: do not continue unfinished sentences. Reply ONLY with the corrected text:\n\n' + text_input
 
-    print()
-    up = input(col_user + username + ": " + col_default).strip()
-    print()
-
-    # Add to context
-
-    user_prompts.append(up)
+    # print(text_input)
+    user_prompts.append(text_input)
 
     # Send tokenized context to generator
 
@@ -198,9 +219,8 @@ while True:
 
     # Stream response
 
-    if prompt_format.print_bot_name():
-
-        print(col_bot + botname + ": " + col_default, end = "")
+    # if prompt_format.print_bot_name():
+    #     print(col_bot + botname + ": " + col_default, end = "")
 
     response_tokens = 0
     response_text = ""
@@ -208,7 +228,6 @@ while True:
 
     while True:
         # Get response stream
-
         res = generator.stream_ex()
         chunk = res["chunk"]
         eos = res["eos"]
@@ -220,6 +239,8 @@ while True:
 
         # Print formatted
         print(chunk, end = "")
+        with open(output_path, 'a') as file:
+            file.write(chunk)
         
         sys.stdout.flush()
 
@@ -247,6 +268,6 @@ while True:
             break
 
     # Forget context after each response
-    # if amnesia:
-    #     user_prompts = []
-    #     responses_ids = []
+    if amnesia:
+        user_prompts = []
+        responses_ids = []
