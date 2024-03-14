@@ -144,6 +144,8 @@ def read_words(file_path, chunk_size=3500):
     with open(file_path, 'r') as file:
         while True:
             text = file.read(chunk_size)
+            if len(text) == 0:
+                break
             while text[-1] != '.':
                 text += file.read(1)
             words = text.split()
@@ -190,7 +192,7 @@ amnesia = True
 # Text I/O
 input_folder = 'input_texts'
 output_folder = 'cleaned_texts'
-ocr_prompt = "The following text is OCRed from a book. Please clean it up, removing extraneous characters and separating wrongly appended words. Important: do not continue unfinished sentences. Reply ONLY with the corrected text:"
+ocr_prompt = "The following text is OCRed from a book. Please clean it up, removing extraneous characters and separating wrongly appended words. Whenever you encounter a number, verify if it is part of a header or footer, showing a page number. These must be removed. Important: do not continue unfinished sentences. Reply ONLY with the corrected text:"
 
 # Main loop
 
@@ -279,5 +281,6 @@ for filename in os.listdir(input_folder):
             user_prompts = []
             responses_ids = []
 
+    print()
     print("===== FINISHED", filename)
     print("===== Duration:", (time.time() - start_time) / 60, "minutes.")

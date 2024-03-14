@@ -15,11 +15,11 @@ python pngs/ocr.py
 using [this llm](https://huggingface.co/LoneStriker/Xwin-LM-70B-V0.1-2.3bpw-h6-exl2)
 
 ```
-python clean-ocr.py
+python clean-ocr.py -m ../text-gen-install/text-generation-webui/models/Xwin-LM-70B-V0.1-2.3bpw-h6-exl2
 ```
 
 then manually search for "______" in generated text files and deal with it...
-- other stuff to look for: ©
+- other stuff to look for: ©, OCRed
 
 ## Finetuning
 
