@@ -1,10 +1,16 @@
-inlets = 1; // start, end, time, descriptor
-outlets = 1;
+inlets = 1;
+outlets = 2; // descriptors, times
 
 var descriptors = [];
 var times = [];
 var guitar_desc = [];
 var rec = true;
+
+function msg_int(val) {
+    if (val >= 0 && val < descriptors.length) {
+        outlet(0, descriptors[val]);
+    }
+}
 
 function record(val) {
     if (val) {
@@ -49,7 +55,7 @@ function time(val) {
         // post("moving by " + moveBy + " to " + times[minIndex]);
     }
     // post(times + "\n");
-    outlet(0, times);
+    outlet(1, times);
 }
 
 // ==== helpers ====
