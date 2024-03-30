@@ -1,4 +1,4 @@
-inlets = 1;
+inlets = 2; // main loop, guitar intervention
 outlets = 2; // descriptors, times
 
 var descriptors = [];
@@ -24,30 +24,36 @@ function record(val) {
 
 function list() {
     var a = arrayfromargs(arguments);
-    if (rec) {
+    if (rec && inlet == 0) {
         descriptors.push(a);
-    } else {
+        messnamed("getTime", "bang");
+    } else if (inlet == 1) {
         guitar_desc = a;
+        messnamed("getTime", "bang");
     }
-    messnamed("getTime", "bang");
 }
 
 function time(val) {
+    var minDelta = Infinity;
+    var minIndex = 0;
+    for (var i = 0; i < times.length; i++) {
+        var delta = times[i] - val;
+        if(Math.abs(delta) < Math.abs(minDelta)) {
+            minDelta = delta;
+            minIndex = i;
+        }
+    }
+    // post("closest to " + val + " is " + times[minIndex] + "\n");
     if (rec) {
+        if (Math.abs(minDelta) < 0.01) {
+            post("Loop complete.\n");
+            messnamed("morph-record", 0);
+            return;
+        }
         if (descriptors.length > times.length) // first time already init'd
             times.push(val);
     }
     else {
-        var minDelta = Infinity;
-        var minIndex = 0;
-        for (var i = 0; i < times.length; i++) {
-            var delta = times[i] - val;
-            if(Math.abs(delta) < Math.abs(minDelta)) {
-                minDelta = delta;
-                minIndex = i;
-            }
-        }
-        // post("closest to " + val + " is " + times[minIndex] + "\n");
         var descrDiff = Math.abs(guitar_desc[1] - descriptors[minIndex][1]);
         var scaleDiff = scale(descrDiff, 2., 0., 0., 1.);
         var moveBy = minDelta * scaleDiff;
