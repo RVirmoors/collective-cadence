@@ -45,7 +45,7 @@ function time(val) {
     }
     // post("closest to " + val + " is " + times[minIndex] + "\n");
     if (rec) {
-        if (Math.abs(minDelta) < 0.01) {
+        if (Math.abs(minDelta) < 0.05) {
             post("Loop complete.\n");
             messnamed("morph-record", 0);
             return;
