@@ -40,6 +40,66 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 958.400017321109772, 60.0, 77.0, 22.0 ],
+					"text" : "sp.datadelay"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "float" ],
+					"patching_rect" : [ 1155.0, 32.000000476837158, 85.0, 22.0 ],
+					"text" : "sp.classcreate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "signal", "signal", "" ],
+					"patching_rect" : [ 1242.0, 56.000000476837158, 114.0, 22.0 ],
+					"text" : "sp.classcontrollers~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1155.0, 57.000001549720764, 80.0, 22.0 ],
+					"text" : "sp.controllers"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 714.300010800361633, 617.32675143782285, 90.0, 22.0 ],
+					"text" : "nn~ percussion"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-61",
 					"linecount" : 16,
 					"maxclass" : "message",
@@ -233,7 +293,6 @@
 					}
 ,
 					"patching_rect" : [ 432.200011253356934, 569.563191988093195, 65.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -261,7 +320,7 @@
 					"presentation_rect" : [ 48.200001001358032, 122.37778228521347, 182.0, 68.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"size" : 4,
-					"slidercolor" : [ 0.4, 0.684093, 0.8, 1.0 ],
+					"slidercolor" : [ 0.4, 0.684093, 0.8, 0.45 ],
 					"thickness" : 3
 				}
 
@@ -1832,7 +1891,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1076.800016045570374, 32.000000476837158, 92.0, 22.0 ],
+					"patching_rect" : [ 958.400017321109772, 32.000000476837158, 92.0, 22.0 ],
 					"text" : "sp.datagranular"
 				}
 
@@ -2270,10 +2329,10 @@
 					"id" : "obj-110",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 404.600005626678467, 106.599999666213989, 45.0, 22.0 ],
-					"text" : "adc~ 1"
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
+					"patching_rect" : [ 404.600005626678467, 106.599999666213989, 85.0, 22.0 ],
+					"text" : "adc~ 1 5 6 7 8"
 				}
 
 			}
@@ -2320,7 +2379,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 484.0, 21.0, 214.0, 100.0 ],
+					"patching_rect" : [ 596.300010800361633, 12.599999666213989, 214.0, 100.0 ],
 					"text" : "1) find two big hits with smaller onsets between them, capture them\n2) transition towards abstract rhythm based on onsets\n3) quantize\n4) edit / develop / overlap resulting rhythm using guitar onsets"
 				}
 
@@ -2523,6 +2582,13 @@
 					"destination" : [ "obj-176", 0 ],
 					"order" : 0,
 					"source" : [ "obj-174", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-171", 1 ],
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -2831,7 +2897,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-171", 1 ],
+					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-83", 0 ]
 				}
 
@@ -2915,11 +2981,19 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "fluid.bufmfcc~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "fluid.bufpitch~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "fluid.bufscale~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.bufselectevery~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -2931,7 +3005,23 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "fluid.dataset~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.knnclassifier~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.labelset~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "fluid.list2buf.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "fluid.mlpclassifier~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -2946,7 +3036,46 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "nn~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sp.classcontrollers~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.classcreate.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.classmatch.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.controllers.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "sp.convolver~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.datadelay.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Max 8/Packages/SP-Tools/patchers",
 				"type" : "JSON",
@@ -2968,6 +3097,13 @@
 			}
 , 			{
 				"name" : "sp.descriptors~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sp.mfccframe.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/patchers",
 				"patcherrelativepath" : "../../../Max 8/Packages/SP-Tools/patchers",
 				"type" : "JSON",
