@@ -1,5 +1,5 @@
 inlets = 2; // main loop, guitar intervention
-outlets = 2; // descriptors, times
+outlets = 2; // descriptors (actually descr->controllers), times
 
 var descriptors = [];
 var times = [];
@@ -54,8 +54,9 @@ function time(val) {
             times.push(val);
     }
     else {
-        var descrDiff = Math.abs(guitar_desc[1] - descriptors[minIndex][1]);
-        var scaleDiff = scale(descrDiff, 2., 0., 0., 1.);
+        // use first controller value to compute diff
+        var descrDiff = Math.abs(guitar_desc[0] - descriptors[minIndex][0]);
+        var scaleDiff = scale(descrDiff, 0.5, 0., 0., 1.);
         var moveBy = minDelta * scaleDiff;
         times[minIndex] = times[minIndex] - moveBy;
         // post("moving by " + moveBy + " to " + times[minIndex]);

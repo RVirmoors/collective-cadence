@@ -10,3 +10,6 @@ llama-tokenizer
 
 /_archive
 /pngs
+*.rpp-bak
+/reaper/classify/Media
+/reaper/soundcheck/Media
