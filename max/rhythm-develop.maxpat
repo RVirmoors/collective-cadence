@@ -40,6 +40,42 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-134",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 135.200002014636993, 600.800008952617645, 50.0, 22.0 ],
+					"text" : "36296"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-132",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 417.000011026859283, 292.600000441074371, 29.5, 22.0 ],
+					"text" : "!= 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-131",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 335.600005626678467, 314.156206047010755, 39.0, 22.0 ],
+					"text" : "gate~"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-130",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -92,7 +128,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 132.000001966953278, 156.000002324581146, 50.0, 223.0 ],
-									"text" : "0.139425 0.184487 0.501911 0.378073 0 0.353136 0.345201 0.491159 0.682879 0"
+									"text" : "0.379693 0.213604 0.685405 0.701682 1 0.230252 0.332803 0.491592 0.641079 0"
 								}
 
 							}
@@ -319,7 +355,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1092.000016272068024, 642.400009572505951, 50.0, 223.0 ],
-					"text" : "0.139425 0.184487 0.501911 0.378073 0 0.353136 0.345201 0.491159 0.682879 0"
+					"text" : "0.379693 0.213604 0.685405 0.701682 1 0.230252 0.332803 0.491592 0.641079 0"
 				}
 
 			}
@@ -639,8 +675,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 48.200001001358032, 122.37778228521347, 182.0, 68.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
-					"size" : 4,
-					"slidercolor" : [ 0.4, 0.684093, 0.8, 0.45 ],
+					"size" : 2,
+					"slidercolor" : [ 0.4, 0.684093, 0.8, 1.0 ],
 					"thickness" : 3
 				}
 
@@ -654,7 +690,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1030.400018036365509, 642.400009751319885, 50.0, 223.0 ],
-					"text" : "0.400955 0.419725 0.699636 0.710783 0 0.375269 0.244545 0.495979 0.514115 1"
+					"text" : "0.498987 0.169434 0.589523 0.661157 1 0.109199 0.291584 0.56936 0.633566 0"
 				}
 
 			}
@@ -725,7 +761,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 260.00000387430191, 397.600005924701691, 86.0, 22.0 ],
+					"patching_rect" : [ 260.00000387430191, 422.400006294250488, 86.0, 22.0 ],
 					"text" : "s loopDuration"
 				}
 
@@ -737,7 +773,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 260.00000387430191, 368.000005483627319, 82.0, 22.0 ],
+					"patching_rect" : [ 260.00000387430191, 392.800005853176117, 82.0, 22.0 ],
 					"text" : "r loop1-length"
 				}
 
@@ -833,7 +869,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 191.0, 215.0, 523.0, 627.0 ],
+						"rect" : [ 1032.0, 215.0, 523.0, 627.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -861,7 +897,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -1090,7 +1125,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 45.299996852874756, 370.400005519390106, 132.400001227855682, 22.0 ],
-									"text" : "0"
+									"text" : "0 0.586975"
 								}
 
 							}
@@ -1471,7 +1506,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 525.400006532669067, 506.400007545948029, 68.0, 22.0 ],
+					"patching_rect" : [ 525.400006532669067, 531.200007915496826, 68.0, 22.0 ],
 					"text" : "s startLoop"
 				}
 
@@ -2126,7 +2161,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 525.400006532669067, 473.400007843971252, 24.0, 24.0 ]
+					"patching_rect" : [ 525.400006532669067, 498.20000821352005, 24.0, 24.0 ]
 				}
 
 			}
@@ -2202,7 +2237,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 525.400006532669067, 288.800004303455353, 24.0, 24.0 ]
+					"patching_rect" : [ 477.600002348423004, 243.200003623962402, 66.800004184246063, 66.800004184246063 ]
 				}
 
 			}
@@ -2212,7 +2247,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 355.600005626678467, 473.400007843971252, 85.0, 22.0 ],
+					"patching_rect" : [ 355.600005626678467, 498.20000821352005, 85.0, 22.0 ],
 					"text" : "send~ capture"
 				}
 
@@ -2234,7 +2269,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 355.600005626678467, 322.80000638961792, 188.800000905990601, 137.600000143051147 ],
+					"patching_rect" : [ 355.600005626678467, 347.600006759166718, 188.800000905990601, 137.600000143051147 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 45.200001001358032, 56.400002419948578, 188.800000905990601, 137.600000143051147 ],
 					"viewvisibility" : 1
@@ -2460,7 +2495,7 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
-					"clipheight" : 76.600003957748413,
+					"clipheight" : 37.800001978874207,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "test-clap.wav",
@@ -2470,6 +2505,18 @@
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Users/rv/Documents/GitHub/collective-cadence/reaper/soundcheck/Media/02-6-240402_1448.wav",
+								"filename" : "02-6-240402_1448.wav",
+								"filekind" : "audiofile",
+								"id" : "u523024649",
+								"selection" : [ 0.542986425339366, 0.945701357466063 ],
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
 								}
 
 							}
@@ -2580,7 +2627,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-134", 1 ],
+					"order" : 0,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
+					"order" : 1,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -2595,6 +2651,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-111", 1 ],
+					"order" : 2,
+					"source" : [ "obj-110", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"order" : 0,
 					"source" : [ "obj-110", 1 ]
@@ -2603,7 +2667,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
+					"destination" : [ "obj-131", 1 ],
 					"source" : [ "obj-111", 0 ]
 				}
 
@@ -2720,6 +2784,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"source" : [ "obj-131", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-131", 0 ],
+					"source" : [ "obj-132", 0 ]
 				}
 
 			}
@@ -2860,7 +2938,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-132", 0 ],
+					"order" : 0,
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-29", 1 ],
+					"order" : 1,
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -3092,6 +3179,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "02-6-240402_1448.wav",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/reaper/soundcheck/Media",
+				"patcherrelativepath" : "../reaper/soundcheck/Media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "M4L.bal1~.maxpat",
 				"bootpath" : "C74:/patchers/m4l/Tools resources",
 				"type" : "JSON",
