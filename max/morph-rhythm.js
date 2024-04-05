@@ -16,7 +16,7 @@ function record(val) {
     if (val) {
 		rec = true;
 		messnamed("startLoop", "bang");
-		times = [0];
+		times = [];
         descriptors = [];
 	}
     else rec = false;
@@ -43,15 +43,14 @@ function time(val) {
             minIndex = i;
         }
     }
-    // post("closest to " + val + " is " + times[minIndex] + "\n");
+    post("closest to " + val + " is " + times[minIndex] + "\n");
     if (rec) {
         if (Math.abs(minDelta) < 0.05) {
             post("Loop complete.\n");
             messnamed("morph-record", 0);
             return;
         }
-        if (descriptors.length > times.length) // first time already init'd
-            times.push(val);
+        times.push(val);
     }
     else {
         // use first controller value to compute diff
@@ -61,7 +60,7 @@ function time(val) {
         times[minIndex] = times[minIndex] - moveBy;
         // post("moving by " + moveBy + " to " + times[minIndex]);
     }
-    // post(times + "\n");
+    post("ALL: " + times + "\n");
     outlet(1, times);
 }
 
