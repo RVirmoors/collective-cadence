@@ -2,7 +2,7 @@ The following are several books that analyze mass dance events around the world.
 
 Some books are older, and their reproduction using OCR is not perfect. Try to work around the artifacts introduced by the OCR process. The occurence of ______ means that a small part of the text is missing.
 
-=============================
+=============================\n\n\n
 
 
 Dances with Spiders: Crisis, Celebrity and Celebration in Southern Italy
@@ -985,7 +985,7 @@ On 29 June 2007, around 5.30 a.m., Evelina steps into St Paul's chapel in Galati
 
 
 
-========================
+========================\n\n\n
 
 
 
@@ -1004,7 +1004,7 @@ The "dancing plague" was no kind of dance, but a mania that still evades explana
 When the dancing got out of hand, condign punishment, we're told, was apt to follow. It was said that, at Maastricht in 1278, 200 people had been seized by a dancing frenzy and disrupted funeral rites. Small wonder that a bridge over the River Meuse collapsed and many of the maniacal revellers drowned. Avoiding such pitfalls and looking suspiciously at dance would, of course, become a theme in some brands of Protestantism. Even in Strasbourg, which charted a relatively moderate theological course, it was decreed that there should be no dancing in the streets or "shameless songs" on Sundays. Perhaps the memory of 1518 helped carry through such legislation, although at least the rubrics were not as severe as those over in Augsburg. "All piping, drumming and other hitting and playing of instruments" was prohibited. If the feet began to tap, who knew what terpsichorean mischief might ensue?
 
 
-====================================
+====================================\n\n\n
 
 
 When Dance Becomes Political: Georgian Rave Culture as the Site of Global and Local Construction of Politics
@@ -1272,7 +1272,7 @@ Handling rave as a movement formed by framing the space, style, music, and above
 Unlike my respondents, I look back at those years of struggle with more optimism. The movements have ups and downs, and they inevitably disappear or change form. The political meaning that the rave culture in Georgia generated has helped thousands of victims of drug policy and demonstrated alternative ways of making politics. The possibility of culture to inspire and produce collective politics can be further investigated on a larger geopolitical level and conceptually expand the ways of understanding Europeanization and ideas of modernity beyond cultural politics.
 
 
-===================================
+===================================\n\n\n
 
 
 When Dance Becomes Political: Georgian Rave Culture as the Site of Global and Local Construction of Politics
@@ -1538,7 +1538,7 @@ Handling rave as a movement formed by framing the space, style, music, and above
 Unlike my respondents, I look back at those years of struggle with more optimism. The movements have ups and downs, and they inevitably disappear or change form. The political meaning that the rave culture in Georgia generated has helped thousands of victims of drug policy and demonstrated alternative ways of making politics. The possibility of culture to inspire and produce collective politics can be further investigated on a larger geopolitical level (e.g. 42 CEU eTD Collection Post-Socialism) and conceptually expand the ways of understanding Europeanization and ideas of modernity beyond cultural politics.
 
 
-===============================
+===============================\n\n\n
 
 Jerri Daboo P| Ritual, Rapture and Remorse: A Study of Tarantism and Pizzica in Salento
 
@@ -2865,7 +2865,7 @@ I thought back over my own time of researching the ritual, of coming to Salento 
 I had not expected this either. Weaving my way between being academic and practitioner, researcher and performer, my journey echoed back to me off the walls, along with the vestiges, traces and footprints of all those who had undergone such a profound experience within the small space. I stayed for about an hour on my own in the chapel, and felt immensely grateful for the opportunity to be there and spend time with the memories and reflections of the past in the present. Eventually I got up, and walked through the doorway back onto the Piazza, dazzled by the blazing sun and blasting heat outside. I took some photographs of the doorway and the outside of the building. The bar next to the chapel was open, so I went in, and asked the owner for a drink of juice with ice. He said that he had noticed me taking photographs, and asked if I would like him to move his car which was parked near the chapel doorway, so I could get a clear picture of it without the car. I thanked him, but said it was fine, as I would prefer to record the scene just as it was, rather than try to manipulate it in any way. "Ah?" he said, rolling his eyes, "another researcher!" I smiled, and gratefully drank my juice.
 
 
-=================================================
+=================================================\n\n\n
 
 Choreomania: Dance and Disorder
 Kélina Gotman
@@ -5040,7 +5040,7 @@ The new, politicized dancing procession excluded the truly ill, beggars, and oth
 This theatre of normalcy had gradually supplanted a far unsteadier public procession, in which all sorts of ‘disorder’ were at play. Today, nine thousand dancers and three thousand spectators gather to rehearse an event that has long since refantasized the fiction of a medieval tradition. When I attended, like Meige, I looked obliquely for signs of movement disorders, Moving Fields, Modernity, and the Bacchic Chorus + noting a first aid van parked outside the basilica on the evening before. Older spectators lined the parade in wheelchairs, surely gladdened at this expression of coordinated—if subdued—motion (fig. C.1). Others watched from in front of a fairground, reminding me of the ghostly quality of this event as entertainment (fig. C.2): not a mania but a form of intensity, an enthusiasm, enacting 313 the orderly and the haphazard, the methodical and the disciplined, as well as the spirit of fête; in an event that partook, for all of its solemn overtones, of both (fig. C.3). It was a repetition of something that had served as a sort of yearly frenetic activity, crystallized through the centuries, transformed after a couple of world wars, whose imprint on the local walls was still patent, as Guy pointed out, gesturing towards bullet holes. Yet through this rehearsal of an idea about the past, the event spoke only of the present: the present as something, precisely, that returns. Something that is relational, a reminder of other presents; something that one can look forward to, by remembering that it has always or almost always occurred in more or less this way. It had outgrown its status as a dancing disease, but this procession, linked through a chain of associations with St. Vitus’s dance, the Convulsionaries of Saint-Médard, and Charcot’s clinic, presented the modern tourist-participant and reperformer (myself) with a sort of nostalgia for or phantasm of what may never have actually existed. These leaps at and around tombs, either for a cure or, in this case, nothing better than a collective day out in the nearby town, gestured towards a performance of history for the pleasure and joy of it—for the common, joint experience of repetition. A theatre of repetition performed as if always anew; or, one might add, always moving, hopping if not hobbling along, in a circle around the basilica. Here, the theatre of returns did not attempt a strict movement backwards; it did not try to capture what was ostensibly gone, archived, long dead. It continued, forward and back, forward and back, reconfiguring the historicity of the event in the ecstasy of progressive amnesia.
 
 
-===========================================
+===========================================\n\n\n
 
 Tarantism: From an Ancient Syndrome to a New Form of Heritage in Southern Italy
 
@@ -5340,7 +5340,7 @@ Tarantism is not a simple phenomenon. While repeatedly defined as a "syndrome" i
 Talking about this thesis and this research, it would not have been possible without witnessing the contemporary aspects of tarantism. Highlighting those aspects, I focused on the current importance and relevance of the phenomenon, making it possibly more intriguing for people interested in folklore and heritage. Hopefully, this work will inspire some future scholars and encourage them to pursue their studies regarding tarantism.
 
 
-===========================
+===========================\n\n\n
 
 Resistance and Reappropriation in Rave Culture
 
@@ -5458,7 +5458,7 @@ Thornton (1996) argues that, “The constant pulse of the bass blocks thoughts, 
 As raves have moved into clubs, the “logic” that animates them has become—at least in a sociological sense—more like that of fairs and amusement parks. In postmodern America, “fun fairs and theme parks such as Disney,” according to Featherstone (1991), “provide enclaved environments for the controlled de-control of the emotions, where adults are given permission to behave like children again” (p. 80; see also pp. 24-5). Similarly, club raving allows persons to “display a calculating hedonism” (p. 59)—one that, while privileging informality (e.g., relaxed standards of dress and behavior, as well as the exploration of previously forbidden pleasures and emotions), still depends upon greater self-control (p. 45).
 
 
-=======================
+=======================\n\n\n
 
 The Public Sphere by Performance
 
@@ -6492,7 +6492,7 @@ Lastly, for us to further explore the relations between self and group, collecti
 
 
 
-===============================================================
+===============================================================\n\n\n
 
 
 
@@ -8149,7 +8149,7 @@ We believe that this research suggests that these are important questions that m
 
 
 
-===============================================================
+===============================================================\n\n\n
 
 
 
@@ -8215,7 +8215,7 @@ That a person's milieu affects their scholarship is not surprising. Of concern i
 
 
 
-=======================================================
+=======================================================\n\n\n
 
 
 
@@ -8273,7 +8273,7 @@ The only difference, and it is a weighty one, is that they refuse, on this point
 
 
 
-=============================================
+=============================================\n\n\n
 
 
 
@@ -8348,7 +8348,7 @@ One cannot therefore simply brand the Bewegungschére as reactionary, a proto-fa
 
 
 
-=====================================================
+=====================================================\n\n\n
 
 
 
@@ -8489,7 +8489,7 @@ Choreographers and dancers, by working in the Third Reich, validated and rationa
 
 
 
-======================================================
+======================================================\n\n\n
 
 
 
@@ -8528,7 +8528,7 @@ Were there, then, belief systems in the regions affected by the dancing plague t
 
 
 
-=========================================
+=========================================\n\n\n
 
 
 

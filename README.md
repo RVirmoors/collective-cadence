@@ -39,3 +39,20 @@ python inference.py ./datasets/qlora.yml     --lora_model_dir="axolotl/qlora-out
 
 or [just use oobabooga](https://github.com/oobabooga/text-generation-webui)
 - [intro guide](https://www.reddit.com/r/Oobabooga/comments/19480dr/how_to_train_your_dra_model/)
+
+
+
+## RAVE
+
+see [this guide](https://github.com/acids-ircam/RAVE/discussions/300)
+
+train command:
+```
+rave train --config v2 --config wasserstein --override PHASE_1_DURATION=1000000 --db_path ./ --out_path ./out/ --name rebetika_fem_noguit --gpu 0 --n_signal 262144 --val_every 5000 --channels 1 --config causal --batch 8
+```
+
+export command:
+```
+cd /out/PATH_TO_CONFIG.GIN
+rave export --run ./ --channels 1 --sr 44100 --name test --streaming
+```
