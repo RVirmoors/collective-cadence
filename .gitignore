@@ -19,3 +19,6 @@ llama-tokenizer
 *.asd
 /rave/_rave mp3
 /rave/dataset
+*.flac
+.DS_Store
+.DS_Store
