@@ -33,15 +33,16 @@ function time(val) {
             // are the last 3 deltas similar to the prev 3 deltas?
             found &= similar(deltas[N - i], deltas[N - noNotes - i]);
         }
+        if (!found) continue;
+        var loopDuration = 0;
+        for (var i = noNotes ; i > 0; i--) {
+            loopDuration += deltas[N-i];
+            // post(deltas[N-i] + "\n");
+        }
+        if (loopDuration < 1000) continue; // too short, find smth else
+        if (Math.random() < 0.5) continue; // bad luck, find smth else
         if (found) {
             post("Found rhythm from last " + noNotes + " claps!\n");
-            post("==========\n");
-            var loopDuration = 0;
-            for (var i = noNotes ; i > 0; i--) {
-                loopDuration += deltas[N-i];
-                post(deltas[N-i] + "\n");
-            }
-            post("==========\n");
             record(false);
             outlet(0, loopDuration);
             return;
