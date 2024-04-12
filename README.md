@@ -40,6 +40,11 @@ python inference.py ./datasets/qlora.yml     --lora_model_dir="axolotl/qlora-out
 or [just use oobabooga](https://github.com/oobabooga/text-generation-webui)
 - [intro guide](https://www.reddit.com/r/Oobabooga/comments/19480dr/how_to_train_your_dra_model/)
 
+apple M1 inference using [llama.cpp](https://github.com/ggerganov/llama.cpp):
+```
+./main -m /Volumes/Extreme\ SSD/_llama/models/Xwin-LM-13B-V0.2/ggml-model-Q4_K_M --lora /Volumes/Extreme\ SSD/_llama/loras/his-ana-the-512/ggml-adapter-model.bin  -n 8 --prompt "What is dance?"
+```
+
 
 
 ## RAVE

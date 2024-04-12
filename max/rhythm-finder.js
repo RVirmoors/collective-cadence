@@ -25,8 +25,8 @@ function time(val) {
     var N = deltas.length - 1;
     if (N < 5) return;
 
-    for (var noNotes = 3; noNotes < 10; noNotes++) {
-        // check last 3 deltas, then last 4 etc
+    for (var noNotes = 4; noNotes < 10; noNotes++) {
+        // check last 4 deltas, then last 4 etc
         // post ("checking " + noNotes + " claps...\n");
         var found = true;
         for (var i = 0 ; i < noNotes; i++) {
