@@ -14,6 +14,13 @@ rebe_mp3 0
 $countMeasures := 0
 $speedVariance := 0
 
+@tempovar $t(60, 1/4)
+
+whenever getTempo($tempo) {
+    let $t.tempo := $tempo
+    print set tempo to $tempo
+}
+
 whenever observeExt($onset) {
     // print $onset
     antescofo::nextevent
@@ -71,6 +78,14 @@ whenever recDrums($meas) {
 whenever drumOnsets($onset) {
     $countToStop := 0
     drums_rec 1
+    drums_direct 1
+    abort stopDrumRec
+    print start rec
+    group stopDrumRec @sync $t {
+        1 print stop rec
+        drums_rec 0
+        drums_direct 0
+    }
 }
 
 whenever stopDrums($meas) {
@@ -79,19 +94,15 @@ whenever stopDrums($meas) {
         print counting $countToStop
     }
 
-    if ($countToStop == 2) {
+    if ($countToStop > 3) {
+        print done rec drums
         drums_rec 0
+        drums_direct 0
+        antescofo::nextevent
+        kill recDrums
+        kill drumOnsets
+        kill stopDrums
     }
-
-    // if ($countToStop > 3) {
-    //     print done rec drums
-    //     drums_rec 0
-    //     drums_direct 0
-    //     antescofo::nextevent
-    //     kill recDrums
-    //     kill drumOnsets
-    //     kill stopDrums
-    // }
 }
 
 EVENT 4 REC_KEYS_A  // seq 0
