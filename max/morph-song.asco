@@ -1,18 +1,23 @@
 main_db 0
 base_morph 0
 base_mix 0
+base_play 0
 drums_direct 0
 drums_od 0
 drums_od_random 0
+drums_db -100
 keys_direct 0
 keys_db -100
 rave_amp 0
 rave_mp3 0
+rebe_mp3 0
 $countMeasures := 0
 $speedVariance := 0
 
 whenever observeExt($onset) {
     // print $onset
+    antescofo::nextevent
+    kill observeExt
 }
 
 
@@ -23,27 +28,22 @@ whenever claps($doneClaps) {
     kill claps
 }
 
-EVENT 4 FADE_IN_BASE
+EVENT 4 BASE_MORPH
 curve base_mix 0., 30. 3s
 3s base_morph 1
-whenever firstMorph($onset) {
-    antescofo::nextevent
-    kill firstMorph
-}
 
-EVENT 4 MORPH_BASE
-whenever morphMeas($meas) {
-    $countMeasures := $countMeasures + 1
-}
+$countToStop := -1
 whenever morphOnset($onset) {
-    $countMeasures := 0
+    $countToStop := 0
 }
-whenever count($countMeasures) {
-    if ($countMeasures > 1) {
+whenever count($meas) {
+    if ($countToStop > -1) {
+        $countToStop := $countToStop + 1
+    }
+    if ($countToStop > 3) {
         print done morphing
         base_morph 0
         antescofo::nextevent
-        kill morphMeas
         kill morphOnset
         kill count
     }
@@ -55,6 +55,7 @@ $countToStop := -1
 drums_direct 1
 drums_rec 1
 drums_db 0
+main_db -100
 
 whenever recDrums($meas) {
     $countMeasures := ($countMeasures + 1) % 4
@@ -62,28 +63,35 @@ whenever recDrums($meas) {
         base_mix 0.
         drums_db 0
     } else {
-        base_mix 30.
-        drums_db -100
+        base_mix 70.
+        drums_db -6
     }
 }
 
 whenever drumOnsets($onset) {
     $countToStop := 0
+    drums_rec 1
 }
 
 whenever stopDrums($meas) {
     if ($countToStop > -1) {
         $countToStop := $countToStop + 1
+        print counting $countToStop
     }
-    if ($countToStop > 3) {
-        print done rec drums
+
+    if ($countToStop == 2) {
         drums_rec 0
-        drums_direct 0
-        antescofo::nextevent
-        kill recDrums
-        kill drumOnsets
-        kill stopDrums
     }
+
+    // if ($countToStop > 3) {
+    //     print done rec drums
+    //     drums_rec 0
+    //     drums_direct 0
+    //     antescofo::nextevent
+    //     kill recDrums
+    //     kill drumOnsets
+    //     kill stopDrums
+    // }
 }
 
 EVENT 4 REC_KEYS_A  // seq 0
@@ -138,6 +146,7 @@ whenever stopKeys($meas) {
 }
 
 EVENT 16 DEVELOP
+
 $countMeasures := 0
 whenever countMeas($meas) {
     $countMeasures := $countMeasures + 1
@@ -155,7 +164,6 @@ keys_direct 0
 keys_seq 1
 keys_db 0
 drums_db -100
-bass_db -100
 main_db -100
 8s curve rave_amp 0., 1. 8s
 6s curve keys_rate 2.,4. 4s

@@ -2,7 +2,6 @@ inlets = 1; // timer diffs [ms]
 outlets = 1; // loopDuration at stop rec
 
 var deltas = [];
-var rec = true;
 
 function bang() {
     messnamed("rhythmTimer", "bang");
