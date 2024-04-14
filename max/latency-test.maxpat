@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1235.0, 929.0 ],
+		"rect" : [ 34.0, 87.0, 1612.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -82,8 +82,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 359.500003397464752, 538.000007808208466, 95.399998247623444, 49.0 ],
-					"text" : "vexpr max($f1 - 60\\, 0) @scalarmode 1"
+					"patching_rect" : [ 359.500003397464752, 538.000007808208466, 95.899996727705002, 49.0 ],
+					"text" : "vexpr max($f1 - 35\\, 0) @scalarmode 1"
 				}
 
 			}
@@ -134,7 +134,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 457.400000125169754, 524.000007808208466, 86.000000536441803, 62.0 ],
-					"text" : "1026.78 1259.795918 1498.77551 1832.789116"
+					"text" : "2626.575964 900.113379 1585.102041 2619.115646"
 				}
 
 			}
@@ -500,7 +500,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 370.400000393390656, 131.700003445148468, 45.0, 22.0 ],
-					"text" : "adc~ 1"
+					"text" : "adc~ 3"
 				}
 
 			}
@@ -806,7 +806,34 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-48" : [ "live.gain~", "live.gain~", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "fluid.ampfeature~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "sp.onset~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/patchers",
+				"patcherrelativepath" : "../../../Max 8/Packages/SP-Tools/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

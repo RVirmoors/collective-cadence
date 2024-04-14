@@ -1,0 +1,182 @@
+main_db 0
+base_morph 0
+base_mix 0
+drums_direct 0
+drums_od 0
+drums_od_random 0
+keys_direct 0
+keys_db -100
+rave_amp 0
+rave_mp3 0
+$countMeasures := 0
+$speedVariance := 0
+
+whenever observeExt($onset) {
+    // print $onset
+}
+
+
+EVENT 4 REC_CLAPS
+base_rec 1
+whenever claps($doneClaps) {
+    antescofo::nextevent
+    kill claps
+}
+
+EVENT 4 FADE_IN_BASE
+curve base_mix 0., 30. 3s
+3s base_morph 1
+whenever firstMorph($onset) {
+    antescofo::nextevent
+    kill firstMorph
+}
+
+EVENT 4 MORPH_BASE
+whenever morphMeas($meas) {
+    $countMeasures := $countMeasures + 1
+}
+whenever morphOnset($onset) {
+    $countMeasures := 0
+}
+whenever count($countMeasures) {
+    if ($countMeasures > 1) {
+        print done morphing
+        base_morph 0
+        antescofo::nextevent
+        kill morphMeas
+        kill morphOnset
+        kill count
+    }
+}
+
+EVENT 4 REC_DRUMS
+$countMeasures := 0
+$countToStop := -1
+drums_direct 1
+drums_rec 1
+drums_db 0
+
+whenever recDrums($meas) {
+    $countMeasures := ($countMeasures + 1) % 4
+    if ($countMeasures > 1) {
+        base_mix 0.
+        drums_db 0
+    } else {
+        base_mix 30.
+        drums_db -100
+    }
+}
+
+whenever drumOnsets($onset) {
+    $countToStop := 0
+}
+
+whenever stopDrums($meas) {
+    if ($countToStop > -1) {
+        $countToStop := $countToStop + 1
+    }
+    if ($countToStop > 3) {
+        print done rec drums
+        drums_rec 0
+        drums_direct 0
+        antescofo::nextevent
+        kill recDrums
+        kill drumOnsets
+        kill stopDrums
+    }
+}
+
+EVENT 4 REC_KEYS_A  // seq 0
+$countToStop := -1
+drums_db -3
+keys_db 0
+keys_direct 1
+keys_rec 1
+drums_mod 0.1
+keys_seq 0
+
+whenever keysOnsets($onset) {
+    $countToStop := 0
+}
+
+whenever stopKeys($meas) {
+    if ($countToStop > -1) {
+        $countToStop := $countToStop + 1
+    }
+    if ($countToStop > 3) {
+        print done rec keys A
+        keys_rec 0
+        antescofo::nextevent
+        kill keysOnsets
+        kill stopKeys
+    }
+}
+
+EVENT 4 REC_KEYS_B  // seq 1
+$countToStop := -1
+keys_direct 1
+keys_rec 1
+drums_mod 0.3
+keys_seq 1
+
+whenever keysOnsets($onset) {
+    $countToStop := 0
+}
+
+whenever stopKeys($meas) {
+    if ($countToStop > -1) {
+        $countToStop := $countToStop + 1
+    }
+    print counting to stop: $countToStop
+    if ($countToStop > 3) {
+        print done rec keys B
+        keys_rec 0
+        antescofo::nextevent
+        kill keysOnsets
+        kill stopKeys
+    }
+}
+
+EVENT 16 DEVELOP
+$countMeasures := 0
+whenever countMeas($meas) {
+    $countMeasures := $countMeasures + 1
+    print measures: $countMeasures
+    if ($speedVariance > 0.5) {
+        keys_seq 1
+    } else {
+        keys_seq 0
+    }
+}
+
+EVENT 4 BREAK
+$countMeasures := 0
+keys_direct 0
+keys_seq 1
+keys_db 0
+drums_db -100
+bass_db -100
+main_db -100
+8s curve rave_amp 0., 1. 8s
+6s curve keys_rate 2.,4. 4s
+
+EVENT 32 NEW_MIX
+$countMeasures := 0
+main_db -1
+base_mix 0.9
+curve gated_rave_mix 0., 0.8 40s
+4s curve keys_out 0., 75. 20s
+keys_rate 2
+whenever changeMix($onset) {
+    // do something
+}
+
+
+EVENT 8 FADE_IN_REBE
+$countMeasures := 0
+curve rave_mp3 0., 100. 20s
+
+
+EVENT 4 FADE_REBE_MP3
+$countMeasures := 0
+curve rebe_mp3 0., 100. 20s
