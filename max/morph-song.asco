@@ -169,6 +169,9 @@ curve gated_rave_mix 0., 0.8 40s
 keys_rate 2
 whenever changeMix($onset) {
     // do something
+    if ($onset == "kick") {
+        rhloops_db 0 // random
+    }
 }
 
 
