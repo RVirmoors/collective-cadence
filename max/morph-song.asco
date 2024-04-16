@@ -1,10 +1,10 @@
-main_db 0
+main_db -3
 base_morph 0
 base_mix 0
 base_play 0
 drums_direct 0
 drums_od 0
-drums_od_random 0
+drums_rec_random 0
 drums_db -100
 keys_direct 0
 keys_db -100
@@ -13,6 +13,8 @@ rave_mp3 0
 rebe_mp3 0
 $countMeasures := 0
 $speedVariance := 0
+keys_out 0.
+rave_mp3 50
 
 @tempovar $t(60, 1/4)
 
@@ -36,7 +38,7 @@ whenever claps($doneClaps) {
 }
 
 EVENT 4 BASE_MORPH
-curve base_mix 0., 30. 3s
+curve base_mix 0., 50. 3s
 3s base_morph 1
 
 $countToStop := -1
@@ -62,16 +64,13 @@ $countToStop := -1
 drums_direct 1
 drums_rec 1
 drums_db 0
-main_db -100
 
-whenever recDrums($meas) {
+loop altBass 2 @sync $t {
     $countMeasures := ($countMeasures + 1) % 4
     if ($countMeasures > 1) {
-        base_mix 0.
-        drums_db 0
+        base_mix 50.
     } else {
         base_mix 70.
-        drums_db -6
     }
 }
 
@@ -79,12 +78,17 @@ whenever drumOnsets($onset) {
     $countToStop := 0
     drums_rec 1
     drums_direct 1
+    // main_db -100
     abort stopDrumRec
     print start rec
     group stopDrumRec @sync $t {
         1 print stop rec
         drums_rec 0
         drums_direct 0
+        drums_od 1
+        main_db -3
+        kill altBass
+        base_mix 80.
     }
 }
 
@@ -94,12 +98,12 @@ whenever stopDrums($meas) {
         print counting $countToStop
     }
 
-    if ($countToStop > 3) {
+    if ($countToStop > 7) {
         print done rec drums
         drums_rec 0
         drums_direct 0
+        main_db -3
         antescofo::nextevent
-        kill recDrums
         kill drumOnsets
         kill stopDrums
     }
@@ -107,8 +111,7 @@ whenever stopDrums($meas) {
 
 EVENT 4 REC_KEYS_A  // seq 0
 $countToStop := -1
-drums_db -3
-keys_db 0
+keys_db -3
 keys_direct 1
 keys_rec 1
 drums_mod 0.1
@@ -116,6 +119,15 @@ keys_seq 0
 
 whenever keysOnsets($onset) {
     $countToStop := 0
+    keys_rec 1
+    keys_direct 1
+    abort stopKeyRec
+    group stopKeyRec @sync $t {
+        1 print stop rec
+        keys_rec 0
+        keys_direct 0
+        keys_od 1
+    }
 }
 
 whenever stopKeys($meas) {
@@ -140,6 +152,16 @@ keys_seq 1
 
 whenever keysOnsets($onset) {
     $countToStop := 0
+    keys_rec 1
+    keys_direct 1
+    // main_db -100
+    abort stopKeyRec
+    group stopKeyRec @sync $t {
+        1 print stop rec
+        keys_rec 0
+        keys_direct 0
+        keys_od 0
+    }
 }
 
 whenever stopKeys($meas) {
@@ -150,6 +172,7 @@ whenever stopKeys($meas) {
     if ($countToStop > 3) {
         print done rec keys B
         keys_rec 0
+        main_db -3
         antescofo::nextevent
         kill keysOnsets
         kill stopKeys
@@ -157,7 +180,10 @@ whenever stopKeys($meas) {
 }
 
 EVENT 16 DEVELOP
-
+keys_db -6
+keys_out 15.
+keys_mod 1
+curve base_mix 80., 95. 8s
 $countMeasures := 0
 whenever countMeas($meas) {
     $countMeasures := $countMeasures + 1
@@ -167,29 +193,41 @@ whenever countMeas($meas) {
     } else {
         keys_seq 0
     }
+    // if ($countMeasures > 16) {
+    //     antescofo::nextevent
+    //     kill countMeas
+    // }
 }
 
 EVENT 4 BREAK
+keys_mod 0
 $countMeasures := 0
 keys_direct 0
 keys_seq 1
-keys_db 0
-drums_db -100
-main_db -100
-8s curve rave_amp 0., 1. 8s
-6s curve keys_rate 2.,4. 4s
+keys_db -3
+drums_db 0
+main_db -3
+4s curve rave_amp 0., 1. 8s
+curve keys_rate 2.,4. 4s
+4s whenever next($meas) {
+    antescofo::nextevent
+    kill next
+}
 
 EVENT 32 NEW_MIX
 $countMeasures := 0
-main_db -1
-base_mix 0.9
+main_db -3
+base_mix 90
 curve gated_rave_mix 0., 0.8 40s
 4s curve keys_out 0., 75. 20s
 keys_rate 2
+drums_rec_random 1
 whenever changeMix($onset) {
     // do something
     if ($onset == "kick") {
-        rhloops_db 0 // random
+        rhloops_db -3 // random
+    } else {
+        rhloops_db -12 // random
     }
 }
 

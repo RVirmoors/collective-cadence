@@ -110,17 +110,6 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-3",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 18.0, 319.0, 99.0, 22.0 ],
-									"text" : "print from_player"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-18",
 									"maxclass" : "newobj",
 									"numinlets" : 3,
@@ -182,12 +171,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-6",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 324.000004231929779, 246.800003349781036, 157.20000159740448, 22.0 ],
-									"text" : "\"0\" 0.979228 0."
+									"patching_rect" : [ 324.000004231929779, 246.800003349781036, 157.20000159740448, 35.0 ],
+									"text" : "$0 0.974142 u515002809 u505003086 u845003131"
 								}
 
 							}
@@ -337,15 +327,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
-									"order" : 0,
-									"source" : [ "obj-43", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"order" : 1,
 									"source" : [ "obj-43", 0 ]
 								}
 
@@ -447,18 +428,8 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-3",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ -5.0, 376.0, 52.0, 22.0 ],
-									"text" : "print rec"
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"id" : "obj-18",
 									"maxclass" : "newobj",
@@ -526,8 +497,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 284.000004231929779, 224.800003349781036, 157.20000159740448, 49.0 ],
-									"text" : "$0 0.045266 u531020599 u062027523 u887030029"
+									"patching_rect" : [ 284.000004231929779, 224.800003349781036, 157.20000159740448, 35.0 ],
+									"text" : "$0 0.974142 u515002809 u505003086 u845003131"
 								}
 
 							}
@@ -677,15 +648,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
-									"order" : 0,
-									"source" : [ "obj-43", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"order" : 1,
 									"source" : [ "obj-43", 0 ]
 								}
 

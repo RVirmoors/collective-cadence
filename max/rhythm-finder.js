@@ -20,7 +20,7 @@ function time(val) {
     if (!rec) return;
 
     deltas.push(val);
-    post(deltas + "\n");
+    // post(deltas + "\n");
     var N = deltas.length - 1;
     if (N < 5) return;
 
