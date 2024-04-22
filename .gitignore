@@ -26,3 +26,4 @@ llama-tokenizer
 *.wav
 *.aif
 /max/DAVID
+*.mp4
