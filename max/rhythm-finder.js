@@ -38,7 +38,8 @@ function time(val) {
             loopDuration += deltas[N-i];
             // post(deltas[N-i] + "\n");
         }
-        if (loopDuration < 1000) continue; // too short, find smth else
+        if (loopDuration > 2500) continue; // too long, find smth else
+        if (loopDuration < 1800) continue; // too short, find smth else
         if (Math.random() < 0.5) continue; // bad luck, find smth else
         if (found) {
             post("Found rhythm from last " + noNotes + " claps!\n");
