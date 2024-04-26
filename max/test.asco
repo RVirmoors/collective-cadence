@@ -1,0 +1,31 @@
+$countToStop := -1
+
+whenever drumOnsets($onset) {
+    $countToStop := 0
+    drums_rec 1
+    abort stopDrumRec
+    print start rec
+    group stopDrumRec {
+        1s print stop rec
+        drums_rec 0
+    }
+}
+
+// whenever drumOnsets($onset) {
+//     $countToStop := 0
+//     kill drumOnsets
+// }
+
+// whenever stopDrums($meas) {
+//     if ($countToStop > -1) {
+//         $countToStop := $countToStop + 1
+//         print counting $countToStop
+//     }
+
+//     if ($countToStop > 3) {
+//         print done
+//         antescofo::nextevent
+//         kill stopDrums
+//     }
+// }
+EVENT 1 STOP

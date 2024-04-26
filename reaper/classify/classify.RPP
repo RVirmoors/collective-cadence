@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.08/macOS-arm64" 1712242798
+<REAPER_PROJECT 0.1 "7.08/macOS-arm64" 1713870791
   <NOTES 0 2
   >
   RIPPLE 0
@@ -12,12 +12,12 @@
   PANLAW 1
   PROJOFFS 0 0 0
   MAXPROJLEN 0 0
-  GRID 3455 8 1 8 1 0 0 0
+  GRID 3199 8 1 8 1 0 0 0
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 7.75805541961022
-  ZOOM 42.6653306914157 0 0
+  CURSOR 232.5
+  ZOOM 42.6653306914157 9704 0
   VZOOMEX 6 0
   USE_REC_CFG 0
   RECMODE 1
@@ -95,7 +95,7 @@
     PEAKCOL 16576
     BEAT -1
     AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
+    VOLPAN 0 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -116,7 +116,7 @@
     MAINSEND 1 0
     <FXCHAIN
       WNDRECT 443 363 954 548
-      SHOW 0
+      SHOW 1
       LASTSEL 0
       DOCKED 0
       BYPASS 0 0 0
@@ -162,7 +162,7 @@
       FADEIN 1 0.01 0 1 0 0 0
       FADEOUT 1 0.01 0 1 0 0 0
       MUTE 0 0
-      SEL 1
+      SEL 0
       IGUID {D63987DA-DE27-7C48-9641-DD51FCBE372F}
       IID 12
       NAME 01-sg-bridge-240404_1717.wav
@@ -174,6 +174,144 @@
       RECPASS 11
       <SOURCE WAVE
         FILE "Media/01-sg-bridge-240404_1717.wav"
+      >
+    >
+    <ITEM
+      POSITION 16
+      SNAPOFFS 0
+      LENGTH 37.69698412698413
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9DFEC4C1-6E68-1949-B1E7-B7D4FED11BFA}
+      IID 13
+      NAME 01-sg-bridge-240407_1430.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {93D2A51D-A437-734F-975A-AECF5538B62D}
+      RECPASS 12
+      <SOURCE WAVE
+        FILE "Media/01-sg-bridge-240407_1430.wav"
+      >
+    >
+    <ITEM
+      POSITION 56
+      SNAPOFFS 0
+      LENGTH 35.86696145124716
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C39F7951-A395-094B-AD8D-AF4BED09C351}
+      IID 14
+      NAME 01-sg-bridge-240407_1430-01.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F6094FD2-B7C3-E040-A956-F2D8EC995504}
+      RECPASS 13
+      <SOURCE WAVE
+        FILE "Media/01-sg-bridge-240407_1430-01.wav"
+      >
+    >
+    <ITEM
+      POSITION 95.5
+      SNAPOFFS 0
+      LENGTH 37.81163265306122
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1375429A-55FD-524A-B397-65A677036A7D}
+      IID 15
+      NAME 01-sg-bridge-240407_1431.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {174A5E31-580F-E94C-A6A0-8BCA06FB3B04}
+      RECPASS 14
+      <SOURCE WAVE
+        FILE "Media/01-sg-bridge-240407_1431.wav"
+      >
+    >
+    <ITEM
+      POSITION 136
+      SNAPOFFS 0
+      LENGTH 62.82315192743764
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {75C4A3BF-D8AC-9F42-9A9F-2747AEA2830F}
+      IID 16
+      NAME 01-sg-bridge-240407_1432.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CE7F5AB4-FE34-3441-ABEB-91B0A93B40C0}
+      RECPASS 15
+      <SOURCE WAVE
+        FILE "Media/01-sg-bridge-240407_1432.wav"
+      >
+    >
+    <ITEM
+      POSITION 202
+      SNAPOFFS 0
+      LENGTH 24.85272108843537
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CF0C95FE-03FB-614E-8FBD-847108114A1D}
+      IID 17
+      NAME 01-sg-bridge-240407_1433.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D70E681A-E370-A34D-896D-D08CED3AE4F9}
+      RECPASS 16
+      <SOURCE WAVE
+        FILE "Media/01-sg-bridge-240407_1433.wav"
+      >
+    >
+    <ITEM
+      POSITION 231.5
+      SNAPOFFS 0
+      LENGTH 71.92682539682539
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {AF91FDFE-4307-6941-96E8-14193FD75758}
+      IID 18
+      NAME 01-sg-bridge-240407_1436.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B0034B1F-0E78-7A42-B4B4-713F11F98E5D}
+      RECPASS 17
+      <SOURCE WAVE
+        FILE "Media/01-sg-bridge-240407_1436.wav"
       >
     >
   >

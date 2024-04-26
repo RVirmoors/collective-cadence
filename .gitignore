@@ -14,5 +14,17 @@ llama-tokenizer
 /reaper/classify/Media
 /reaper/soundcheck/Media
 /max/modul-samples
+/ableton/techno Project/Backup
+*.reapeaks
+*.asd
 /rave/_rave mp3
 /rave/dataset
+*.flac
+.DS_Store
+.DS_Store
+/reaper/rebetik
+*.wav
+*.aif
+/max/DAVID
+*.mp4
+Icon?*
