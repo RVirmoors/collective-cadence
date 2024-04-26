@@ -51,6 +51,11 @@ train command:
 rave train --config v2 --config wasserstein --override PHASE_1_DURATION=1000000 --db_path ./ --out_path ./out/ --name rebetika_fem_noguit --gpu 0 --n_signal 262144 --val_every 5000 --channels 1 --config causal --batch 8
 ```
 
+resume:
+```
+rave train --config v2 --config wasserstein --override PHASE_1_DURATION=1000000 --db_path ./ --out_path ./out/ --name rebetika_fem_noguit --gpu 0 --n_signal 262144 --val_every 5000 --channels 1 --config causal --batch 8 --ckpt ./out/rebetika_fem_noguit_5b61af7ec4/version_0/checkpoints/epoch-epoch=61231.ckpt
+```
+
 export command:
 ```
 cd /out/PATH_TO_CONFIG.GIN
