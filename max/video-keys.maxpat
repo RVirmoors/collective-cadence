@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1235.0, 929.0 ],
+		"rect" : [ 34.0, 62.0, 1235.0, 751.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -354,8 +354,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -932,13 +932,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-56",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 566.0, 676.0, 281.0, 35.0 ],
-					"text" : "dstdimstart 0 104, dstdimend 1280 664, usedstdim 1"
+					"patching_rect" : [ 566.0, 676.0, 274.0, 22.0 ],
+					"text" : "dstdimstart 0 0, dstdimend 1280 512, usedstdim 1"
 				}
 
 			}
@@ -975,8 +974,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 379.0, 774.0, 175.0, 22.0 ],
-					"text" : "jit.matrix video 4 char 1280 768"
+					"patching_rect" : [ 379.0, 774.0, 182.0, 22.0 ],
+					"text" : "jit.matrix video 4 char 1280 1024"
 				}
 
 			}
@@ -1039,8 +1038,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1104,7 +1103,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 220.000006556510925, 140.000004172325134, 66.0, 22.0 ],
 									"text" : "random 20"
 								}
@@ -1284,7 +1283,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-27",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -1429,8 +1427,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1551,11 +1549,11 @@
 					"clipheight" : 20.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/A_Foxtrot_1930_Swedish Film Archive.mp4",
-								"filename" : "A_Foxtrot_1930_Swedish Film Archive.mp4",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports/A_Foxtrot_1930_Swedish Film Archive_1280x512.mp4",
+								"filename" : "A_Foxtrot_1930_Swedish Film Archive_1280x512.mp4",
 								"filekind" : "moviefile",
-								"id" : "u553001020",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u861001502",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1563,10 +1561,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/B_Hitler Youth_1937.mp4",
-								"filename" : "B_Hitler Youth_1937.mp4",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports/B_Hitler Youth_1937_1280x512.mp4",
+								"filename" : "B_Hitler Youth_1937_1280x512.mp4",
 								"filekind" : "moviefile",
-								"id" : "u664001037",
+								"id" : "u167001954",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1574,11 +1573,10 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/C_Jazz_Weimar_1929.mp4",
-								"filename" : "C_Jazz_Weimar_1929.mp4",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports/C_Jazz_Weimar_1929_1280x512.mp4",
+								"filename" : "C_Jazz_Weimar_1929_1280x512.mp4",
 								"filekind" : "moviefile",
-								"id" : "u432001054",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u825001983",
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1586,11 +1584,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/D_Foxtrot_1930.mp4",
-								"filename" : "D_Foxtrot_1930.mp4",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports/D_Foxtrot_1930_1280x512.mp4",
+								"filename" : "D_Foxtrot_1930_1280x512.mp4",
 								"filekind" : "moviefile",
-								"id" : "u779001071",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u525001531",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1598,11 +1596,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/E_Foxtrot_photo_1.jpg",
-								"filename" : "E_Foxtrot_photo_1.jpg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports/E_Foxtrot_photo_1_1280x512.jpg",
+								"filename" : "E_Foxtrot_photo_1_1280x512.jpg",
 								"filekind" : "moviefile",
-								"id" : "u157001088",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u797001705",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1610,11 +1608,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/F_Foxtrot_Weimar Berlin_part1.mp4",
-								"filename" : "F_Foxtrot_Weimar Berlin_part1.mp4",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports/F_Foxtrot_Weimar Berlin_part1_1280x512.mp4",
+								"filename" : "F_Foxtrot_Weimar Berlin_part1_1280x512.mp4",
 								"filekind" : "moviefile",
-								"id" : "u385001105",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u765001560",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1622,11 +1620,10 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/G_Swing Kids_photo3.jpg",
-								"filename" : "G_Swing Kids_photo3.jpg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports/G_Swing Kids_photo3_1280x512.jpg",
+								"filename" : "G_Swing Kids_photo3_1280x512.jpg",
 								"filekind" : "moviefile",
-								"id" : "u027001122",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u461001792",
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1634,11 +1631,10 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/H_Jazz_photo5.jpg",
-								"filename" : "H_Jazz_photo5.jpg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports/H_Jazz_photo5_1280x512.jpg",
+								"filename" : "H_Jazz_photo5_1280x512.jpg",
 								"filekind" : "moviefile",
-								"id" : "u134001139",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u563001821",
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1646,11 +1642,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/I_Rock_photo1.jpg",
-								"filename" : "I_Rock_photo1.jpg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports/I_Rock_photo1_1280x512.jpg",
+								"filename" : "I_Rock_photo1_1280x512.jpg",
 								"filekind" : "moviefile",
-								"id" : "u524001156",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u273002544",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1658,11 +1654,10 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/J_Jazz_photo6.jpg",
-								"filename" : "J_Jazz_photo6.jpg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports/J_Jazz_photo6_1280x512.jpg",
+								"filename" : "J_Jazz_photo6_1280x512.jpg",
 								"filekind" : "moviefile",
-								"id" : "u685001173",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u115001850",
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1670,11 +1665,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/K_Rock_photo6.jpg",
-								"filename" : "K_Rock_photo6.jpg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports/K_Rock_photo6_1280x512.jpg",
+								"filename" : "K_Rock_photo6_1280x512.jpg",
 								"filekind" : "moviefile",
-								"id" : "u975001190",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u235002585",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1682,11 +1677,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/L_Rock_photo7.jpg",
-								"filename" : "L_Rock_photo7.jpg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports/L_Rock_photo7_1280x512.jpg",
+								"filename" : "L_Rock_photo7_1280x512.jpg",
 								"filekind" : "moviefile",
-								"id" : "u123001207",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u774002630",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1694,11 +1689,10 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/M_Hitler Youth_1940.mp4",
-								"filename" : "M_Hitler Youth_1940.mp4",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports/M_Hitler Youth_1940_1280x512.mp4",
+								"filename" : "M_Hitler Youth_1940_1280x512.mp4",
 								"filekind" : "moviefile",
-								"id" : "u308001224",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u549002024",
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1706,11 +1700,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/N_Hitler Youth_ 1938.mp4",
-								"filename" : "N_Hitler Youth_ 1938.mp4",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports/N_Hitler Youth_ 1938_1280x512.mp4",
+								"filename" : "N_Hitler Youth_ 1938_1280x512.mp4",
 								"filekind" : "moviefile",
-								"id" : "u701001241",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u347002041",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1718,11 +1712,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/O_Rock_photo2.jpg",
-								"filename" : "O_Rock_photo2.jpg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports/O_Rock_photo2_1280x512.jpg",
+								"filename" : "O_Rock_photo2_1280x512.jpg",
 								"filekind" : "moviefile",
-								"id" : "u408001258",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u571002671",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1730,11 +1724,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/P_Rock_photo3.jpg",
-								"filename" : "P_Rock_photo3.jpg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports/P_Rock_photo3_1280x512.jpg",
+								"filename" : "P_Rock_photo3_1280x512.jpg",
 								"filekind" : "moviefile",
-								"id" : "u418001275",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u649002708",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1742,11 +1736,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/Q_Forbiden Music List_photo_2.jpg",
-								"filename" : "Q_Forbiden Music List_photo_2.jpg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports/Q_Forbiden Music List_photo_2_1280x512.jpg",
+								"filename" : "Q_Forbiden Music List_photo_2_1280x512.jpg",
 								"filekind" : "moviefile",
-								"id" : "u572001292",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u554001734",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1754,11 +1748,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/R_Foxtrot Charleston_UK 1926.mp4",
-								"filename" : "R_Foxtrot Charleston_UK 1926.mp4",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports/R_Foxtrot Charleston_UK 1926_1280x512.mp4",
+								"filename" : "R_Foxtrot Charleston_UK 1926_1280x512.mp4",
 								"filekind" : "moviefile",
-								"id" : "u547001309",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u086001589",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1766,11 +1760,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/S_Foxtrot _1937_Swedish Home Movie.mp4",
-								"filename" : "S_Foxtrot _1937_Swedish Home Movie.mp4",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports/S_Foxtrot _1937_Swedish Home Movie_1280x512.mp4",
+								"filename" : "S_Foxtrot _1937_Swedish Home Movie_1280x512.mp4",
 								"filekind" : "moviefile",
-								"id" : "u412001326",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u947001618",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1778,11 +1772,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/T_Nazi Celebration_photo1.jpg",
-								"filename" : "T_Nazi Celebration_photo1.jpg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports/T_Nazi Celebration_photo1_1280x512.jpg",
+								"filename" : "T_Nazi Celebration_photo1_1280x512.jpg",
 								"filekind" : "moviefile",
-								"id" : "u969001371",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u002001879",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1790,11 +1784,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/U_Laban_photo4.jpg",
-								"filename" : "U_Laban_photo4.jpg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports/U_Laban_photo4_1280x512.jpg",
+								"filename" : "U_Laban_photo4_1280x512.jpg",
 								"filekind" : "moviefile",
-								"id" : "u711001388",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u337001896",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1802,11 +1796,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/V_Jazz_Berlin_1928.mp4",
-								"filename" : "V_Jazz_Berlin_1928.mp4",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports/V_Jazz_Berlin_1928_1280x512.mp4",
+								"filename" : "V_Jazz_Berlin_1928_1280x512.mp4",
 								"filekind" : "moviefile",
-								"id" : "u441001422",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u124002058",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1814,11 +1808,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/W_Maxixe_photo_3.jpg",
-								"filename" : "W_Maxixe_photo_3.jpg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports/W_Maxixe_photo_3_1280x512.jpg",
+								"filename" : "W_Maxixe_photo_3_1280x512.jpg",
 								"filekind" : "moviefile",
-								"id" : "u068001475",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u135001763",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1826,11 +1820,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/X_URSS_mass fest_1945_part2.mp4",
-								"filename" : "X_URSS_mass fest_1945_part2.mp4",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports/X_URSS_mass fest_1945_part2_1280x512.mp4",
+								"filename" : "X_URSS_mass fest_1945_part2_1280x512.mp4",
 								"filekind" : "moviefile",
-								"id" : "u032001492",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u166001651",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1838,11 +1832,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/Y_Nazi Celebration_photo2.jpg",
-								"filename" : "Y_Nazi Celebration_photo2.jpg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports/Y_Nazi Celebration_photo2_1280x512.jpg",
+								"filename" : "Y_Nazi Celebration_photo2_1280x512.jpg",
 								"filekind" : "moviefile",
-								"id" : "u082001509",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u264001925",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1850,11 +1844,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/Z_URSS_mass fest_1945_part1.mp4",
-								"filename" : "Z_URSS_mass fest_1945_part1.mp4",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports/Z_URSS_mass fest_1945_part1_1280x512.mp4",
+								"filename" : "Z_URSS_mass fest_1945_part1_1280x512.mp4",
 								"filekind" : "moviefile",
-								"id" : "u420001526",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u119001676",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1862,11 +1856,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/`_Foxtrot_Weimar Berlin_part2.mp4",
-								"filename" : "`_Foxtrot_Weimar Berlin_part2.mp4",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports/`_Foxtrot_Weimar Berlin_part2_1280x512.mp4",
+								"filename" : "`_Foxtrot_Weimar Berlin_part2_1280x512.mp4",
 								"filekind" : "moviefile",
-								"id" : "u970001543",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u484001382",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1874,11 +1868,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/[_Rock_photo4.jpg",
-								"filename" : "[_Rock_photo4.jpg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports/[_Rock_photo4_1280x512.jpg",
+								"filename" : "[_Rock_photo4_1280x512.jpg",
 								"filekind" : "moviefile",
-								"id" : "u143001560",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u997002446",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1886,11 +1880,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/]_Rock_photo5.jpg",
-								"filename" : "]_Rock_photo5.jpg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports/]_Rock_photo5_1280x512.jpg",
+								"filename" : "]_Rock_photo5_1280x512.jpg",
 								"filekind" : "moviefile",
-								"id" : "u165001577",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u415002503",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1898,11 +1892,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/;_Disco Ring Costinesti Techno Remix 1983.mp4",
-								"filename" : ";_Disco Ring Costinesti Techno Remix 1983.mp4",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports/;_Disco Ring Costinesti Techno Remix 1983_1.mp4",
+								"filename" : ";_Disco Ring Costinesti Techno Remix 1983_1.mp4",
 								"filekind" : "moviefile",
-								"id" : "u670001594",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u835002845",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1910,11 +1904,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/,_Ceausescu  23 August 1986.mp4",
-								"filename" : ",_Ceausescu  23 August 1986.mp4",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports/,_Ceausescu  23 August 1986_1280x512.mp4",
+								"filename" : ",_Ceausescu  23 August 1986_1280x512.mp4",
 								"filekind" : "moviefile",
-								"id" : "u430001611",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u940001423",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1922,11 +1916,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Back Slash_1983, Costineșt Serbările Tinereții.mp4",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports/Back Slash_1983, Costineșt Serbările Tinereții.mp4",
 								"filename" : "Back Slash_1983, Costineșt Serbările Tinereții.mp4",
 								"filekind" : "moviefile",
-								"id" : "u988001628",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u731003048",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1934,11 +1928,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/'_Discoteca Club CH Iasi 1989.mp4",
-								"filename" : "'_Discoteca Club CH Iasi 1989.mp4",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports/'_Discoteca Club CH Iasi 1989_1280x512.mp4",
+								"filename" : "'_Discoteca Club CH Iasi 1989_1280x512.mp4",
 								"filekind" : "moviefile",
-								"id" : "u428001645",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u855002963",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1946,11 +1940,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Slash_O  zi din viata lui Ceausescu_dansuri de masa.mp4",
-								"filename" : "Slash_O  zi din viata lui Ceausescu_dansuri de masa.mp4",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports/Slash_O  zi din viata lui Ceausescu_dansuri de masa_1280x512.mp4",
+								"filename" : "Slash_O  zi din viata lui Ceausescu_dansuri de masa_1280x512.mp4",
 								"filekind" : "moviefile",
-								"id" : "u030001662",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u160001344",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1958,11 +1952,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/1_Rebetika_photo1.jpg",
-								"filename" : "1_Rebetika_photo1.jpg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports/1_Rebetika_photo1_1280x512.jpg",
+								"filename" : "1_Rebetika_photo1_1280x512.jpg",
 								"filekind" : "moviefile",
-								"id" : "u719001687",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u459001328",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1970,11 +1964,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/2_Rebetika_photo2.jpg",
-								"filename" : "2_Rebetika_photo2.jpg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports/2_Rebetika_photo2_1280x512.jpg",
+								"filename" : "2_Rebetika_photo2_1280x512.jpg",
 								"filekind" : "moviefile",
-								"id" : "u541001679",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u012001345",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1982,11 +1976,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/3_Rebetika_photo3.jpg",
-								"filename" : "3_Rebetika_photo3.jpg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports/3_Rebetika_photo3_1280x512.jpg",
+								"filename" : "3_Rebetika_photo3_1280x512.jpg",
 								"filekind" : "moviefile",
-								"id" : "u501001680",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u028001362",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1994,11 +1988,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/4_Rebetika_photo4.jpg",
-								"filename" : "4_Rebetika_photo4.jpg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports/4_Rebetika_photo4_1280x512.jpg",
+								"filename" : "4_Rebetika_photo4_1280x512.jpg",
 								"filekind" : "moviefile",
-								"id" : "u158001681",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u708001379",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -2006,11 +2000,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/5_Rebetika_photo5.jpg",
-								"filename" : "5_Rebetika_photo5.jpg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports/5_Rebetika_photo5_1280x512.jpg",
+								"filename" : "5_Rebetika_photo5_1280x512.jpg",
 								"filekind" : "moviefile",
-								"id" : "u582001682",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u858001396",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -2018,11 +2012,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/6_Rebetika_photo6.jpg",
-								"filename" : "6_Rebetika_photo6.jpg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports/6_Rebetika_photo6_1280x512.jpg",
+								"filename" : "6_Rebetika_photo6_1280x512.jpg",
 								"filekind" : "moviefile",
-								"id" : "u702001683",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u507001417",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -2030,11 +2024,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/7_Rebetika_video_BBC_1.mp4",
-								"filename" : "7_Rebetika_video_BBC_1.mp4",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports/7_Rebetika_video_BBC_1_1280x512.mp4",
+								"filename" : "7_Rebetika_video_BBC_1_1280x512.mp4",
 								"filekind" : "moviefile",
-								"id" : "u698001684",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u215002259",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -2042,11 +2036,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/8_Rebetika_video_BBC_2.mp4",
-								"filename" : "8_Rebetika_video_BBC_2.mp4",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports/8_Rebetika_video_BBC_2_1280x512.mp4",
+								"filename" : "8_Rebetika_video_BBC_2_1280x512.mp4",
 								"filekind" : "moviefile",
-								"id" : "u315001685",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u583002312",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -2054,11 +2048,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/9_Metaxas Parade.mp4",
-								"filename" : "9_Metaxas Parade.mp4",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports/9_Metaxas Parade_1280x512.mp4",
+								"filename" : "9_Metaxas Parade_1280x512.mp4",
 								"filekind" : "moviefile",
-								"id" : "u750001686",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u737002401",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -2066,11 +2060,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence_Black.jpeg",
-								"filename" : "Collective Cadence_Black.jpeg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024/Collective Cadence April 2024/Collective Cadence April 2024/Collective Cadence April 2024.black.jpeg",
+								"filename" : "Collective Cadence April 2024.black.jpeg",
 								"filekind" : "moviefile",
-								"id" : "u792001490",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u976003718",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -2078,11 +2072,11 @@
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024.001.jpeg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024/Collective Cadence April 2024.001.jpeg",
 								"filename" : "Collective Cadence April 2024.001.jpeg",
 								"filekind" : "moviefile",
-								"id" : "u909004835",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u407002419",
+								"selection" : [ 0.35, 8.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -2094,130 +2088,131 @@
 								"filename" : "30 seconds_white.mp4",
 								"filekind" : "moviefile",
 								"id" : "u485004864",
-								"selection" : [ 0.7, 2.0 ],
-								"loop" : 1,
+								"selection" : [ 0.35, 8.0 ],
+								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 1
+									"loop" : 0
 								}
 
 							}
 , 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024.008.jpeg",
-								"filename" : "Collective Cadence April 2024.008.jpeg",
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024/Collective Cadence April 2024/Collective Cadence April 2024/Collective Cadence April 2024.black.jpeg",
+								"filename" : "Collective Cadence April 2024.black.jpeg",
 								"filekind" : "moviefile",
-								"id" : "u660001107",
-								"selection" : [ 0.7, 2.0 ],
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024.007.jpeg",
-								"filename" : "Collective Cadence April 2024.007.jpeg",
-								"filekind" : "moviefile",
-								"id" : "u759001099",
-								"selection" : [ 0.7, 2.0 ],
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024.006.jpeg",
-								"filename" : "Collective Cadence April 2024.006.jpeg",
-								"filekind" : "moviefile",
-								"id" : "u616001100",
-								"selection" : [ 0.7, 2.0 ],
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024.005.jpeg",
-								"filename" : "Collective Cadence April 2024.005.jpeg",
-								"filekind" : "moviefile",
-								"id" : "u414001101",
-								"selection" : [ 0.7, 2.0 ],
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024.004.jpeg",
-								"filename" : "Collective Cadence April 2024.004.jpeg",
-								"filekind" : "moviefile",
-								"id" : "u831001102",
-								"selection" : [ 0.7, 2.0 ],
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024.003.jpeg",
-								"filename" : "Collective Cadence April 2024.003.jpeg",
-								"filekind" : "moviefile",
-								"id" : "u606001103",
-								"selection" : [ 0.7, 2.0 ],
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024.002.jpeg",
-								"filename" : "Collective Cadence April 2024.002.jpeg",
-								"filekind" : "moviefile",
-								"id" : "u533001104",
-								"selection" : [ 0.7, 2.0 ],
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024.010.jpeg",
-								"filename" : "Collective Cadence April 2024.010.jpeg",
-								"filekind" : "moviefile",
-								"id" : "u279001105",
-								"selection" : [ 0.7, 2.0 ],
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024.009.jpeg",
-								"filename" : "Collective Cadence April 2024.009.jpeg",
-								"filekind" : "moviefile",
-								"id" : "u480001106",
-								"selection" : [ 0.7, 2.0 ],
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
-, 							{
-								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence_Black.jpeg",
-								"filename" : "Collective Cadence_Black.jpeg",
-								"filekind" : "moviefile",
-								"id" : "u563002321",
-								"selection" : [ 0.7, 2.0 ],
+								"id" : "u364001405",
 								"loop" : 0,
 								"content_state" : 								{
 
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024/Collective Cadence April 2024.002.jpeg",
+								"filename" : "Collective Cadence April 2024.002.jpeg",
+								"filekind" : "moviefile",
+								"id" : "u446002456",
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024/Collective Cadence April 2024.003.jpeg",
+								"filename" : "Collective Cadence April 2024.003.jpeg",
+								"filekind" : "moviefile",
+								"id" : "u457002477",
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024/Collective Cadence April 2024.004.jpeg",
+								"filename" : "Collective Cadence April 2024.004.jpeg",
+								"filekind" : "moviefile",
+								"id" : "u328002494",
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024/Collective Cadence April 2024.005.jpeg",
+								"filename" : "Collective Cadence April 2024.005.jpeg",
+								"filekind" : "moviefile",
+								"id" : "u986002515",
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024/Collective Cadence April 2024.006.jpeg",
+								"filename" : "Collective Cadence April 2024.006.jpeg",
+								"filekind" : "moviefile",
+								"id" : "u299002532",
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024/Collective Cadence April 2024/Collective Cadence April 2024.001.jpeg",
+								"filename" : "Collective Cadence April 2024.001.jpeg",
+								"filekind" : "moviefile",
+								"id" : "u181002757",
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024/Collective Cadence April 2024/Collective Cadence April 2024.002.jpeg",
+								"filename" : "Collective Cadence April 2024.002.jpeg",
+								"filekind" : "moviefile",
+								"id" : "u073003054",
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024/Collective Cadence April 2024/Collective Cadence April 2024.003.jpeg",
+								"filename" : "Collective Cadence April 2024.003.jpeg",
+								"filekind" : "moviefile",
+								"id" : "u696003087",
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024/Collective Cadence April 2024/Collective Cadence April 2024.004.jpeg",
+								"filename" : "Collective Cadence April 2024.004.jpeg",
+								"filekind" : "moviefile",
+								"id" : "u815003128",
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+, 							{
+								"absolutepath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024/Collective Cadence April 2024/Collective Cadence April 2024/Collective Cadence April 2024.black.jpeg",
+								"filename" : "Collective Cadence April 2024.black.jpeg",
+								"filekind" : "moviefile",
+								"id" : "u949003665",
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
 								}
 
 							}
@@ -2235,7 +2230,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 190.0, 390.266672730445862, 392.0, 240.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 722.0, 29.0, 226.0, 212.0 ]
+					"presentation_rect" : [ 722.0, 29.0, 358.0, 216.0 ]
 				}
 
 			}
@@ -2668,30 +2663,30 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "'_Discoteca Club CH Iasi 1989.mp4",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rock Max",
+				"name" : "'_Discoteca Club CH Iasi 1989_1280x512.mp4",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : ",_Ceausescu  23 August 1986.mp4",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rock Max",
+				"name" : ",_Ceausescu  23 August 1986_1280x512.mp4",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "1_Rebetika_photo1.jpg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rebetika Max",
+				"name" : "1_Rebetika_photo1_1280x512.jpg",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "2_Rebetika_photo2.jpg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rebetika Max",
+				"name" : "2_Rebetika_photo2_1280x512.jpg",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
@@ -2703,352 +2698,324 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "3_Rebetika_photo3.jpg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rebetika Max",
+				"name" : "3_Rebetika_photo3_1280x512.jpg",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "4_Rebetika_photo4.jpg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rebetika Max",
+				"name" : "4_Rebetika_photo4_1280x512.jpg",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "5_Rebetika_photo5.jpg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rebetika Max",
+				"name" : "5_Rebetika_photo5_1280x512.jpg",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "6_Rebetika_photo6.jpg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rebetika Max",
+				"name" : "6_Rebetika_photo6_1280x512.jpg",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "7_Rebetika_video_BBC_1.mp4",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rebetika Max",
+				"name" : "7_Rebetika_video_BBC_1_1280x512.mp4",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "8_Rebetika_video_BBC_2.mp4",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rebetika Max",
+				"name" : "8_Rebetika_video_BBC_2_1280x512.mp4",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "9_Metaxas Parade.mp4",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rebetika Max",
+				"name" : "9_Metaxas Parade_1280x512.mp4",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rebetika Max/Rebetika_Trafo_1280x512_exports",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : ";_Disco Ring Costinesti Techno Remix 1983.mp4",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rock Max",
+				"name" : ";_Disco Ring Costinesti Techno Remix 1983_1.mp4",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "A_Foxtrot_1930_Swedish Film Archive.mp4",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Foxtrot Max",
+				"name" : "A_Foxtrot_1930_Swedish Film Archive_1280x512.mp4",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "B_Hitler Youth_1937.mp4",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Jazz Max",
+				"name" : "B_Hitler Youth_1937_1280x512.mp4",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Back Slash_1983, Costineșt Serbările Tinereții.mp4",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rock Max",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "C_Jazz_Weimar_1929.mp4",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Jazz Max",
+				"name" : "C_Jazz_Weimar_1929_1280x512.mp4",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Collective Cadence April 2024.001.jpeg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides",
-				"patcherrelativepath" : "../Videos show/Slides",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024",
+				"patcherrelativepath" : "../Videos show/Slides/Collective Cadence April 2024",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Collective Cadence April 2024.002.jpeg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides",
-				"patcherrelativepath" : "../Videos show/Slides",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024",
+				"patcherrelativepath" : "../Videos show/Slides/Collective Cadence April 2024",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Collective Cadence April 2024.003.jpeg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides",
-				"patcherrelativepath" : "../Videos show/Slides",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024",
+				"patcherrelativepath" : "../Videos show/Slides/Collective Cadence April 2024",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Collective Cadence April 2024.004.jpeg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides",
-				"patcherrelativepath" : "../Videos show/Slides",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024",
+				"patcherrelativepath" : "../Videos show/Slides/Collective Cadence April 2024",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Collective Cadence April 2024.005.jpeg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides",
-				"patcherrelativepath" : "../Videos show/Slides",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024",
+				"patcherrelativepath" : "../Videos show/Slides/Collective Cadence April 2024",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Collective Cadence April 2024.006.jpeg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides",
-				"patcherrelativepath" : "../Videos show/Slides",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024",
+				"patcherrelativepath" : "../Videos show/Slides/Collective Cadence April 2024",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Collective Cadence April 2024.007.jpeg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides",
-				"patcherrelativepath" : "../Videos show/Slides",
+				"name" : "Collective Cadence April 2024.black.jpeg",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides/Collective Cadence April 2024/Collective Cadence April 2024/Collective Cadence April 2024",
+				"patcherrelativepath" : "../Videos show/Slides/Collective Cadence April 2024/Collective Cadence April 2024/Collective Cadence April 2024",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Collective Cadence April 2024.008.jpeg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides",
-				"patcherrelativepath" : "../Videos show/Slides",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Collective Cadence April 2024.009.jpeg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides",
-				"patcherrelativepath" : "../Videos show/Slides",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Collective Cadence April 2024.010.jpeg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides",
-				"patcherrelativepath" : "../Videos show/Slides",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Collective Cadence_Black.jpeg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Slides",
-				"patcherrelativepath" : "../Videos show/Slides",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "D_Foxtrot_1930.mp4",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Foxtrot Max",
+				"name" : "D_Foxtrot_1930_1280x512.mp4",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "E_Foxtrot_photo_1.jpg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Foxtrot Max",
+				"name" : "E_Foxtrot_photo_1_1280x512.jpg",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "F_Foxtrot_Weimar Berlin_part1.mp4",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Foxtrot Max",
+				"name" : "F_Foxtrot_Weimar Berlin_part1_1280x512.mp4",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "G_Swing Kids_photo3.jpg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Jazz Max",
+				"name" : "G_Swing Kids_photo3_1280x512.jpg",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "H_Jazz_photo5.jpg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Jazz Max",
+				"name" : "H_Jazz_photo5_1280x512.jpg",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "I_Rock_photo1.jpg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rock Max",
+				"name" : "I_Rock_photo1_1280x512.jpg",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "J_Jazz_photo6.jpg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Jazz Max",
+				"name" : "J_Jazz_photo6_1280x512.jpg",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "K_Rock_photo6.jpg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rock Max",
+				"name" : "K_Rock_photo6_1280x512.jpg",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "L_Rock_photo7.jpg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rock Max",
+				"name" : "L_Rock_photo7_1280x512.jpg",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "M_Hitler Youth_1940.mp4",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Jazz Max",
+				"name" : "M_Hitler Youth_1940_1280x512.mp4",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "N_Hitler Youth_ 1938.mp4",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Jazz Max",
+				"name" : "N_Hitler Youth_ 1938_1280x512.mp4",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "O_Rock_photo2.jpg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rock Max",
+				"name" : "O_Rock_photo2_1280x512.jpg",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "P_Rock_photo3.jpg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rock Max",
+				"name" : "P_Rock_photo3_1280x512.jpg",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Q_Forbiden Music List_photo_2.jpg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Foxtrot Max",
+				"name" : "Q_Forbiden Music List_photo_2_1280x512.jpg",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "R_Foxtrot Charleston_UK 1926.mp4",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Foxtrot Max",
+				"name" : "R_Foxtrot Charleston_UK 1926_1280x512.mp4",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "S_Foxtrot _1937_Swedish Home Movie.mp4",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Foxtrot Max",
+				"name" : "S_Foxtrot _1937_Swedish Home Movie_1280x512.mp4",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Slash_O  zi din viata lui Ceausescu_dansuri de masa.mp4",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rock Max",
+				"name" : "Slash_O  zi din viata lui Ceausescu_dansuri de masa_1280x512.mp4",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "T_Nazi Celebration_photo1.jpg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Jazz Max",
+				"name" : "T_Nazi Celebration_photo1_1280x512.jpg",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "U_Laban_photo4.jpg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Jazz Max",
+				"name" : "U_Laban_photo4_1280x512.jpg",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "V_Jazz_Berlin_1928.mp4",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Jazz Max",
+				"name" : "V_Jazz_Berlin_1928_1280x512.mp4",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "W_Maxixe_photo_3.jpg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Foxtrot Max",
+				"name" : "W_Maxixe_photo_3_1280x512.jpg",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "X_URSS_mass fest_1945_part2.mp4",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Foxtrot Max",
+				"name" : "X_URSS_mass fest_1945_part2_1280x512.mp4",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Y_Nazi Celebration_photo2.jpg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Jazz Max",
+				"name" : "Y_Nazi Celebration_photo2_1280x512.jpg",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Jazz Max/Jazz_Trafo_1280x512_exports",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Z_URSS_mass fest_1945_part1.mp4",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Foxtrot Max",
+				"name" : "Z_URSS_mass fest_1945_part1_1280x512.mp4",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "[_Rock_photo4.jpg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rock Max",
+				"name" : "[_Rock_photo4_1280x512.jpg",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "]_Rock_photo5.jpg",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rock Max",
+				"name" : "]_Rock_photo5_1280x512.jpg",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Rock Max/Rock_Trafo_1280x512_exports",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "`_Foxtrot_Weimar Berlin_part2.mp4",
-				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max",
-				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Foxtrot Max",
+				"name" : "`_Foxtrot_Weimar Berlin_part2_1280x512.mp4",
+				"bootpath" : "/Volumes/PascariuE1/CollectiveCadence/Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports",
+				"patcherrelativepath" : "../Videos show/Rebetiko Moment/Foxtrot Max/Foxtrot_Trafo_1280x512_exports",
 				"type" : "mpg4",
 				"implicit" : 1
 			}

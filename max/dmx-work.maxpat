@@ -41,13 +41,13 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-52",
-					"linecount" : 11,
+					"linecount" : 6,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 915.0, 100.0, 156.0 ],
-					"text" : "0 0 0 0 0 0 41 85 118 140 130 102 81 55 158 126 110 0 118 112 108 102 0 108 116 144 126 130 130 114 138 136 128 104 66 123 145 149 114 132 146 203 154 193 205 193"
+					"patching_rect" : [ 24.0, 915.0, 102.0, 89.0 ],
+					"text" : "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 				}
 
 			}
@@ -91,11 +91,11 @@
 				"box" : 				{
 					"comment" : "reset",
 					"id" : "obj-33",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1085.0, 865.0, 30.0, 30.0 ]
 				}
 
@@ -200,7 +200,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-27",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -213,7 +213,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-29",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -395,7 +395,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-11",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1220,8 +1220,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 555.040919595115383, 919.000014543533325, 325.0, 22.0 ],
-					"text" : "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"patching_rect" : [ 378.040919595115383, 915.000014543533325, 486.0, 22.0 ],
+					"text" : "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 				}
 
 			}
@@ -1238,7 +1238,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 555.040919595115383, 887.000014543533325, 58.809325999999999, 22.0 ],
+					"patching_rect" : [ 378.040919595115383, 883.000014543533325, 58.809325999999999, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 269.193358999999987, 376.942107999999962, 119.029784999999947, 46.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1273,7 +1273,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-20",
-					"items" : [ "wlan-debug", ",", "GalaxyBudsA1D6", ",", "Bluetooth-Incoming-Port" ],
+					"items" : [ "wlan-debug", ",", "GalaxyBudsA1D6", ",", "Bluetooth-Incoming-Port", ",", "usbserial-EN406585" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1837,7 +1837,23 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-30" : [ "live.text[194]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
