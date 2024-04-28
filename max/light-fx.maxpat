@@ -1614,7 +1614,6 @@
 								"filename" : "Collective Cadence April 2024.black.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u409002619",
-								"selection" : [ 0.6, 14.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1626,7 +1625,6 @@
 								"filename" : "1.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u843005182",
-								"selection" : [ 0.6, 14.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1638,7 +1636,6 @@
 								"filename" : "2.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u778005207",
-								"selection" : [ 0.6, 14.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1650,7 +1647,6 @@
 								"filename" : "3.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u806005224",
-								"selection" : [ 0.6, 14.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1662,7 +1658,6 @@
 								"filename" : "4.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u082005245",
-								"selection" : [ 0.6, 14.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1674,7 +1669,6 @@
 								"filename" : "5.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u453005270",
-								"selection" : [ 0.6, 14.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1686,7 +1680,6 @@
 								"filename" : "6.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u304005287",
-								"selection" : [ 0.6, 14.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1698,7 +1691,6 @@
 								"filename" : "7.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u325002259",
-								"selection" : [ 0.6, 14.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1710,7 +1702,6 @@
 								"filename" : "8.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u628002280",
-								"selection" : [ 0.6, 14.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1722,7 +1713,6 @@
 								"filename" : "9.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u337002315",
-								"selection" : [ 0.6, 14.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1734,7 +1724,6 @@
 								"filename" : "Collective Cadence April 2024.black.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u294002338",
-								"selection" : [ 0.6, 14.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -3279,7 +3268,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 67.5, 263.999991178512573, 39.0, 22.0 ],
+					"patching_rect" : [ 54.0, 248.0, 39.0, 22.0 ],
 					"text" : "r amp"
 				}
 
@@ -3837,7 +3826,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-142",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -4040,13 +4028,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"linecount" : 3,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 614.0, 69.0, 49.0 ],
-					"text" : "0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
+					"patching_rect" : [ 24.0, 614.0, 69.0, 76.0 ],
+					"text" : "0. 34.942207 162.249784 0. 0. 0. 0. 0. 0. 0."
 				}
 
 			}
