@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 62.0, 1372.0, 804.0 ],
+		"rect" : [ 34.0, 62.0, 1612.0, 954.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -3826,6 +3826,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-142",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -4033,7 +4034,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 614.0, 69.0, 76.0 ],
+					"patching_rect" : [ 24.0, 614.0, 75.0, 76.0 ],
 					"text" : "0. 34.942207 162.249784 0. 0. 0. 0. 0. 0. 0."
 				}
 
