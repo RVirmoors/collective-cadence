@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 135.0, 177.0, 537.0, 369.0 ],
+		"rect" : [ 315.0, 240.0, 946.0, 682.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1598,10 +1598,9 @@
 					"id" : "obj-246",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 2137.0, 1087.733337461948395, 84.0, 22.0 ],
-					"text" : "jit.window end"
+					"numoutlets" : 0,
+					"patching_rect" : [ 2137.0, 1087.733337461948395, 90.0, 22.0 ],
+					"text" : "jit.windowz end"
 				}
 
 			}
