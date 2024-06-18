@@ -49,6 +49,17 @@ apple M1 inference using [llama.cpp](https://github.com/ggerganov/llama.cpp):
 
 ## RAVE
 
+see [official tutorial](https://forum.ircam.fr/article/detail/training-rave-models-on-custom-data/)
+
+train:
+```
+```
+
+resume / RTX2070 w/ 8GB VRAM
+```
+rave train --name rebe_fem_noguit --db_path "_rave_mp3/rebetika_fem_noguit/pp" --out_path "_rave_mp3/rebetika_fem_noguit/out" --config v2_small --config causal --channels 1 --gpu 0 --augment compress --ckpt "_rave_mp3/rebetika_fem_noguit/out/rebe_fem_noguit_6f53a3ff62/version_14" --batch 4
+```
+
 see [this guide](https://github.com/acids-ircam/RAVE/discussions/300)
 
 train command:
