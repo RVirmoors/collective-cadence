@@ -1,0 +1,1077 @@
+<REAPER_PROJECT 0.1 "7.08/macOS-arm64" 1725136470
+  <NOTES 0 2
+  >
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 129
+  ENVATTACH 3
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1.9487171
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 0
+  GRID 3455 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 2061.4205243819952
+  ZOOM 0.56573564106189 446 0
+  VZOOMEX 6 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 1
+  LOOPGRAN 0 4
+  RECORD_PATH "Media" ""
+  <RECORD_CFG
+    ZXZhdxgAAQ==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE "/Users/rv/Documents/GitHub/collective-cadence/max/rsr_loop3.wav"
+  RENDER_FMT 0 2 0
+  RENDER_1X 0
+  RENDER_RANGE 2 0 0 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 0
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 1
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 44100 1 0
+  <RENDER_CFG
+    ZXZhdxgAAQ==
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+    MULT 1
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 0 0
+  SELECTION2 0 0
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_PANMODE 3
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {63E50D9F-7469-FA41-9091-B38E36A699DF}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {250298EB-6B81-7F44-87CC-4AB042C4A8BA}
+    ACT 0 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  <PROJBAY
+  >
+  <TRACK {E3B4CE9D-3D65-DD48-BA6B-3F2395EAD12D}
+    NAME drums
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 1
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 0
+    TRACKID {E3B4CE9D-3D65-DD48-BA6B-3F2395EAD12D}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 758 366 839 200
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 1 0 0
+      <VST "VST: Acceleration2 (airwindows)" Acceleration2.vst 0 "" 1633903981<5653546163656D616363656C65726174> ""
+        bWVjYe5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAACAAAAAEAAAAAABAA
+        yXZeP6abRD0=
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {DE9766C4-6E42-E043-8058-A66852AE0EB8}
+      WAK 0 0
+      BYPASS 0 0 0
+      <VST "VST: Point (airwindows)" Point.vst 0 "" 1886349684<565354706F6974706F696E7400000000> ""
+        dGlvcO5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAADAAAAAEAAAAAABAA
+        308NP57vRz9CYKU+
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {3BA6CAFE-7CBE-CE4F-BCA3-CCFBA2C7A89C}
+      WAK 0 0
+      BYPASS 0 0 0
+      <VST "VST: Capacitor2 (airwindows)" Capacitor2.vst 0 "" 1667330146<56535463617062636170616369746F72> ""
+        YnBhY+5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAEAAAAAEAAAAAABAA
+        AACAPwAAAACq8VI+AACAPw==
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {ADAA644F-DA2A-1045-A5BD-69E530774C5F}
+      WAK 0 0
+      BYPASS 0 0 0
+      <VST "VST: Energy2 (airwindows)" Energy2.vst 0 "" 1701733747<565354656E6573656E65726779320000> ""
+        c2VuZe5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAJAAAAAEAAAAAABAA
+        g8BKPp7vRz8OLTI/AAAAP6RwPT8tsh0/L90kPxSuxz6e70c/
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {BFAECDB3-02A1-1C4D-947A-5C9B49811666}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 221.59673469387755
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B3B378E5-3B63-AC43-B484-89227BB940AA}
+      IID 4
+      NAME drums.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {50804974-8A49-9C4F-87EF-034F6E39FC52}
+      <SOURCE WAVE
+        FILE "Media/drums.wav"
+      >
+    >
+    <ITEM
+      POSITION 512
+      SNAPOFFS 0
+      LENGTH 184.17333333333335
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C7EAF947-04E2-F94F-AC72-47BDB2BD93D3}
+      IID 18
+      NAME drums-imported-001.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E4FB3228-0193-074D-B3F8-6CD757DCF506}
+      <SOURCE WAVE
+        FILE "Media/drums-imported-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 800
+      SNAPOFFS 0
+      LENGTH 189.64897959183673
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B37ACC7B-911E-5F4A-BA5D-070C26D6DCCD}
+      IID 29
+      NAME drums-imported-003.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {28B0B775-1761-014B-BB36-7339BBFC12BC}
+      <SOURCE WAVE
+        FILE "Media/drums-imported-003.wav"
+      >
+    >
+    <ITEM
+      POSITION 1040
+      SNAPOFFS 0
+      LENGTH 51
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {69075B64-CB39-544A-8AC7-B2332362AE35}
+      IID 34
+      NAME drums-imported-004.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B6112C00-4768-474C-992B-83E86E79AFAF}
+      <SOURCE WAVE
+        FILE "Media/drums-imported-004.wav"
+      >
+    >
+    <ITEM
+      POSITION 1424
+      SNAPOFFS 0
+      LENGTH 274.70367346938775
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A453391D-E6C2-1148-8EF1-5627D6070943}
+      IID 39
+      NAME drums-imported-005.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FBC8912E-5D48-8747-B6FA-A309E55D3AC7}
+      <SOURCE WAVE
+        FILE "Media/drums-imported-005.wav"
+      >
+    >
+    <ITEM
+      POSITION 1984
+      SNAPOFFS 0
+      LENGTH 199.03637188208617
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B39B8DBF-1662-EF43-AC4D-C7D42B33C7E6}
+      IID 25
+      NAME drums-imported-002.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5F6959BB-1DC4-E141-8BE5-4536D2A9C1B4}
+      <SOURCE WAVE
+        FILE "Media/drums-imported-002.wav"
+      >
+    >
+  >
+  <TRACK {0E1ECC4A-242C-8D4F-B3BF-1BD6819A9AD5}
+    NAME bass
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {0E1ECC4A-242C-8D4F-B3BF-1BD6819A9AD5}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 221.59673469387755
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8D6258BB-0848-BD4B-8941-F809572D99B4}
+      IID 3
+      NAME bass.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B3CEFF77-F10F-0742-B96E-670E3E33DE91}
+      <SOURCE WAVE
+        FILE "Media/bass.wav"
+      >
+    >
+    <ITEM
+      POSITION 512
+      SNAPOFFS 0
+      LENGTH 184.17333333333335
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3A0098D7-11D2-AB44-BB40-A4BD1FD6263A}
+      IID 13
+      NAME bass-imported-001.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {786ECA07-22C2-0F41-BA8D-78D701EB34C2}
+      <SOURCE WAVE
+        FILE "Media/bass-imported-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 800
+      SNAPOFFS 0
+      LENGTH 189.64897959183673
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {42A8F941-73F2-7243-8271-7FCB683D94CC}
+      IID 31
+      NAME bass-imported-003.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5315D308-09EB-BA49-8CCC-9109428C3B91}
+      <SOURCE WAVE
+        FILE "Media/bass-imported-003.wav"
+      >
+    >
+    <ITEM
+      POSITION 1040
+      SNAPOFFS 0
+      LENGTH 51
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {82268487-DD6D-6C49-B0E5-E17D563608E3}
+      IID 36
+      NAME bass-imported-004.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0547DAC0-58AE-7F4B-ACB4-966C8F127F31}
+      <SOURCE WAVE
+        FILE "Media/bass-imported-004.wav"
+      >
+    >
+    <ITEM
+      POSITION 1424
+      SNAPOFFS 0
+      LENGTH 274.70367346938775
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E6C86457-18BD-A14C-A638-CD3582033E3F}
+      IID 43
+      NAME bass-imported-005.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F7B89CE0-F9E8-8446-B75E-0716E0847A8A}
+      <SOURCE WAVE
+        FILE "Media/bass-imported-005.wav"
+      >
+    >
+    <ITEM
+      POSITION 1984
+      SNAPOFFS 0
+      LENGTH 199.03637188208617
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B5DED56F-5827-134C-A805-E52BDB39FBD8}
+      IID 20
+      NAME bass-imported-002.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4538AD60-2F5C-3D4B-83BC-ACC81E0FEADE}
+      <SOURCE WAVE
+        FILE "Media/bass-imported-002.wav"
+      >
+    >
+  >
+  <TRACK {5463A13C-39E5-F940-97B0-5F628EF2D5E9}
+    NAME guitar
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {5463A13C-39E5-F940-97B0-5F628EF2D5E9}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 221.59673469387755
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {51634FF0-2193-8849-B276-85A66DED9DE3}
+      IID 1
+      NAME guitar.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F674D7D9-7CB2-7744-B8BA-4C4D48EE55DB}
+      <SOURCE WAVE
+        FILE "Media/guitar.wav"
+      >
+    >
+    <ITEM
+      POSITION 512
+      SNAPOFFS 0
+      LENGTH 184.17333333333335
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0265E058-92DD-2446-B291-B3E9F2C4ADF7}
+      IID 14
+      NAME guitar-imported-001.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C117A765-ABF7-4540-A433-F7270CB7A1EF}
+      <SOURCE WAVE
+        FILE "Media/guitar-imported-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 800
+      SNAPOFFS 0
+      LENGTH 189.64897959183673
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E32A88E4-8B49-7A43-BEF8-8B2CB0FB0BE7}
+      IID 28
+      NAME guitar-imported-003.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8860AA20-404C-E645-AB0F-06E009EFC177}
+      <SOURCE WAVE
+        FILE "Media/guitar-imported-003.wav"
+      >
+    >
+    <ITEM
+      POSITION 1040
+      SNAPOFFS 0
+      LENGTH 51
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0D0952B7-D06D-7842-8DEA-AB2F4A3ECBA2}
+      IID 32
+      NAME guitar-imported-004.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7A8F1D7D-483E-6143-9155-67F31D3069CD}
+      <SOURCE WAVE
+        FILE "Media/guitar-imported-004.wav"
+      >
+    >
+    <ITEM
+      POSITION 1424
+      SNAPOFFS 0
+      LENGTH 274.70367346938775
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7BECC134-07C1-8049-8528-CF0E1339FB5A}
+      IID 41
+      NAME guitar-imported-005.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {533460E1-7A2F-7149-9C46-4CD482757D8E}
+      <SOURCE WAVE
+        FILE "Media/guitar-imported-005.wav"
+      >
+    >
+    <ITEM
+      POSITION 1984
+      SNAPOFFS 0
+      LENGTH 199.03637188208617
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {242206B5-5A28-F246-8AFA-09F40F91C8C2}
+      IID 22
+      NAME guitar-imported-002.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0386C151-A3BB-0C4F-8AD9-E899CBCCA541}
+      <SOURCE WAVE
+        FILE "Media/guitar-imported-002.wav"
+      >
+    >
+  >
+  <TRACK {F0D8CD07-CD31-6742-B7F4-88130E8094BD}
+    NAME vocals
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {F0D8CD07-CD31-6742-B7F4-88130E8094BD}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 221.59673469387755
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E30167C3-F3DF-0A4A-8584-07BC31B655EB}
+      IID 5
+      NAME vocals.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3BC04CCD-2BF2-0D46-BA08-59C7708AAB09}
+      <SOURCE WAVE
+        FILE "Media/vocals.wav"
+      >
+    >
+    <ITEM
+      POSITION 512
+      SNAPOFFS 0
+      LENGTH 184.17333333333335
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FCA85A0A-7DE9-3249-93E5-CAA287BB8F62}
+      IID 15
+      NAME vocals-imported-001.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E05F3825-7FDA-4C49-B1FF-D61D213D14CE}
+      <SOURCE WAVE
+        FILE "Media/vocals-imported-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 800
+      SNAPOFFS 0
+      LENGTH 189.64897959183673
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7A41804D-7563-B34A-90E8-E102B5846F79}
+      IID 30
+      NAME vocals-imported-003.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {28D8BED2-FD9E-D146-9DD0-A2B75F1D2F8F}
+      <SOURCE WAVE
+        FILE "Media/vocals-imported-003.wav"
+      >
+    >
+    <ITEM
+      POSITION 1040
+      SNAPOFFS 0
+      LENGTH 51
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7B4F5AC3-3AE6-664A-AECB-DDA363FE8EE9}
+      IID 33
+      NAME vocals-imported-004.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4E2F4795-6AC1-BA44-A32A-399E7C3DF96B}
+      <SOURCE WAVE
+        FILE "Media/vocals-imported-004.wav"
+      >
+    >
+    <ITEM
+      POSITION 1424
+      SNAPOFFS 0
+      LENGTH 274.70367346938775
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AD968BA6-6F61-3A43-98F0-2B1F169F6552}
+      IID 38
+      NAME vocals-imported-005.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A58FAAAA-CDC0-DD48-AC3F-08E6AB195897}
+      <SOURCE WAVE
+        FILE "Media/vocals-imported-005.wav"
+      >
+    >
+    <ITEM
+      POSITION 1984
+      SNAPOFFS 0
+      LENGTH 199.03637188208617
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7310C55A-45E3-2843-8318-A07573EE7FD3}
+      IID 21
+      NAME vocals-imported-002.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A2567F4D-B557-5045-8C0A-FA3A9C5EB834}
+      <SOURCE WAVE
+        FILE "Media/vocals-imported-002.wav"
+      >
+    >
+  >
+  <TRACK {22EBC73C-D8C7-2A45-A70A-3732F4840741}
+    NAME piano
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {22EBC73C-D8C7-2A45-A70A-3732F4840741}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 221.59673469387755
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {630C2823-85FE-FA4F-9F3C-1D087E685365}
+      IID 6
+      NAME piano.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {509836DA-40BD-5040-A5F4-1C7B4DD14FD3}
+      <SOURCE WAVE
+        FILE "Media/piano.wav"
+      >
+    >
+    <ITEM
+      POSITION 512
+      SNAPOFFS 0
+      LENGTH 184.17333333333335
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9A4673CB-E47F-3F4A-BE6B-080AC9C9443F}
+      IID 16
+      NAME piano-imported-001.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D04FE674-810D-3B41-9325-4E4C4605A5B9}
+      <SOURCE WAVE
+        FILE "Media/piano-imported-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 800
+      SNAPOFFS 0
+      LENGTH 189.64897959183673
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {02AED810-5F9A-964D-839B-BCFAFDAFDB90}
+      IID 27
+      NAME piano-imported-003.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C61BA5CD-AFE5-9C4D-BC56-C6127237101D}
+      <SOURCE WAVE
+        FILE "Media/piano-imported-003.wav"
+      >
+    >
+    <ITEM
+      POSITION 1040
+      SNAPOFFS 0
+      LENGTH 51
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E7242344-D46B-D544-97C2-30CB0090F7E1}
+      IID 35
+      NAME piano-imported-004.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {91C2DB34-D32F-0740-9BBE-09C3D0A9872D}
+      <SOURCE WAVE
+        FILE "Media/piano-imported-004.wav"
+      >
+    >
+    <ITEM
+      POSITION 1424
+      SNAPOFFS 0
+      LENGTH 274.70367346938775
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D75B5504-D6BA-BA47-A519-C087F7054E6B}
+      IID 42
+      NAME piano-imported-005.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0AF618D1-EB81-3949-8C5C-3CA92E446245}
+      <SOURCE WAVE
+        FILE "Media/piano-imported-005.wav"
+      >
+    >
+    <ITEM
+      POSITION 1984
+      SNAPOFFS 0
+      LENGTH 199.03637188208617
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C40527FC-84BC-8645-AD10-57F7509D4EBC}
+      IID 23
+      NAME piano-imported-002.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A490BFA8-E00E-7F40-B3F6-EC17079A646E}
+      <SOURCE WAVE
+        FILE "Media/piano-imported-002.wav"
+      >
+    >
+  >
+  <TRACK {7FC95F7A-1B84-4C42-AA3C-4416B6DB4FD8}
+    NAME other
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FIXEDLANES 9 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {7FC95F7A-1B84-4C42-AA3C-4416B6DB4FD8}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 221.59673469387755
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {97411001-F04D-434C-A005-2B47C95A2CE5}
+      IID 2
+      NAME other.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F7D78F32-3B24-884E-B18A-9775A423688D}
+      <SOURCE WAVE
+        FILE "Media/other.wav"
+      >
+    >
+    <ITEM
+      POSITION 512
+      SNAPOFFS 0
+      LENGTH 184.17333333333335
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {97E30020-CB48-3E4F-A236-FA6FD8FA80D6}
+      IID 17
+      NAME other-imported-001.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {17F58D15-186F-0941-B521-B41214056969}
+      <SOURCE WAVE
+        FILE "Media/other-imported-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 800
+      SNAPOFFS 0
+      LENGTH 189.64897959183673
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CDEB109C-4A0D-E440-85F6-97EA308DEBC9}
+      IID 26
+      NAME other-imported-003.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {73F2AE9E-4729-A649-9BDC-CE3262C7A6A4}
+      <SOURCE WAVE
+        FILE "Media/other-imported-003.wav"
+      >
+    >
+    <ITEM
+      POSITION 1040
+      SNAPOFFS 0
+      LENGTH 51
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E5F60637-DF85-6647-88AD-BA9E75F169A8}
+      IID 37
+      NAME other-imported-004.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6EB42A6E-EDD0-5847-8DE7-E48575EEE4FA}
+      <SOURCE WAVE
+        FILE "Media/other-imported-004.wav"
+      >
+    >
+    <ITEM
+      POSITION 1424
+      SNAPOFFS 0
+      LENGTH 274.70367346938775
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A3FA5EE7-6CE9-9143-A1A3-5B52A80959C3}
+      IID 40
+      NAME other-imported-005.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DEC9D31A-165B-CA48-AF1E-B87E34464B51}
+      <SOURCE WAVE
+        FILE "Media/other-imported-005.wav"
+      >
+    >
+    <ITEM
+      POSITION 1984
+      SNAPOFFS 0
+      LENGTH 199.03637188208617
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DBED6AA8-D831-F742-8E15-FEC5F90E3676}
+      IID 24
+      NAME other-imported-002.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {89CA5F40-F1A1-704F-BD05-EE5EF6DC834F}
+      <SOURCE WAVE
+        FILE "Media/other-imported-002.wav"
+      >
+    >
+  >
+>

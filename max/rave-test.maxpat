@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 55.0, 212.0, 1159.0, 706.0 ],
+		"rect" : [ 154.0, 149.0, 914.0, 706.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,64 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 37.0, 465.0, 40.0, 22.0 ],
+					"text" : "*~ 0.1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 19.0, 381.0, 118.0, 22.0 ],
+					"text" : "delay~ 44100 44100"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 744.0, 603.0, 45.0, 45.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 806.666692495346069, 524.0, 39.0, 22.0 ],
+					"text" : "click~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 415.0, 524.0, 39.0, 22.0 ],
+					"text" : "click~"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-51",
 					"maxclass" : "comment",
@@ -109,7 +167,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 670.400009989738464, 510.400007605552673, 50.0, 22.0 ]
+					"patching_rect" : [ 670.400009989738464, 510.400007605552673, 98.266682267189026, 22.0 ]
 				}
 
 			}
@@ -204,7 +262,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 624.000009298324585, 331.333342373371124, 55.0, 22.0 ],
+					"patching_rect" : [ 594.000009298324585, 354.666680157184601, 55.0, 22.0 ],
 					"text" : "onebang"
 				}
 
@@ -216,7 +274,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 624.000009298324585, 296.800004422664642, 42.0, 22.0 ],
+					"patching_rect" : [ 594.000009298324585, 320.133342206478119, 42.0, 22.0 ],
 					"text" : "edge~"
 				}
 
@@ -898,6 +956,7 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
+					"clipheight" : 56.0,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "e.mp3",
@@ -905,6 +964,17 @@
 								"filekind" : "audiofile",
 								"id" : "u293026390",
 								"selection" : [ 0.589473684210526, 0.768421052631579 ],
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "live-claps.wav",
+								"filename" : "live-claps.wav",
+								"filekind" : "audiofile",
+								"id" : "u167005995",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -925,7 +995,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 276.166679263114929, 94.333333075046539, 150.0, 30.0 ],
+					"patching_rect" : [ 219.000012338161469, 28.333333075046539, 207.0, 114.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -939,8 +1009,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 260.200005769729614, 320.133342206478119, 188.0, 22.0 ],
-					"text" : "nn~ best_streaming forward 2048"
+					"patching_rect" : [ 260.200005769729614, 320.133342206478119, 196.0, 22.0 ],
+					"text" : "nn~ soviet_streaming forward 1024"
 				}
 
 			}
@@ -1212,6 +1282,21 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"order" : 3,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
 					"order" : 1,
 					"source" : [ "obj-2", 0 ]
@@ -1292,14 +1377,32 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 1 ],
+					"destination" : [ "obj-16", 0 ],
+					"order" : 0,
 					"source" : [ "obj-38", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-41", 1 ],
+					"order" : 1,
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"order" : 1,
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
+					"order" : 0,
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -1416,6 +1519,13 @@
 , 			{
 				"name" : "fluid.buf2list.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "live-claps.wav",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max",
+				"patcherrelativepath" : ".",
+				"type" : "WAVE",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "nn~.mxo",
