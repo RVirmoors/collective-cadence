@@ -7,6 +7,10 @@ function bang() {
     messnamed("rhythmTimer", "bang");
 }
 
+function clear() {
+	deltas = [];
+}
+
 function record(val) {
     if (val) {
 		rec = true;
@@ -36,9 +40,9 @@ function time(val) {
         var loopDuration = 0;
         for (var i = noNotes ; i > 0; i--) {
             loopDuration += deltas[N-i];
-            // post(deltas[N-i] + "\n");
+            //post(deltas[N-i] + "\n");
         }
-        if (loopDuration > 2500) continue; // too long, find smth else
+        //if (loopDuration > 2500) continue; // too long, find smth else
         if (loopDuration < 1800) continue; // too short, find smth else
         if (Math.random() < 0.5) continue; // bad luck, find smth else
         if (found) {
