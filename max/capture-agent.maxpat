@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1337.0, 929.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -114,7 +114,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 593.199996709823608, 894.303485713379814, 75.0, 22.0 ],
+					"patching_rect" : [ 590.0, 884.303485713379814, 75.0, 22.0 ],
 					"text" : "s doneClaps"
 				}
 
