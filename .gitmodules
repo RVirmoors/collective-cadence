@@ -17,3 +17,6 @@
 [submodule "axolotl"]
 	path = axolotl
 	url = https://github.com/OpenAccess-AI-Collective/axolotl
+[submodule "paperspace-chatbot/whisper.cpp"]
+	path = paperspace-chatbot/whisper.cpp
+	url = https://github.com/ggerganov/whisper.cpp.git
