@@ -17,3 +17,6 @@
 [submodule "axolotl"]
 	path = axolotl
 	url = https://github.com/OpenAccess-AI-Collective/axolotl
+[submodule "whisper.cpp"]
+	path = whisper.cpp
+	url = https://github.com/ggerganov/whisper.cpp.git
