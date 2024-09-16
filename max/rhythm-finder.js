@@ -20,7 +20,7 @@ function record(val) {
 }
 
 function time(val) {
-    if (val > 2500) return;
+    //if (val > 2500) return;
     if (!rec) return;
 
     deltas.push(val);

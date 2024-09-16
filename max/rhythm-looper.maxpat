@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 276.0, 326.0, 37.0, 22.0 ],
+					"text" : "*~ #2"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-28",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -79,7 +91,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ -70 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[12]",
+							"parameter_longname" : "live.dial[17]",
 							"parameter_mmax" : 0.0,
 							"parameter_mmin" : -99.0,
 							"parameter_shortname" : "floor",
@@ -1245,7 +1257,7 @@
 							"parameter_exponent" : 3.0,
 							"parameter_initial" : [ 30.000000000000011 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[10]",
+							"parameter_longname" : "live.dial[16]",
 							"parameter_mmax" : 1000.0,
 							"parameter_shortname" : "lockout",
 							"parameter_type" : 0,
@@ -1271,7 +1283,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 50.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[11]",
+							"parameter_longname" : "live.dial[18]",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "sensitivity",
 							"parameter_type" : 0,
@@ -1792,7 +1804,7 @@
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[6]",
+							"parameter_longname" : "number[8]",
 							"parameter_mmax" : 8.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "number",
@@ -1912,7 +1924,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-40", 0 ],
+					"destination" : [ "obj-29", 0 ],
 					"order" : 2,
 					"source" : [ "obj-17", 0 ]
 				}
@@ -1920,7 +1932,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-67", 0 ],
+					"destination" : [ "obj-40", 0 ],
 					"order" : 1,
 					"source" : [ "obj-17", 0 ]
 				}
@@ -1973,6 +1985,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"source" : [ "obj-29", 0 ]
 				}
 
 			}
