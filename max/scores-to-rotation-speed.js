@@ -14,8 +14,8 @@ function list() {
             }
         }
     }
-    var stepsize = Math.abs(angle - centers[cls-1]) + 1;
-    stepsize *= (1 - a[cls]) * 0.8;
+    var stepsize = Math.abs(angle - centers[cls-1]) * 1.5 + 0.5;
+    stepsize *= (1 - Math.pow(a[cls], 0.7));
     outlet(0, stepsize);
     outlet(1, cls);
 }

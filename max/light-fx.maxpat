@@ -40,6 +40,46 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-260",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1507.0, 51.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 695.0, 16.0, 113.0, 20.0 ],
+					"text" : "Aggregate device"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-257",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1493.0, 72.0, 52.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 641.0, 15.0, 52.0, 22.0 ],
+					"text" : "dac~ 21"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-258",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1493.0, 27.0, 45.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 594.0, 15.0, 45.0, 22.0 ],
+					"text" : "adc~ 7"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-254",
@@ -4028,13 +4068,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"linecount" : 5,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 614.0, 75.0, 76.0 ],
-					"text" : "0. 34.942207 162.249784 0. 0. 0. 0. 0. 0. 0."
+					"patching_rect" : [ 24.0, 614.0, 75.0, 35.0 ],
+					"text" : "0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
 				}
 
 			}
@@ -5789,6 +5829,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-246", 0 ],
 					"source" : [ "obj-254", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-257", 0 ],
+					"source" : [ "obj-258", 0 ]
 				}
 
 			}

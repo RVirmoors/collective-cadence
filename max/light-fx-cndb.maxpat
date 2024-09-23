@@ -40,6 +40,46 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-260",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1507.0, 51.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 695.0, 16.0, 113.0, 20.0 ],
+					"text" : "Aggregate device"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-257",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1493.0, 72.0, 52.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 641.0, 15.0, 52.0, 22.0 ],
+					"text" : "dac~ 21"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-258",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1493.0, 27.0, 45.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 594.0, 15.0, 45.0, 22.0 ],
+					"text" : "adc~ 7"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-255",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -1637,6 +1677,7 @@
 								"filename" : "Collective Cadence April 2024.black.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u409002619",
+								"selection" : [ 0.75, 3.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1648,6 +1689,7 @@
 								"filename" : "1.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u843005182",
+								"selection" : [ 0.75, 3.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1670,6 +1712,7 @@
 								"filename" : "3.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u806005224",
+								"selection" : [ 0.75, 3.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1681,6 +1724,7 @@
 								"filename" : "4.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u082005245",
+								"selection" : [ 0.75, 3.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1692,6 +1736,7 @@
 								"filename" : "5.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u453005270",
+								"selection" : [ 0.75, 3.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1703,6 +1748,7 @@
 								"filename" : "6.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u304005287",
+								"selection" : [ 0.75, 3.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1714,6 +1760,7 @@
 								"filename" : "7.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u325002259",
+								"selection" : [ 0.75, 3.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1725,6 +1772,7 @@
 								"filename" : "8.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u628002280",
+								"selection" : [ 0.75, 3.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1736,6 +1784,7 @@
 								"filename" : "9.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u337002315",
+								"selection" : [ 0.75, 3.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1747,6 +1796,7 @@
 								"filename" : "Collective Cadence April 2024.black.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u294002338",
+								"selection" : [ 0.75, 3.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -4052,13 +4102,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"linecount" : 5,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 614.0, 75.0, 76.0 ],
-					"text" : "0. 91.952174 119.850267 0. 0. 0. 0. 0. 0. 0. 0. 0."
+					"patching_rect" : [ 24.0, 614.0, 75.0, 49.0 ],
+					"text" : "0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
 				}
 
 			}
@@ -5828,6 +5878,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 10 ],
 					"source" : [ "obj-256", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-257", 0 ],
+					"source" : [ "obj-258", 0 ]
 				}
 
 			}
