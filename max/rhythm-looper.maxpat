@@ -40,30 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-29",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 276.0, 326.0, 37.0, 22.0 ],
-					"text" : "*~ #2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-28",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 387.0, 318.0, 37.0, 22.0 ],
-					"text" : "*~ #2"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
@@ -91,7 +67,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ -70 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[17]",
+							"parameter_longname" : "live.dial[20]",
 							"parameter_mmax" : 0.0,
 							"parameter_mmin" : -99.0,
 							"parameter_shortname" : "floor",
@@ -1257,7 +1233,7 @@
 							"parameter_exponent" : 3.0,
 							"parameter_initial" : [ 30.000000000000011 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[16]",
+							"parameter_longname" : "live.dial[21]",
 							"parameter_mmax" : 1000.0,
 							"parameter_shortname" : "lockout",
 							"parameter_type" : 0,
@@ -1283,7 +1259,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 50.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[18]",
+							"parameter_longname" : "live.dial[22]",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "sensitivity",
 							"parameter_type" : 0,
@@ -1635,8 +1611,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "signal", "signal" ],
-					"patching_rect" : [ 387.0, 345.0, 222.0, 22.0 ],
-					"text" : "sp.onset~ @lockout 200 @sensitivity 55"
+					"patching_rect" : [ 387.0, 345.0, 219.0, 22.0 ],
+					"text" : "sp.onset~ @lockout 200 @sensitivity #2"
 				}
 
 			}
@@ -1804,7 +1780,7 @@
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[8]",
+							"parameter_longname" : "number[9]",
 							"parameter_mmax" : 8.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "number",
@@ -1915,8 +1891,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
-					"midpoints" : [ 285.5, 312.0, 396.5, 312.0 ],
+					"destination" : [ "obj-37", 0 ],
 					"order" : 0,
 					"source" : [ "obj-17", 0 ]
 				}
@@ -1924,7 +1899,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
+					"destination" : [ "obj-40", 0 ],
 					"order" : 2,
 					"source" : [ "obj-17", 0 ]
 				}
@@ -1932,7 +1907,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-40", 0 ],
+					"destination" : [ "obj-67", 0 ],
+					"midpoints" : [ 285.5, 337.0, 358.5, 337.0 ],
 					"order" : 1,
 					"source" : [ "obj-17", 0 ]
 				}
@@ -1978,20 +1954,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
 					"source" : [ "obj-25", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-37", 0 ],
-					"source" : [ "obj-28", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-67", 0 ],
-					"source" : [ "obj-29", 0 ]
 				}
 
 			}
