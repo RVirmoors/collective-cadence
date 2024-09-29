@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1612.0, 929.0 ],
+		"rect" : [ 34.0, 87.0, 1337.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,53 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-251",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 552.75, 199.799983441829681, 135.0, 22.0 ],
+					"text" : "udpsend localhost 5555"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-262",
+					"maxclass" : "meter~",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 1406.0, 160.833337604999542, 80.0, 13.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-261",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1716.0, 40.0, 52.0, 22.0 ],
+					"text" : "adc~ 21"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-259",
+					"maxclass" : "meter~",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 1669.0, 139.333337426185608, 80.0, 13.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 594.0, 41.699999749660492, 80.0, 13.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-255",
 					"maxclass" : "newobj",
@@ -127,30 +174,6 @@
 					"outlettype" : [ "bang", "bang", "" ],
 					"patching_rect" : [ 1985.0, 937.600013971328735, 44.0, 22.0 ],
 					"text" : "sel 0 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-252",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 530.399995446205139, -1.799999177455902, 51.0, 22.0 ],
-					"text" : "sel 7 10"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-251",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 529.449978291988373, -27.69786775151988, 47.0, 22.0 ],
-					"text" : "r slides"
 				}
 
 			}
@@ -1680,6 +1703,7 @@
 								"filename" : "Collective Cadence April 2024.black.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u409002619",
+								"selection" : [ 0.1, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1702,6 +1726,7 @@
 								"filename" : "2.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u778005207",
+								"selection" : [ 0.1, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1713,6 +1738,7 @@
 								"filename" : "3.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u806005224",
+								"selection" : [ 0.1, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1724,6 +1750,7 @@
 								"filename" : "4.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u082005245",
+								"selection" : [ 0.1, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1735,6 +1762,7 @@
 								"filename" : "5.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u453005270",
+								"selection" : [ 0.1, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1746,6 +1774,7 @@
 								"filename" : "6.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u304005287",
+								"selection" : [ 0.1, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1757,6 +1786,7 @@
 								"filename" : "7.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u325002259",
+								"selection" : [ 0.1, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1768,6 +1798,7 @@
 								"filename" : "8.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u628002280",
+								"selection" : [ 0.1, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1779,6 +1810,7 @@
 								"filename" : "9.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u337002315",
+								"selection" : [ 0.1, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1790,6 +1822,7 @@
 								"filename" : "Collective Cadence April 2024.black.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u294002338",
+								"selection" : [ 0.1, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1882,7 +1915,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 601.0, 172.599983036518097, 46.0, 22.0 ],
+					"patching_rect" : [ 621.299994945526123, 175.799983441829681, 46.0, 22.0 ],
 					"text" : "s voice"
 				}
 
@@ -3892,6 +3925,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-142",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -5150,7 +5184,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-251", 0 ],
+					"order" : 1,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"order" : 0,
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -5813,27 +5856,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-252", 0 ],
-					"source" : [ "obj-251", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"source" : [ "obj-252", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-48", 0 ],
-					"source" : [ "obj-252", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-243", 0 ],
 					"source" : [ "obj-253", 1 ]
 				}
@@ -5863,6 +5885,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-257", 0 ],
+					"order" : 0,
+					"source" : [ "obj-258", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-262", 0 ],
+					"order" : 1,
 					"source" : [ "obj-258", 0 ]
 				}
 
@@ -5871,6 +5902,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-259", 0 ],
+					"source" : [ "obj-261", 0 ]
 				}
 
 			}
