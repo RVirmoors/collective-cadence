@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1337.0, 929.0 ],
+		"rect" : [ -233.0, -993.0, 1577.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,71 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-269",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "" ],
+					"patching_rect" : [ 592.75, -11.0, 57.0, 22.0 ],
+					"text" : "sel 19 22"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-268",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 592.75, -41.0, 47.0, 22.0 ],
+					"text" : "r slides"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-267",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2478.0, 127.333337068557739, 29.5, 22.0 ],
+					"text" : "12"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 24.0,
+					"id" : "obj-265",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2478.0, 79.333337426185608, 78.0, 35.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1008.0, 510.666671097278595, 78.0, 35.0 ],
+					"text" : "ALIEN"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-252",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2355.5, 1082.600014805793762, 165.0, 23.0 ],
+					"text" : "pos -800 400, fullscreen $1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-251",
 					"maxclass" : "newobj",
@@ -148,32 +213,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 594.0, 15.0, 45.0, 22.0 ],
 					"text" : "adc~ 7"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-254",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1874.5, 1030.600014805793762, 161.0, 23.0 ],
-					"text" : "fullscreen $1, pos 300 400"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-253",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 1985.0, 937.600013971328735, 44.0, 22.0 ],
-					"text" : "sel 0 1"
 				}
 
 			}
@@ -488,7 +527,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2509.041638016700745, 878.85830682516098, 58.0, 22.0 ],
+					"patching_rect" : [ 2471.700006186962128, 914.533326983451843, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1540,27 +1579,13 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-243",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2016.5, 986.600014805793762, 165.0, 23.0 ],
-					"text" : "pos -800 400, fullscreen $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-244",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1985.0, 900.733337461948395, 20.0, 20.0 ]
+					"patching_rect" : [ 1976.0, 1016.733337461948395, 20.0, 20.0 ]
 				}
 
 			}
@@ -1670,7 +1695,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 2007.5, 900.733337461948395, 42.0, 23.0 ],
+					"patching_rect" : [ 1998.5, 1016.733337461948395, 42.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1689,21 +1714,146 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 2137.0, 1087.733337461948395, 84.0, 22.0 ],
-					"text" : "jit.window end"
+					"patching_rect" : [ 2137.0, 1087.733337461948395, 87.0, 22.0 ],
+					"text" : "jit.window prez"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"clipheight" : 20.818181818181817,
+					"clipheight" : 20.0,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "Collective Cadence April 2024.black.jpeg",
 								"filename" : "Collective Cadence April 2024.black.jpeg",
 								"filekind" : "moviefile",
+								"id" : "u507009060",
+								"selection" : [ 0.95, 14.0 ],
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "1.jpeg",
+								"filename" : "1.jpeg",
+								"filekind" : "moviefile",
+								"id" : "u147009230",
+								"selection" : [ 0.95, 14.0 ],
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "2.jpeg",
+								"filename" : "2.jpeg",
+								"filekind" : "moviefile",
+								"id" : "u899009209",
+								"selection" : [ 0.95, 14.0 ],
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "3.jpeg",
+								"filename" : "3.jpeg",
+								"filekind" : "moviefile",
+								"id" : "u576009192",
+								"selection" : [ 0.95, 14.0 ],
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "4.jpeg",
+								"filename" : "4.jpeg",
+								"filekind" : "moviefile",
+								"id" : "u391009194",
+								"selection" : [ 0.95, 14.0 ],
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "5.jpeg",
+								"filename" : "5.jpeg",
+								"filekind" : "moviefile",
+								"id" : "u466009193",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "6.jpeg",
+								"filename" : "6.jpeg",
+								"filekind" : "moviefile",
+								"id" : "u257009139",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "7.jpeg",
+								"filename" : "7.jpeg",
+								"filekind" : "moviefile",
+								"id" : "u089009141",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "8.jpeg",
+								"filename" : "8.jpeg",
+								"filekind" : "moviefile",
+								"id" : "u277009140",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "9.jpeg",
+								"filename" : "9.jpeg",
+								"filekind" : "moviefile",
+								"id" : "u085009136",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "10.jpeg",
+								"filename" : "10.jpeg",
+								"filekind" : "moviefile",
+								"id" : "u301009081",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "Collective Cadence April 2024.black.jpeg",
+								"filename" : "Collective Cadence April 2024.black.jpeg",
+								"filekind" : "moviefile",
 								"id" : "u409002619",
-								"selection" : [ 0.1, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1726,7 +1876,6 @@
 								"filename" : "2.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u778005207",
-								"selection" : [ 0.1, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1738,7 +1887,6 @@
 								"filename" : "3.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u806005224",
-								"selection" : [ 0.1, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1750,7 +1898,6 @@
 								"filename" : "4.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u082005245",
-								"selection" : [ 0.1, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1762,7 +1909,6 @@
 								"filename" : "5.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u453005270",
-								"selection" : [ 0.1, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1774,7 +1920,6 @@
 								"filename" : "6.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u304005287",
-								"selection" : [ 0.1, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1786,7 +1931,6 @@
 								"filename" : "7.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u325002259",
-								"selection" : [ 0.1, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1798,7 +1942,6 @@
 								"filename" : "8.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u628002280",
-								"selection" : [ 0.1, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1810,7 +1953,6 @@
 								"filename" : "9.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u337002315",
-								"selection" : [ 0.1, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1822,7 +1964,6 @@
 								"filename" : "Collective Cadence April 2024.black.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u294002338",
-								"selection" : [ 0.1, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -3925,7 +4066,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-142",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -4128,13 +4268,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"linecount" : 2,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 614.0, 75.0, 35.0 ],
-					"text" : "0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
+					"patching_rect" : [ 24.0, 614.0, 75.0, 62.0 ],
+					"text" : "0. 0. 0. 0. 85.165357 119.169573 0. 0. 0. 0."
 				}
 
 			}
@@ -4481,6 +4621,19 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 89.0, 326.999991178512573, 99.0, 22.0 ],
 					"text" : "mc.mixdown~ 10"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "fullscreen",
+					"id" : "obj-263",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1976.0, 1045.733336999999892, 150.0, 22.0 ]
 				}
 
 			}
@@ -5640,13 +5793,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-227", 0 ],
-					"source" : [ "obj-224", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-227", 0 ],
 					"source" : [ "obj-226", 0 ]
 				}
 
@@ -5797,14 +5943,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-246", 0 ],
-					"source" : [ "obj-243", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-253", 0 ],
+					"destination" : [ "obj-263", 0 ],
 					"source" : [ "obj-244", 0 ]
 				}
 
@@ -5856,27 +5995,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-243", 0 ],
-					"source" : [ "obj-253", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-254", 0 ],
-					"source" : [ "obj-253", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-246", 0 ],
-					"source" : [ "obj-254", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-154", 0 ],
 					"source" : [ "obj-255", 0 ]
 				}
@@ -5909,6 +6027,48 @@
 				"patchline" : 				{
 					"destination" : [ "obj-259", 0 ],
 					"source" : [ "obj-261", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-246", 0 ],
+					"source" : [ "obj-263", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-267", 0 ],
+					"source" : [ "obj-265", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-185", 3 ],
+					"source" : [ "obj-267", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-269", 0 ],
+					"source" : [ "obj-268", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-269", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"source" : [ "obj-269", 1 ]
 				}
 
 			}
@@ -6605,6 +6765,13 @@
 				"name" : "1.jpeg",
 				"bootpath" : "~/Documents/GitHub/collective-cadence/max",
 				"patcherrelativepath" : ".",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "10.jpeg",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/tyrant",
+				"patcherrelativepath" : "./video/tyrant",
 				"type" : "JPEG",
 				"implicit" : 1
 			}

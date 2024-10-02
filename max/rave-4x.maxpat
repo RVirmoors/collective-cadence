@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -233.0, -993.0, 1852.0, 959.0 ],
+		"rect" : [ 34.0, 87.0, 1612.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,365 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-424",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 1923.5, 1075.0, 73.0, 22.0 ],
+					"text" : "slide 10. 50."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-423",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 2034.60002863407135, 1212.0, 73.0, 22.0 ],
+					"text" : "slide 50. 50."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-422",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 2118.60002863407135, 1212.0, 73.0, 22.0 ],
+					"text" : "slide 50. 50."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-419",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 2221.60002863407135, 1212.0, 73.0, 22.0 ],
+					"text" : "slide 50. 50."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-417",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 2375.950022786855698, 1219.0, 73.0, 22.0 ],
+					"text" : "slide 50. 50."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-416",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 2037.800036430358887, 990.0, 113.0, 22.0 ],
+					"text" : "metro 50 @active 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-415",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1923.5, 1039.0, 107.0, 22.0 ],
+					"text" : "scale 50. 80. -1. 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-414",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1923.5, 995.0, 59.0, 22.0 ],
+					"text" : "r centroid"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-412",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2311.0, 978.0, 61.0, 22.0 ],
+					"text" : "s centroid"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-409",
+					"maxclass" : "flonum",
+					"maximum" : 1.0,
+					"minimum" : 0.0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1739.25, 251.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-406",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1739.25, 223.0, 97.0, 22.0 ],
+					"text" : "scale 0. 0.4 1. 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-404",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1617.0, 266.0, 34.0, 22.0 ],
+					"text" : "*~ 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-402",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1739.25, 194.466660857200623, 39.0, 22.0 ],
+					"text" : "r conf"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-399",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2603.63336612780904, 978.0, 41.0, 22.0 ],
+					"text" : "s conf"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-397",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1617.0, 301.0, 65.0, 22.0 ],
+					"text" : "s~ to_rave"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-394",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1617.0, 10.0, 45.0, 22.0 ],
+					"text" : "adc~ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autosave" : 1,
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"id" : "obj-369",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 8,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
+					"patching_rect" : [ 1617.0, 40.0, 341.0, 144.0 ],
+					"save" : [ "#N", "vst~", "loaduniqueid", 0, "C74_VST:/BigAmp", ";" ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "vst~[1]",
+							"parameter_shortname" : "vst~",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 1,
+						"parameter_mappable" : 0
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "vst~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"pluginname" : "BigAmp.vstinfo",
+							"plugindisplayname" : "airwindows BigAmp",
+							"pluginsavedname" : "C74_VST:/BigAmp",
+							"pluginsaveduniqueid" : 0,
+							"version" : 1,
+							"isbank" : 0,
+							"isbase64" : 1,
+							"sliderorder" : [  ],
+							"slidervisibility" : [ 1, 1, 1, 1 ],
+							"blob" : "76.CMlaKA....fQPMDZ....AHVZmEF...P......PTYlEVcrQG................................D..rQ+...R7C..gvO...f+."
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "airwindows BigAmp",
+									"origin" : "BigAmp.vstinfo",
+									"type" : "VST",
+									"subtype" : "AudioEffect",
+									"embed" : 0,
+									"snapshot" : 									{
+										"pluginname" : "BigAmp.vstinfo",
+										"plugindisplayname" : "airwindows BigAmp",
+										"pluginsavedname" : "C74_VST:/BigAmp",
+										"pluginsaveduniqueid" : 0,
+										"version" : 1,
+										"isbank" : 0,
+										"isbase64" : 1,
+										"sliderorder" : [  ],
+										"slidervisibility" : [ 1, 1, 1, 1 ],
+										"blob" : "76.CMlaKA....fQPMDZ....AHVZmEF...P......PTYlEVcrQG................................D..rQ+...R7C..gvO...f+."
+									}
+,
+									"fileref" : 									{
+										"name" : "airwindows BigAmp",
+										"filename" : "airwindows BigAmp.maxsnap",
+										"filepath" : "~/Documents/Max 8/Snapshots",
+										"filepos" : -1,
+										"snapshotfileid" : "67548d7859dffef4fc2ba41963ef1304"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
+					"text" : "vst~ C74_VST:/BigAmp",
+					"varname" : "vst~[1]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-390",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1698.0, 1078.800000429153442, 33.0, 22.0 ],
+					"text" : "== 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-374",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1749.0, 1130.0, 32.0, 22.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-372",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 474.166666666666629, 1843.499999999999773, 171.0, 22.0 ],
+					"text" : "-70 10000 -30 20000 -4 40000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-371",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 377.0, 1922.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-353",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 445.0, 1878.0, 41.0, 22.0 ],
+					"text" : "line 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-105",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 445.0, 1910.0, 74.0, 22.0 ],
+					"text" : "s reverb_vol"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"color" : [ 0.4, 0.72156862745098, 0.474509803921569, 1.0 ],
 					"id" : "obj-77",
@@ -232,7 +591,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1731.0, 1085.0, 24.0, 24.0 ]
+					"patching_rect" : [ 1762.0, 1039.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -243,7 +602,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1731.0, 1061.0, 67.0, 22.0 ],
+					"patching_rect" : [ 1762.0, 1015.0, 67.0, 22.0 ],
 					"text" : "r skip_beat"
 				}
 
@@ -269,7 +628,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1731.0, 1124.0, 50.0, 22.0 ],
+					"patching_rect" : [ 1762.0, 1064.0, 50.0, 22.0 ],
 					"text" : "4"
 				}
 
@@ -281,7 +640,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1762.0, 1099.0, 51.0, 22.0 ],
+					"patching_rect" : [ 1793.0, 1039.0, 51.0, 22.0 ],
 					"text" : "r winner"
 				}
 
@@ -543,7 +902,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1731.0, 1151.0, 87.0, 22.0 ],
+					"patching_rect" : [ 1762.0, 1091.0, 87.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -588,33 +947,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 239.0, 958.0, 32.0, 22.0 ],
 					"text" : "gate"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-389",
-					"maxclass" : "newobj",
-					"numinlets" : 6,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1957.0, 985.0, 93.0, 22.0 ],
-					"text" : "scale 0. 1. 0.5 2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-388",
-					"maxclass" : "flonum",
-					"maximum" : 2.0,
-					"minimum" : 0.5,
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1910.0, 1168.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -2041,8 +2373,8 @@
 					"numinlets" : 8,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2015.800036430358887, 1281.100019574165344, 307.119989085197631, 22.0 ],
-					"text" : "join 8 @triggers 0"
+					"patching_rect" : [ 2015.800036430358887, 1281.100019574165344, 379.149986356496811, 22.0 ],
+					"text" : "pak 1. 0. 1. 0. 1. 0. 1. 0."
 				}
 
 			}
@@ -2130,7 +2462,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1994.600038051605225, 1174.300009608268738, 50.0, 22.0 ]
+					"patching_rect" : [ 2015.800036430358887, 1174.300009608268738, 50.0, 22.0 ]
 				}
 
 			}
@@ -2153,7 +2485,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1994.600038051605225, 1133.300009608268738, 101.0, 22.0 ],
+					"patching_rect" : [ 2015.800036430358887, 1133.300009608268738, 101.0, 22.0 ],
 					"text" : "scale 40 80 -1. 1."
 				}
 
@@ -2450,11 +2782,11 @@
 				"box" : 				{
 					"id" : "obj-226",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3080.600028395652771, 963.966660857200623, 74.0, 22.0 ],
-					"text" : "loadmess -4"
+					"patching_rect" : [ 2981.600028395652771, 1041.966660857200623, 72.0, 22.0 ],
+					"text" : "r reverb_vol"
 				}
 
 			}
@@ -2710,12 +3042,12 @@
 								"filename" : "trumps1.wav",
 								"filekind" : "audiofile",
 								"id" : "u390005461",
-								"selection" : [ 0.2, 4.0 ],
+								"selection" : [ 0.2, 6.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 0.175714925360839,
+									"speed" : 0.381313595390737,
 									"quality" : "better"
 								}
 
@@ -2725,12 +3057,12 @@
 								"filename" : "trumps2.wav",
 								"filekind" : "audiofile",
 								"id" : "u736005460",
-								"selection" : [ 0.2, 4.0 ],
+								"selection" : [ 0.2, 6.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 0.175714925360839,
+									"speed" : 0.381313595390737,
 									"quality" : "better"
 								}
 
@@ -2740,12 +3072,12 @@
 								"filename" : "tambal.wav",
 								"filekind" : "audiofile",
 								"id" : "u385010670",
-								"selection" : [ 0.2, 4.0 ],
+								"selection" : [ 0.2, 6.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 0.175714925360839,
+									"speed" : 0.381313595390737,
 									"quality" : "better"
 								}
 
@@ -2755,11 +3087,12 @@
 								"filename" : "vox-liebe.wav",
 								"filekind" : "audiofile",
 								"id" : "u091005462",
+								"selection" : [ 0.2, 6.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 0.175714925360839,
+									"speed" : 0.381313595390737,
 									"quality" : "better"
 								}
 
@@ -2769,12 +3102,12 @@
 								"filename" : "piano1.wav",
 								"filekind" : "audiofile",
 								"id" : "u875005463",
-								"selection" : [ 0.2, 4.0 ],
+								"selection" : [ 0.2, 6.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 0.175714925360839,
+									"speed" : 0.381313595390737,
 									"quality" : "better"
 								}
 
@@ -2784,12 +3117,11 @@
 								"filename" : "strings1.wav",
 								"filekind" : "audiofile",
 								"id" : "u149010669",
-								"selection" : [ 0.2, 4.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 0.175714925360839,
+									"speed" : 0.381313595390737,
 									"quality" : "better"
 								}
 
@@ -3640,7 +3972,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 514.166666666666629, 1761.000025868415833, 167.0, 22.0 ],
+					"patching_rect" : [ 559.166666666666629, 1761.000025868415833, 167.0, 22.0 ],
 					"text" : "-70 10000 -30 20000 0 30000"
 				}
 
@@ -3652,7 +3984,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 514.0, 1806.0, 41.0, 22.0 ],
+					"patching_rect" : [ 559.0, 1806.0, 41.0, 22.0 ],
 					"text" : "line 0."
 				}
 
@@ -4963,7 +5295,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 112.0, 1097.0, 779.0 ],
+						"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -4992,6 +5324,178 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-54",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 54.75, 137.0, 29.5, 22.0 ],
+									"text" : "1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-51",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 53.75, 107.0, 34.0, 22.0 ],
+									"text" : "sel 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-48",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 128.5, 107.0, 32.0, 22.0 ],
+									"text" : "gate"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-45",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 53.75, 70.0, 33.0, 22.0 ],
+									"text" : "== 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 53.75, 41.0, 42.0, 22.0 ],
+									"text" : "r state"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"clipheight" : 22.0,
+									"data" : 									{
+										"clips" : [ 											{
+												"absolutepath" : "soviet.jpg",
+												"filename" : "soviet.jpg",
+												"filekind" : "moviefile",
+												"id" : "u824018927",
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "phoenix.jpg",
+												"filename" : "phoenix.jpg",
+												"filekind" : "moviefile",
+												"id" : "u261018928",
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "ghetto.jpg",
+												"filename" : "ghetto.jpg",
+												"filekind" : "moviefile",
+												"id" : "u538018924",
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "roza.mp4",
+												"filename" : "roza.mp4",
+												"filekind" : "moviefile",
+												"id" : "u684014008",
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+ ]
+									}
+,
+									"drawto" : "",
+									"id" : "obj-55",
+									"loop" : 3,
+									"maxclass" : "jit.playlist",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "jit_matrix", "", "dictionary" ],
+									"output_texture" : 0,
+									"parameter_enable" : 0,
+									"patching_rect" : [ 1283.0, 348.333337426185608, 150.0, 92.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-23",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "int" ],
+									"patching_rect" : [ 1283.0, 200.0, 32.0, 22.0 ],
+									"text" : "t b 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-22",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 1283.0, 170.0, 34.0, 22.0 ],
+									"text" : "sel 3"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1283.0, 141.0, 42.0, 22.0 ],
+									"text" : "r state"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1283.0, 280.333337426185608, 50.0, 22.0 ],
+									"text" : "4"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-20",
 									"maxclass" : "newobj",
@@ -5094,7 +5598,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1315.833337008953094, 280.333337426185608, 70.0, 22.0 ],
+									"patching_rect" : [ 1543.833337008953094, 280.333337426185608, 70.0, 22.0 ],
 									"text" : "loadmess 0"
 								}
 
@@ -5106,7 +5610,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 128.5, 88.0, 84.0, 22.0 ],
+									"patching_rect" : [ 141.5, 37.0, 84.0, 22.0 ],
 									"text" : "r video_speed"
 								}
 
@@ -5609,10 +6113,10 @@
 												"filename" : "3_Rebetika_photo3.jpg",
 												"filekind" : "moviefile",
 												"id" : "u813016598",
-												"selection" : [ 0.25, 6.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 0.175714925360839
+													"rate" : 1,
+													"vol" : 0
 												}
 
 											}
@@ -5621,10 +6125,10 @@
 												"filename" : "7_Rebetika_video_BBC_1.mp4",
 												"filekind" : "moviefile",
 												"id" : "u295016595",
-												"selection" : [ 0.25, 6.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 0.175714925360839
+													"rate" : 1,
+													"vol" : 0
 												}
 
 											}
@@ -5633,10 +6137,11 @@
 												"filename" : "9_Metaxas Parade.mp4",
 												"filekind" : "moviefile",
 												"id" : "u244016602",
-												"selection" : [ 0.25, 6.0 ],
+												"selection" : [ 0.7, 1.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 0.175714925360839
+													"rate" : 1,
+													"vol" : 0
 												}
 
 											}
@@ -5645,10 +6150,11 @@
 												"filename" : "8_Rebetika_video_BBC_2.mp4",
 												"filekind" : "moviefile",
 												"id" : "u314016594",
-												"selection" : [ 0.25, 6.0 ],
+												"selection" : [ 0.7, 1.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 0.175714925360839
+													"rate" : 1,
+													"vol" : 0
 												}
 
 											}
@@ -5657,10 +6163,11 @@
 												"filename" : "1_Rebetika_photo1.jpg",
 												"filekind" : "moviefile",
 												"id" : "u272016596",
-												"selection" : [ 0.25, 6.0 ],
+												"selection" : [ 0.7, 1.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 0.175714925360839
+													"rate" : 1,
+													"vol" : 0
 												}
 
 											}
@@ -5669,9 +6176,11 @@
 												"filename" : "2_Rebetika_photo2.jpg",
 												"filekind" : "moviefile",
 												"id" : "u990016597",
+												"selection" : [ 0.7, 1.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 0.175714925360839
+													"rate" : 1,
+													"vol" : 0
 												}
 
 											}
@@ -5680,10 +6189,11 @@
 												"filename" : "4_Rebetika_photo4.jpg",
 												"filekind" : "moviefile",
 												"id" : "u442016599",
-												"selection" : [ 0.25, 6.0 ],
+												"selection" : [ 0.7, 1.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 0.175714925360839
+													"rate" : 1,
+													"vol" : 0
 												}
 
 											}
@@ -5692,10 +6202,11 @@
 												"filename" : "5_Rebetika_photo5.jpg",
 												"filekind" : "moviefile",
 												"id" : "u435016600",
-												"selection" : [ 0.25, 6.0 ],
+												"selection" : [ 0.7, 1.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 0.175714925360839
+													"rate" : 1,
+													"vol" : 0
 												}
 
 											}
@@ -5704,10 +6215,11 @@
 												"filename" : "6_Rebetika_photo6.jpg",
 												"filekind" : "moviefile",
 												"id" : "u982016601",
-												"selection" : [ 0.25, 6.0 ],
+												"selection" : [ 0.7, 1.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 0.175714925360839
+													"rate" : 1,
+													"vol" : 0
 												}
 
 											}
@@ -6178,10 +6690,10 @@
 												"filename" : "H_Jazz_photo5.jpg",
 												"filekind" : "moviefile",
 												"id" : "u782016326",
-												"selection" : [ 0.25, 9.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 0.175714925360839
+													"rate" : 1,
+													"vol" : 0
 												}
 
 											}
@@ -6190,10 +6702,11 @@
 												"filename" : "M_Hitler Youth_1940.mp4",
 												"filekind" : "moviefile",
 												"id" : "u805016331",
-												"selection" : [ 0.25, 9.0 ],
+												"selection" : [ 0.35, 1.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 0.175714925360839
+													"rate" : 1,
+													"vol" : 0
 												}
 
 											}
@@ -6202,10 +6715,11 @@
 												"filename" : "C_Jazz_Weimar_1929.mp4",
 												"filekind" : "moviefile",
 												"id" : "u066016321",
-												"selection" : [ 0.25, 9.0 ],
+												"selection" : [ 0.35, 1.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 0.175714925360839
+													"rate" : 1,
+													"vol" : 0
 												}
 
 											}
@@ -6214,10 +6728,11 @@
 												"filename" : "V_Jazz_Berlin_1928.mp4",
 												"filekind" : "moviefile",
 												"id" : "u050016322",
-												"selection" : [ 0.25, 9.0 ],
+												"selection" : [ 0.35, 1.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 0.175714925360839
+													"rate" : 1,
+													"vol" : 0
 												}
 
 											}
@@ -6226,10 +6741,11 @@
 												"filename" : "B_Hitler Youth_1937.mp4",
 												"filekind" : "moviefile",
 												"id" : "u997016323",
-												"selection" : [ 0.25, 9.0 ],
+												"selection" : [ 0.35, 1.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 0.175714925360839
+													"rate" : 1,
+													"vol" : 0
 												}
 
 											}
@@ -6238,10 +6754,11 @@
 												"filename" : "N_Hitler Youth_ 1938.mp4",
 												"filekind" : "moviefile",
 												"id" : "u983016324",
-												"selection" : [ 0.25, 9.0 ],
+												"selection" : [ 0.35, 1.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 0.175714925360839
+													"rate" : 1,
+													"vol" : 0
 												}
 
 											}
@@ -6250,10 +6767,11 @@
 												"filename" : "G_Swing Kids_photo3.jpg",
 												"filekind" : "moviefile",
 												"id" : "u545016325",
-												"selection" : [ 0.25, 9.0 ],
+												"selection" : [ 0.35, 1.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 0.175714925360839
+													"rate" : 1,
+													"vol" : 0
 												}
 
 											}
@@ -6262,10 +6780,11 @@
 												"filename" : "J_Jazz_photo6.jpg",
 												"filekind" : "moviefile",
 												"id" : "u071016327",
-												"selection" : [ 0.25, 9.0 ],
+												"selection" : [ 0.35, 1.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 0.175714925360839
+													"rate" : 1,
+													"vol" : 0
 												}
 
 											}
@@ -6274,9 +6793,11 @@
 												"filename" : "T_Nazi Celebration_photo1.jpg",
 												"filekind" : "moviefile",
 												"id" : "u553016328",
+												"selection" : [ 0.35, 1.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 0.175714925360839
+													"rate" : 1,
+													"vol" : 0
 												}
 
 											}
@@ -6285,10 +6806,11 @@
 												"filename" : "U_Laban_photo4.jpg",
 												"filekind" : "moviefile",
 												"id" : "u726016329",
-												"selection" : [ 0.25, 9.0 ],
+												"selection" : [ 0.35, 1.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 0.175714925360839
+													"rate" : 1,
+													"vol" : 0
 												}
 
 											}
@@ -6297,10 +6819,11 @@
 												"filename" : "Y_Nazi Celebration_photo2.jpg",
 												"filekind" : "moviefile",
 												"id" : "u843016330",
-												"selection" : [ 0.25, 9.0 ],
+												"selection" : [ 0.35, 1.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 0.175714925360839
+													"rate" : 1,
+													"vol" : 0
 												}
 
 											}
@@ -6771,11 +7294,11 @@
 												"filename" : "K_Rock_photo6.jpg",
 												"filekind" : "moviefile",
 												"id" : "u314014782",
-												"selection" : [ 0.65, 8.0 ],
+												"selection" : [ 0.95, 3.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 0.175714925360839
+													"rate" : 1
 												}
 
 											}
@@ -6784,11 +7307,11 @@
 												"filename" : "Slash_O  zi din viata lui Ceausescu_dansuri de masa.mp4",
 												"filekind" : "moviefile",
 												"id" : "u820014787",
-												"selection" : [ 0.65, 8.0 ],
+												"selection" : [ 0.95, 3.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 0.175714925360839
+													"rate" : 1
 												}
 
 											}
@@ -6797,11 +7320,10 @@
 												"filename" : ",_Ceausescu  23 August 1986.mp4",
 												"filekind" : "moviefile",
 												"id" : "u458014776",
-												"selection" : [ 0.65, 8.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 0.175714925360839
+													"rate" : 1
 												}
 
 											}
@@ -6810,11 +7332,11 @@
 												"filename" : "Back Slash_1983, Costineșt Serbările Tinereții.mp4",
 												"filekind" : "moviefile",
 												"id" : "u856014777",
-												"selection" : [ 0.65, 8.0 ],
+												"selection" : [ 0.95, 3.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 0.175714925360839
+													"rate" : 1
 												}
 
 											}
@@ -6823,11 +7345,11 @@
 												"filename" : "'_Discoteca Club CH Iasi 1989.mp4",
 												"filekind" : "moviefile",
 												"id" : "u439014778",
-												"selection" : [ 0.65, 8.0 ],
+												"selection" : [ 0.95, 3.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 0.175714925360839
+													"rate" : 1
 												}
 
 											}
@@ -6836,11 +7358,11 @@
 												"filename" : ";_Disco Ring Costinesti Techno Remix 1983.mp4",
 												"filekind" : "moviefile",
 												"id" : "u006014779",
-												"selection" : [ 0.65, 8.0 ],
+												"selection" : [ 0.95, 3.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 0.175714925360839
+													"rate" : 1
 												}
 
 											}
@@ -6849,11 +7371,11 @@
 												"filename" : "[_Rock_photo4.jpg",
 												"filekind" : "moviefile",
 												"id" : "u793014780",
-												"selection" : [ 0.65, 8.0 ],
+												"selection" : [ 0.95, 3.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 0.175714925360839
+													"rate" : 1
 												}
 
 											}
@@ -6862,10 +7384,11 @@
 												"filename" : "]_Rock_photo5.jpg",
 												"filekind" : "moviefile",
 												"id" : "u382014781",
+												"selection" : [ 0.95, 3.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 0.175714925360839
+													"rate" : 1
 												}
 
 											}
@@ -6874,11 +7397,11 @@
 												"filename" : "L_Rock_photo7.jpg",
 												"filekind" : "moviefile",
 												"id" : "u333014783",
-												"selection" : [ 0.65, 8.0 ],
+												"selection" : [ 0.95, 3.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 0.175714925360839
+													"rate" : 1
 												}
 
 											}
@@ -6887,11 +7410,11 @@
 												"filename" : "I_Rock_photo1.jpg",
 												"filekind" : "moviefile",
 												"id" : "u135014784",
-												"selection" : [ 0.65, 8.0 ],
+												"selection" : [ 0.95, 3.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 0.175714925360839
+													"rate" : 1
 												}
 
 											}
@@ -6900,11 +7423,11 @@
 												"filename" : "O_Rock_photo2.jpg",
 												"filekind" : "moviefile",
 												"id" : "u993014785",
-												"selection" : [ 0.65, 8.0 ],
+												"selection" : [ 0.95, 3.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 0.175714925360839
+													"rate" : 1
 												}
 
 											}
@@ -6913,11 +7436,11 @@
 												"filename" : "P_Rock_photo3.jpg",
 												"filekind" : "moviefile",
 												"id" : "u190014786",
-												"selection" : [ 0.65, 8.0 ],
+												"selection" : [ 0.95, 3.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 0.175714925360839
+													"rate" : 1
 												}
 
 											}
@@ -7612,11 +8135,11 @@
 												"filename" : "E_Foxtrot_photo_1.jpg",
 												"filekind" : "moviefile",
 												"id" : "u394014352",
-												"selection" : [ 0.25, 6.0 ],
+												"selection" : [ 0.65, 2.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 0.175714925360839
+													"rate" : 1
 												}
 
 											}
@@ -7625,11 +8148,10 @@
 												"filename" : "X_URSS_mass fest_1945_part2.mp4",
 												"filekind" : "moviefile",
 												"id" : "u552014353",
-												"selection" : [ 0.25, 6.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 0.175714925360839
+													"rate" : 1
 												}
 
 											}
@@ -7638,11 +8160,11 @@
 												"filename" : "Z_URSS_mass fest_1945_part1.mp4",
 												"filekind" : "moviefile",
 												"id" : "u130014343",
-												"selection" : [ 0.25, 6.0 ],
+												"selection" : [ 0.65, 2.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 0.175714925360839
+													"rate" : 1
 												}
 
 											}
@@ -7651,11 +8173,11 @@
 												"filename" : "`_Foxtrot_Weimar Berlin_part2.mp4",
 												"filekind" : "moviefile",
 												"id" : "u432014344",
-												"selection" : [ 0.25, 6.0 ],
+												"selection" : [ 0.65, 2.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 0.175714925360839
+													"rate" : 1
 												}
 
 											}
@@ -7664,11 +8186,11 @@
 												"filename" : "F_Foxtrot_Weimar Berlin_part1.mp4",
 												"filekind" : "moviefile",
 												"id" : "u289014345",
-												"selection" : [ 0.25, 6.0 ],
+												"selection" : [ 0.65, 2.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 0.175714925360839
+													"rate" : 1
 												}
 
 											}
@@ -7677,10 +8199,11 @@
 												"filename" : "D_Foxtrot_1930.mp4",
 												"filekind" : "moviefile",
 												"id" : "u092014346",
+												"selection" : [ 0.65, 2.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 0.175714925360839
+													"rate" : 1
 												}
 
 											}
@@ -7689,11 +8212,11 @@
 												"filename" : "S_Foxtrot _1937_Swedish Home Movie.mp4",
 												"filekind" : "moviefile",
 												"id" : "u582014347",
-												"selection" : [ 0.25, 6.0 ],
+												"selection" : [ 0.65, 2.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 0.175714925360839
+													"rate" : 1
 												}
 
 											}
@@ -7702,11 +8225,11 @@
 												"filename" : "A_Foxtrot_1930_Swedish Film Archive.mp4",
 												"filekind" : "moviefile",
 												"id" : "u806014348",
-												"selection" : [ 0.25, 6.0 ],
+												"selection" : [ 0.65, 2.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 0.175714925360839
+													"rate" : 1
 												}
 
 											}
@@ -7715,11 +8238,11 @@
 												"filename" : "R_Foxtrot Charleston_UK 1926.mp4",
 												"filekind" : "moviefile",
 												"id" : "u347014349",
-												"selection" : [ 0.25, 6.0 ],
+												"selection" : [ 0.65, 2.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 0.175714925360839
+													"rate" : 1
 												}
 
 											}
@@ -7728,11 +8251,11 @@
 												"filename" : "W_Maxixe_photo_3.jpg",
 												"filekind" : "moviefile",
 												"id" : "u814014350",
-												"selection" : [ 0.25, 6.0 ],
+												"selection" : [ 0.65, 2.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 0.175714925360839
+													"rate" : 1
 												}
 
 											}
@@ -7741,11 +8264,11 @@
 												"filename" : "Q_Forbiden Music List_photo_2.jpg",
 												"filekind" : "moviefile",
 												"id" : "u770014351",
-												"selection" : [ 0.25, 6.0 ],
+												"selection" : [ 0.65, 2.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 0.175714925360839
+													"rate" : 1
 												}
 
 											}
@@ -7799,7 +8322,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 128.5, 120.333336999999972, 150.0, 22.0 ]
+									"patching_rect" : [ 128.5, 145.333336999999972, 150.0, 22.0 ]
 								}
 
 							}
@@ -7812,12 +8335,19 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1315.833337008953094, 311.333337426185608, 150.0, 22.0 ]
+									"patching_rect" : [ 1543.833337008953094, 311.333337426185608, 150.0, 22.0 ]
 								}
 
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-45", 0 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"source" : [ "obj-105", 0 ]
@@ -7826,7 +8356,23 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-55", 0 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 1 ],
+									"order" : 0,
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-20", 0 ],
+									"order" : 1,
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -7856,6 +8402,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-18", 0 ],
 									"source" : [ "obj-13", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"source" : [ "obj-14", 0 ]
 								}
 
 							}
@@ -7944,6 +8497,27 @@
 								"patchline" : 								{
 									"destination" : [ "obj-31", 0 ],
 									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-23", 1 ]
 								}
 
 							}
@@ -8208,6 +8782,22 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-48", 0 ],
+									"order" : 0,
+									"source" : [ "obj-45", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-51", 0 ],
+									"order" : 1,
+									"source" : [ "obj-45", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-42", 0 ],
 									"source" : [ "obj-46", 0 ]
 								}
@@ -8242,6 +8832,13 @@
 									"destination" : [ "obj-41", 0 ],
 									"order" : 1,
 									"source" : [ "obj-47", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-48", 0 ]
 								}
 
 							}
@@ -8286,8 +8883,30 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-54", 0 ],
+									"source" : [ "obj-51", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-60", 0 ],
 									"source" : [ "obj-52", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-54", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-42", 0 ],
+									"midpoints" : [ 1292.5, 651.0, 386.333337008953094, 651.0 ],
+									"source" : [ "obj-55", 0 ]
 								}
 
 							}
@@ -8364,7 +8983,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
+									"destination" : [ "obj-48", 1 ],
 									"source" : [ "obj-8", 0 ]
 								}
 
@@ -11268,7 +11887,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 477.5, 1761.000025868415833, 29.5, 22.0 ],
+					"patching_rect" : [ 445.0, 1761.000025868415833, 29.5, 22.0 ],
 					"text" : "0"
 				}
 
@@ -11974,7 +12593,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1654.0, 104.0, 80.0, 13.0 ]
+					"patching_rect" : [ 1495.5, 80.0, 80.0, 13.0 ]
 				}
 
 			}
@@ -11996,7 +12615,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1560.0, 136.0, 53.0, 22.0 ],
+					"patching_rect" : [ 1401.5, 112.0, 53.0, 22.0 ],
 					"text" : "s~ claps"
 				}
 
@@ -12008,7 +12627,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 1560.0, 30.0, 75.0, 22.0 ],
+					"patching_rect" : [ 1401.5, 6.0, 75.0, 22.0 ],
 					"text" : "adc~ 5 6 7 8"
 				}
 
@@ -12295,7 +12914,7 @@
 								"filename" : "sov-loop2.wav",
 								"filekind" : "audiofile",
 								"id" : "u564012308",
-								"selection" : [ 0.45, 4.0 ],
+								"selection" : [ 0.35, 4.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -12307,7 +12926,7 @@
 								"filename" : "rsr_loop3.wav",
 								"filekind" : "audiofile",
 								"id" : "u615001837",
-								"selection" : [ 0.45, 4.0 ],
+								"selection" : [ 0.35, 4.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -12319,7 +12938,7 @@
 								"filename" : "nazi-loop2.wav",
 								"filekind" : "audiofile",
 								"id" : "u233001081",
-								"selection" : [ 0.45, 4.0 ],
+								"selection" : [ 0.35, 4.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -15617,6 +16236,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-399", 0 ],
+					"source" : [ "obj-141", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"order" : 3,
 					"source" : [ "obj-142", 0 ]
@@ -15702,6 +16328,13 @@
 					"destination" : [ "obj-9", 0 ],
 					"order" : 0,
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-412", 0 ],
+					"source" : [ "obj-153", 0 ]
 				}
 
 			}
@@ -16026,7 +16659,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-166", 7 ],
+					"destination" : [ "obj-417", 0 ],
 					"source" : [ "obj-175", 0 ]
 				}
 
@@ -16061,7 +16694,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-166", 5 ],
+					"destination" : [ "obj-419", 0 ],
 					"source" : [ "obj-177", 0 ]
 				}
 
@@ -16160,6 +16793,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-186", 0 ],
+					"order" : 1,
+					"source" : [ "obj-187", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-390", 0 ],
+					"order" : 0,
 					"source" : [ "obj-187", 0 ]
 				}
 
@@ -16182,7 +16824,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-166", 3 ],
+					"destination" : [ "obj-422", 0 ],
 					"source" : [ "obj-189", 0 ]
 				}
 
@@ -16221,7 +16863,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-166", 1 ],
+					"destination" : [ "obj-423", 0 ],
 					"source" : [ "obj-190", 0 ]
 				}
 
@@ -16299,6 +16941,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-330", 0 ],
+					"order" : 0,
+					"source" : [ "obj-196", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-372", 0 ],
+					"order" : 1,
 					"source" : [ "obj-196", 2 ]
 				}
 
@@ -16334,6 +16985,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-328", 0 ],
+					"order" : 0,
+					"source" : [ "obj-198", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-353", 0 ],
+					"order" : 1,
 					"source" : [ "obj-198", 0 ]
 				}
 
@@ -16477,13 +17137,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-203", 0 ],
 					"source" : [ "obj-216", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-389", 0 ],
-					"source" : [ "obj-217", 0 ]
 				}
 
 			}
@@ -17813,6 +18466,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-105", 0 ],
+					"order" : 0,
+					"source" : [ "obj-353", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-371", 0 ],
+					"order" : 1,
+					"source" : [ "obj-353", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-126", 0 ],
 					"source" : [ "obj-354", 0 ]
 				}
@@ -17933,6 +18602,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-404", 0 ],
+					"source" : [ "obj-369", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-404", 0 ],
+					"source" : [ "obj-369", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-37", 0 ]
 				}
@@ -17947,8 +18630,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-353", 0 ],
+					"source" : [ "obj-372", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-250", 0 ],
 					"source" : [ "obj-373", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-182", 0 ],
+					"source" : [ "obj-374", 0 ]
 				}
 
 			}
@@ -17970,7 +18667,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-182", 0 ],
+					"destination" : [ "obj-374", 1 ],
 					"source" : [ "obj-378", 0 ]
 				}
 
@@ -18028,40 +18725,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-166", 6 ],
-					"order" : 0,
-					"source" : [ "obj-388", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-166", 4 ],
-					"order" : 1,
-					"source" : [ "obj-388", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-166", 2 ],
-					"order" : 2,
-					"source" : [ "obj-388", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-166", 0 ],
-					"order" : 3,
-					"source" : [ "obj-388", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-388", 0 ],
-					"source" : [ "obj-389", 0 ]
+					"destination" : [ "obj-374", 0 ],
+					"source" : [ "obj-390", 0 ]
 				}
 
 			}
@@ -18083,6 +18748,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-395", 0 ],
 					"source" : [ "obj-393", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-369", 1 ],
+					"order" : 0,
+					"source" : [ "obj-394", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-369", 0 ],
+					"order" : 1,
+					"source" : [ "obj-394", 0 ]
 				}
 
 			}
@@ -18148,6 +18829,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-406", 0 ],
+					"source" : [ "obj-402", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-401", 0 ],
 					"source" : [ "obj-403", 0 ]
 				}
@@ -18155,8 +18843,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-397", 0 ],
+					"source" : [ "obj-404", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-401", 0 ],
 					"source" : [ "obj-405", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-409", 0 ],
+					"source" : [ "obj-406", 0 ]
 				}
 
 			}
@@ -18178,6 +18880,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-404", 1 ],
+					"source" : [ "obj-409", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-413", 0 ],
 					"source" : [ "obj-411", 0 ]
 				}
@@ -18192,8 +18901,68 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-415", 0 ],
+					"source" : [ "obj-414", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-424", 0 ],
+					"source" : [ "obj-415", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-175", 0 ],
+					"order" : 0,
+					"source" : [ "obj-416", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-177", 0 ],
+					"order" : 1,
+					"source" : [ "obj-416", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-189", 0 ],
+					"order" : 2,
+					"source" : [ "obj-416", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-190", 0 ],
+					"order" : 3,
+					"source" : [ "obj-416", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-166", 7 ],
+					"source" : [ "obj-417", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-367", 0 ],
 					"source" : [ "obj-418", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-166", 5 ],
+					"source" : [ "obj-419", 0 ]
 				}
 
 			}
@@ -18224,6 +18993,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-246", 0 ],
 					"source" : [ "obj-421", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-166", 3 ],
+					"source" : [ "obj-422", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-166", 1 ],
+					"source" : [ "obj-423", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-166", 0 ],
+					"source" : [ "obj-424", 0 ]
 				}
 
 			}
@@ -18950,6 +19740,7 @@
 			"obj-252" : [ "vst~", "vst~", 0 ],
 			"obj-261" : [ "live.gain~[12]", "rave~", 0 ],
 			"obj-270" : [ "live.gain~[8]", "live.gain~[8]", 0 ],
+			"obj-369" : [ "vst~[1]", "vst~", 0 ],
 			"obj-44::obj-14" : [ "number[4]", "number", 0 ],
 			"obj-44::obj-20" : [ "live.dial[25]", "floor", 0 ],
 			"obj-44::obj-58" : [ "live.dial[24]", "sensitivity", 0 ],
@@ -19617,6 +20408,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "airwindows BigAmp.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "ambicontrol.mxo",
 				"type" : "iLaX"
 			}
@@ -19738,6 +20536,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "ghetto.jpg",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video",
+				"patcherrelativepath" : "./video",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "intro.maxpat",
 				"bootpath" : "~/Documents/GitHub/collective-cadence/max",
 				"patcherrelativepath" : ".",
@@ -19767,6 +20572,13 @@
 				"bootpath" : "~/Documents/GitHub/collective-cadence/max",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "phoenix.jpg",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video",
+				"patcherrelativepath" : "./video",
+				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
@@ -19819,6 +20631,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "roza.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video",
+				"patcherrelativepath" : "./video",
+				"type" : "mpg4",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "rsr_loop3.wav",
 				"bootpath" : "~/Documents/GitHub/collective-cadence/max",
 				"patcherrelativepath" : ".",
@@ -19851,6 +20670,13 @@
 				"bootpath" : "~/Documents/GitHub/collective-cadence/max",
 				"patcherrelativepath" : ".",
 				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "soviet.jpg",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video",
+				"patcherrelativepath" : "./video",
+				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
