@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -233.0, -993.0, 1577.0, 959.0 ],
+		"rect" : [ 34.0, 87.0, 1239.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,38 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-254",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 483.0, 261.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 583.0, 258.0, 134.0, 20.0 ],
+					"text" : "ctrl+shift+K hide mouse"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-253",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2251.0, 109.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-269",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 592.75, -11.0, 57.0, 22.0 ],
-					"text" : "sel 19 22"
+					"numinlets" : 4,
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "bang", "" ],
+					"patching_rect" : [ 592.75, -11.0, 74.0, 22.0 ],
+					"text" : "sel 17 20 21"
 				}
 
 			}
@@ -84,7 +109,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2478.0, 79.333337426185608, 78.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1008.0, 510.666671097278595, 78.0, 35.0 ],
+					"presentation_rect" : [ 1008.0, 500.666670858860016, 78.0, 35.0 ],
 					"text" : "ALIEN"
 				}
 
@@ -109,7 +134,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 552.75, 199.799983441829681, 135.0, 22.0 ],
+					"patching_rect" : [ 1107.0, 414.5, 135.0, 22.0 ],
 					"text" : "udpsend localhost 5555"
 				}
 
@@ -1728,7 +1753,17 @@
 								"filename" : "Collective Cadence April 2024.black.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u507009060",
-								"selection" : [ 0.95, 14.0 ],
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+, 							{
+								"absolutepath" : "CC - Maini Semne-1.jpg",
+								"filename" : "CC - Maini Semne-1.jpg",
+								"filekind" : "moviefile",
+								"id" : "u279007201",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -1736,11 +1771,10 @@
 
 							}
 , 							{
-								"absolutepath" : "1.jpeg",
-								"filename" : "1.jpeg",
+								"absolutepath" : "CC - Maini Semne-2.jpg",
+								"filename" : "CC - Maini Semne-2.jpg",
 								"filekind" : "moviefile",
-								"id" : "u147009230",
-								"selection" : [ 0.95, 14.0 ],
+								"id" : "u976007043",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -1748,11 +1782,10 @@
 
 							}
 , 							{
-								"absolutepath" : "2.jpeg",
-								"filename" : "2.jpeg",
+								"absolutepath" : "CC - Maini Semne-3.jpg",
+								"filename" : "CC - Maini Semne-3.jpg",
 								"filekind" : "moviefile",
-								"id" : "u899009209",
-								"selection" : [ 0.95, 14.0 ],
+								"id" : "u939007040",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -1760,11 +1793,10 @@
 
 							}
 , 							{
-								"absolutepath" : "3.jpeg",
-								"filename" : "3.jpeg",
+								"absolutepath" : "CC - Maini Semne-4.jpg",
+								"filename" : "CC - Maini Semne-4.jpg",
 								"filekind" : "moviefile",
-								"id" : "u576009192",
-								"selection" : [ 0.95, 14.0 ],
+								"id" : "u823007045",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -1772,11 +1804,10 @@
 
 							}
 , 							{
-								"absolutepath" : "4.jpeg",
-								"filename" : "4.jpeg",
+								"absolutepath" : "CC - Maini Semne-5.jpg",
+								"filename" : "CC - Maini Semne-5.jpg",
 								"filekind" : "moviefile",
-								"id" : "u391009194",
-								"selection" : [ 0.95, 14.0 ],
+								"id" : "u900007044",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -1784,10 +1815,10 @@
 
 							}
 , 							{
-								"absolutepath" : "5.jpeg",
-								"filename" : "5.jpeg",
+								"absolutepath" : "CC - Maini Semne-6.jpg",
+								"filename" : "CC - Maini Semne-6.jpg",
 								"filekind" : "moviefile",
-								"id" : "u466009193",
+								"id" : "u739006977",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -1795,10 +1826,10 @@
 
 							}
 , 							{
-								"absolutepath" : "6.jpeg",
-								"filename" : "6.jpeg",
+								"absolutepath" : "CC - Maini Semne-7.jpg",
+								"filename" : "CC - Maini Semne-7.jpg",
 								"filekind" : "moviefile",
-								"id" : "u257009139",
+								"id" : "u514006980",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -1806,10 +1837,10 @@
 
 							}
 , 							{
-								"absolutepath" : "7.jpeg",
-								"filename" : "7.jpeg",
+								"absolutepath" : "CC - Maini Semne-8.jpg",
+								"filename" : "CC - Maini Semne-8.jpg",
 								"filekind" : "moviefile",
-								"id" : "u089009141",
+								"id" : "u424006976",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -1817,10 +1848,10 @@
 
 							}
 , 							{
-								"absolutepath" : "8.jpeg",
-								"filename" : "8.jpeg",
+								"absolutepath" : "CC - Maini Semne-9.jpg",
+								"filename" : "CC - Maini Semne-9.jpg",
 								"filekind" : "moviefile",
-								"id" : "u277009140",
+								"id" : "u082006978",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -1828,21 +1859,10 @@
 
 							}
 , 							{
-								"absolutepath" : "9.jpeg",
-								"filename" : "9.jpeg",
+								"absolutepath" : "CC - Maini Semne-10.jpg",
+								"filename" : "CC - Maini Semne-10.jpg",
 								"filekind" : "moviefile",
-								"id" : "u085009136",
-								"loop" : 0,
-								"content_state" : 								{
-
-								}
-
-							}
-, 							{
-								"absolutepath" : "10.jpeg",
-								"filename" : "10.jpeg",
-								"filekind" : "moviefile",
-								"id" : "u301009081",
+								"id" : "u463006915",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -1861,101 +1881,90 @@
 
 							}
 , 							{
-								"absolutepath" : "1.jpeg",
-								"filename" : "1.jpeg",
+								"absolutepath" : "CC - Alien 1.jpg",
+								"filename" : "CC - Alien 1.jpg",
 								"filekind" : "moviefile",
-								"id" : "u843005182",
-								"loop" : 1,
+								"id" : "u508006794",
+								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 1
+
 								}
 
 							}
 , 							{
-								"absolutepath" : "2.jpeg",
-								"filename" : "2.jpeg",
+								"absolutepath" : "CC - Alien 2.jpg",
+								"filename" : "CC - Alien 2.jpg",
 								"filekind" : "moviefile",
-								"id" : "u778005207",
-								"loop" : 1,
+								"id" : "u714006801",
+								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 1
+
 								}
 
 							}
 , 							{
-								"absolutepath" : "3.jpeg",
-								"filename" : "3.jpeg",
+								"absolutepath" : "CC - Alien 3.jpg",
+								"filename" : "CC - Alien 3.jpg",
 								"filekind" : "moviefile",
-								"id" : "u806005224",
-								"loop" : 1,
+								"id" : "u226006800",
+								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 1
+
 								}
 
 							}
 , 							{
-								"absolutepath" : "4.jpeg",
-								"filename" : "4.jpeg",
+								"absolutepath" : "CC - Alien 4.jpg",
+								"filename" : "CC - Alien 4.jpg",
 								"filekind" : "moviefile",
-								"id" : "u082005245",
-								"loop" : 1,
+								"id" : "u793006799",
+								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 1
+
 								}
 
 							}
 , 							{
-								"absolutepath" : "5.jpeg",
-								"filename" : "5.jpeg",
+								"absolutepath" : "CC - Alien 5.jpg",
+								"filename" : "CC - Alien 5.jpg",
 								"filekind" : "moviefile",
-								"id" : "u453005270",
-								"loop" : 1,
+								"id" : "u318006787",
+								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 1
+
 								}
 
 							}
 , 							{
-								"absolutepath" : "6.jpeg",
-								"filename" : "6.jpeg",
+								"absolutepath" : "CC - Alien 6.jpg",
+								"filename" : "CC - Alien 6.jpg",
 								"filekind" : "moviefile",
-								"id" : "u304005287",
-								"loop" : 1,
+								"id" : "u619006797",
+								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 1
+
 								}
 
 							}
 , 							{
-								"absolutepath" : "7.jpeg",
-								"filename" : "7.jpeg",
+								"absolutepath" : "CC - Alien 7.jpg",
+								"filename" : "CC - Alien 7.jpg",
 								"filekind" : "moviefile",
-								"id" : "u325002259",
-								"loop" : 1,
+								"id" : "u648006796",
+								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 1
+
 								}
 
 							}
 , 							{
-								"absolutepath" : "8.jpeg",
-								"filename" : "8.jpeg",
+								"absolutepath" : "CC - Alien 8.jpg",
+								"filename" : "CC - Alien 8.jpg",
 								"filekind" : "moviefile",
-								"id" : "u628002280",
-								"loop" : 1,
+								"id" : "u165006795",
+								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 1
-								}
 
-							}
-, 							{
-								"absolutepath" : "9.jpeg",
-								"filename" : "9.jpeg",
-								"filekind" : "moviefile",
-								"id" : "u337002315",
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
 								}
 
 							}
@@ -2056,7 +2065,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 621.299994945526123, 175.799983441829681, 46.0, 22.0 ],
+					"patching_rect" : [ 719.0, 14.599983096122742, 46.0, 22.0 ],
 					"text" : "s voice"
 				}
 
@@ -4066,6 +4075,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-142",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -4268,13 +4278,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 614.0, 75.0, 62.0 ],
-					"text" : "0. 0. 0. 0. 85.165357 119.169573 0. 0. 0. 0."
+					"patching_rect" : [ 24.0, 614.0, 75.0, 76.0 ],
+					"text" : "0. 0. 0. 127.637011 43.15868 0. 0. 0. 0. 0."
 				}
 
 			}
@@ -5337,22 +5347,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-251", 0 ],
-					"order" : 1,
-					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"order" : 0,
-					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-159", 0 ],
 					"source" : [ "obj-170", 0 ]
 				}
@@ -5700,6 +5694,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-210", 0 ],
+					"order" : 0,
+					"source" : [ "obj-211", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-253", 0 ],
+					"order" : 1,
 					"source" : [ "obj-211", 0 ]
 				}
 
@@ -6067,6 +6070,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-269", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
 					"source" : [ "obj-269", 1 ]
 				}
@@ -6103,8 +6113,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-72", 0 ],
+					"destination" : [ "obj-251", 0 ],
 					"order" : 1,
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-72", 0 ],
+					"order" : 2,
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -6762,72 +6780,128 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "1.jpeg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max",
-				"patcherrelativepath" : ".",
+				"name" : "CC - Alien 1.jpg",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/CC - Alien",
+				"patcherrelativepath" : "./video/CC - Alien",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "10.jpeg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/tyrant",
-				"patcherrelativepath" : "./video/tyrant",
+				"name" : "CC - Alien 2.jpg",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/CC - Alien",
+				"patcherrelativepath" : "./video/CC - Alien",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "2.jpeg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max",
-				"patcherrelativepath" : ".",
+				"name" : "CC - Alien 3.jpg",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/CC - Alien",
+				"patcherrelativepath" : "./video/CC - Alien",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "3.jpeg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max",
-				"patcherrelativepath" : ".",
+				"name" : "CC - Alien 4.jpg",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/CC - Alien",
+				"patcherrelativepath" : "./video/CC - Alien",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "4.jpeg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max",
-				"patcherrelativepath" : ".",
+				"name" : "CC - Alien 5.jpg",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/CC - Alien",
+				"patcherrelativepath" : "./video/CC - Alien",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "5.jpeg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max",
-				"patcherrelativepath" : ".",
+				"name" : "CC - Alien 6.jpg",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/CC - Alien",
+				"patcherrelativepath" : "./video/CC - Alien",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "6.jpeg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max",
-				"patcherrelativepath" : ".",
+				"name" : "CC - Alien 7.jpg",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/CC - Alien",
+				"patcherrelativepath" : "./video/CC - Alien",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "7.jpeg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max",
-				"patcherrelativepath" : ".",
+				"name" : "CC - Alien 8.jpg",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/CC - Alien",
+				"patcherrelativepath" : "./video/CC - Alien",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "8.jpeg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max",
-				"patcherrelativepath" : ".",
+				"name" : "CC - Maini Semne-1.jpg",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/CC - Tyrant",
+				"patcherrelativepath" : "./video/CC - Tyrant",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "9.jpeg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max",
-				"patcherrelativepath" : ".",
+				"name" : "CC - Maini Semne-10.jpg",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/CC - Tyrant",
+				"patcherrelativepath" : "./video/CC - Tyrant",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CC - Maini Semne-2.jpg",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/CC - Tyrant",
+				"patcherrelativepath" : "./video/CC - Tyrant",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CC - Maini Semne-3.jpg",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/CC - Tyrant",
+				"patcherrelativepath" : "./video/CC - Tyrant",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CC - Maini Semne-4.jpg",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/CC - Tyrant",
+				"patcherrelativepath" : "./video/CC - Tyrant",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CC - Maini Semne-5.jpg",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/CC - Tyrant",
+				"patcherrelativepath" : "./video/CC - Tyrant",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CC - Maini Semne-6.jpg",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/CC - Tyrant",
+				"patcherrelativepath" : "./video/CC - Tyrant",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CC - Maini Semne-7.jpg",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/CC - Tyrant",
+				"patcherrelativepath" : "./video/CC - Tyrant",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CC - Maini Semne-8.jpg",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/CC - Tyrant",
+				"patcherrelativepath" : "./video/CC - Tyrant",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CC - Maini Semne-9.jpg",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/CC - Tyrant",
+				"patcherrelativepath" : "./video/CC - Tyrant",
 				"type" : "JPEG",
 				"implicit" : 1
 			}

@@ -40,6 +40,39 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-408",
+					"maxclass" : "meter~",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 1803.0, 1609.0, 80.0, 13.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-389",
+					"maxclass" : "meter~",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 2861.0, 1760.0, 80.0, 13.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-388",
+					"maxclass" : "meter~",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 1375.0, 1374.5, 80.0, 13.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-424",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -629,7 +662,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1762.0, 1064.0, 50.0, 22.0 ],
-					"text" : "4"
+					"text" : "2"
 				}
 
 			}
@@ -3042,12 +3075,12 @@
 								"filename" : "trumps1.wav",
 								"filekind" : "audiofile",
 								"id" : "u390005461",
-								"selection" : [ 0.2, 6.0 ],
+								"selection" : [ 0.0, 5.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 0.381313595390737,
+									"speed" : 0.27975788859113,
 									"quality" : "better"
 								}
 
@@ -3057,12 +3090,12 @@
 								"filename" : "trumps2.wav",
 								"filekind" : "audiofile",
 								"id" : "u736005460",
-								"selection" : [ 0.2, 6.0 ],
+								"selection" : [ 0.0, 5.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 0.381313595390737,
+									"speed" : 0.27975788859113,
 									"quality" : "better"
 								}
 
@@ -3072,12 +3105,12 @@
 								"filename" : "tambal.wav",
 								"filekind" : "audiofile",
 								"id" : "u385010670",
-								"selection" : [ 0.2, 6.0 ],
+								"selection" : [ 0.0, 5.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 0.381313595390737,
+									"speed" : 0.27975788859113,
 									"quality" : "better"
 								}
 
@@ -3087,12 +3120,12 @@
 								"filename" : "vox-liebe.wav",
 								"filekind" : "audiofile",
 								"id" : "u091005462",
-								"selection" : [ 0.2, 6.0 ],
+								"selection" : [ 0.0, 5.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 0.381313595390737,
+									"speed" : 0.27975788859113,
 									"quality" : "better"
 								}
 
@@ -3102,12 +3135,11 @@
 								"filename" : "piano1.wav",
 								"filekind" : "audiofile",
 								"id" : "u875005463",
-								"selection" : [ 0.2, 6.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 0.381313595390737,
+									"speed" : 0.27975788859113,
 									"quality" : "better"
 								}
 
@@ -3117,11 +3149,12 @@
 								"filename" : "strings1.wav",
 								"filekind" : "audiofile",
 								"id" : "u149010669",
+								"selection" : [ 0.0, 5.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 0.381313595390737,
+									"speed" : 0.27975788859113,
 									"quality" : "better"
 								}
 
@@ -3302,7 +3335,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1528.0, 1370.0, 145.0, 22.0 ],
-					"text" : "0.7 4000 0.2 9000 0 8000"
+					"text" : "1.1 5000 0.7 5000 0 7000"
 				}
 
 			}
@@ -5295,7 +5328,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+						"rect" : [ 34.0, 87.0, 1612.0, 929.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5323,7 +5356,120 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"clipheight" : 22.0,
+									"data" : 									{
+										"clips" : [ 											{
+												"absolutepath" : "E_Foxtrot_photo_1.jpg",
+												"filename" : "E_Foxtrot_photo_1.jpg",
+												"filekind" : "moviefile",
+												"id" : "u907007637",
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "K_Rock_photo6.jpg",
+												"filename" : "K_Rock_photo6.jpg",
+												"filekind" : "moviefile",
+												"id" : "u432007652",
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "H_Jazz_photo5.jpg",
+												"filename" : "H_Jazz_photo5.jpg",
+												"filekind" : "moviefile",
+												"id" : "u979007671",
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+, 											{
+												"absolutepath" : "3_Rebetika_photo3.jpg",
+												"filename" : "3_Rebetika_photo3.jpg",
+												"filekind" : "moviefile",
+												"id" : "u260007688",
+												"loop" : 0,
+												"content_state" : 												{
+
+												}
+
+											}
+ ]
+									}
+,
+									"drawto" : "",
+									"id" : "obj-66",
+									"loop" : 3,
+									"maxclass" : "jit.playlist",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "jit_matrix", "", "dictionary" ],
+									"output_texture" : 0,
+									"parameter_enable" : 0,
+									"patching_rect" : [ 1279.0, 356.333334386348724, 150.0, 92.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-72",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 93.0, 845.0, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-69",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 91.0, 813.0, 41.0, 22.0 ],
+									"text" : "sel 27"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-64",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 4,
+									"outlettype" : [ "int", "int", "int", "int" ],
+									"patching_rect" : [ 91.0, 779.0, 50.5, 22.0 ],
+									"text" : "key"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-53",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 245.0, 914.0, 77.0, 22.0 ],
+									"text" : "jit.window 4x"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-54",
 									"maxclass" : "message",
@@ -5443,7 +5589,7 @@
 									"outlettype" : [ "jit_matrix", "", "dictionary" ],
 									"output_texture" : 0,
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1283.0, 348.333337426185608, 150.0, 92.0 ]
+									"patching_rect" : [ 1445.0, 356.333337426185608, 150.0, 92.0 ]
 								}
 
 							}
@@ -5454,7 +5600,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
-									"patching_rect" : [ 1283.0, 200.0, 32.0, 22.0 ],
+									"patching_rect" : [ 1445.0, 208.0, 32.0, 22.0 ],
 									"text" : "t b 0"
 								}
 
@@ -5466,7 +5612,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 1283.0, 170.0, 34.0, 22.0 ],
+									"patching_rect" : [ 1445.0, 178.0, 34.0, 22.0 ],
 									"text" : "sel 3"
 								}
 
@@ -5478,7 +5624,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1283.0, 141.0, 42.0, 22.0 ],
+									"patching_rect" : [ 1445.0, 149.0, 42.0, 22.0 ],
 									"text" : "r state"
 								}
 
@@ -5490,8 +5636,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1283.0, 280.333337426185608, 50.0, 22.0 ],
-									"text" : "4"
+									"patching_rect" : [ 1445.0, 288.333337426185608, 50.0, 22.0 ],
+									"text" : "2"
 								}
 
 							}
@@ -5504,66 +5650,6 @@
 									"outlettype" : [ "int", "int" ],
 									"patching_rect" : [ 798.0, 41.0, 29.5, 22.0 ],
 									"text" : "t i 0"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-18",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 897.75, 114.0, 29.5, 22.0 ],
-									"text" : "1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-17",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 861.75, 114.0, 29.5, 22.0 ],
-									"text" : "1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-16",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 824.75, 114.0, 29.5, 22.0 ],
-									"text" : "1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-15",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 789.75, 114.0, 29.5, 22.0 ],
-									"text" : "1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-13",
-									"maxclass" : "newobj",
-									"numinlets" : 5,
-									"numoutlets" : 5,
-									"outlettype" : [ "bang", "bang", "bang", "bang", "" ],
-									"patching_rect" : [ 798.0, 75.0, 64.0, 22.0 ],
-									"text" : "sel 1 2 3 4"
 								}
 
 							}
@@ -6109,26 +6195,106 @@
 									"clipheight" : 23.666666666666668,
 									"data" : 									{
 										"clips" : [ 											{
-												"absolutepath" : "3_Rebetika_photo3.jpg",
-												"filename" : "3_Rebetika_photo3.jpg",
+												"absolutepath" : "8_Rebetiko Video_BBC2.mp4",
+												"filename" : "8_Rebetiko Video_BBC2.mp4",
 												"filekind" : "moviefile",
-												"id" : "u813016598",
+												"id" : "u348014452",
+												"selection" : [ 0.15, 1.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 1,
-													"vol" : 0
+													"vol" : 0,
+													"rate" : 1
 												}
 
 											}
 , 											{
-												"absolutepath" : "7_Rebetika_video_BBC_1.mp4",
-												"filename" : "7_Rebetika_video_BBC_1.mp4",
+												"absolutepath" : "2_Rebetika_photo6.mp4",
+												"filename" : "2_Rebetika_photo6.mp4",
 												"filekind" : "moviefile",
-												"id" : "u295016595",
+												"id" : "u938014444",
+												"selection" : [ 0.15, 1.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 1,
-													"vol" : 0
+													"vol" : 0,
+													"rate" : 1
+												}
+
+											}
+, 											{
+												"absolutepath" : "4_Rebetika_photo4.mp4",
+												"filename" : "4_Rebetika_photo4.mp4",
+												"filekind" : "moviefile",
+												"id" : "u031014445",
+												"selection" : [ 0.15, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+													"vol" : 0,
+													"rate" : 1
+												}
+
+											}
+, 											{
+												"absolutepath" : "5_Rebetika_photo5.mp4",
+												"filename" : "5_Rebetika_photo5.mp4",
+												"filekind" : "moviefile",
+												"id" : "u936014446",
+												"selection" : [ 0.15, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+													"vol" : 0,
+													"rate" : 1
+												}
+
+											}
+, 											{
+												"absolutepath" : "6_Rebetika_photo6.mp4",
+												"filename" : "6_Rebetika_photo6.mp4",
+												"filekind" : "moviefile",
+												"id" : "u474014447",
+												"selection" : [ 0.15, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+													"vol" : 0,
+													"rate" : 1
+												}
+
+											}
+, 											{
+												"absolutepath" : "1_Rebetika_photo4.mp4",
+												"filename" : "1_Rebetika_photo4.mp4",
+												"filekind" : "moviefile",
+												"id" : "u660014448",
+												"selection" : [ 0.15, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+													"vol" : 0,
+													"rate" : 1
+												}
+
+											}
+, 											{
+												"absolutepath" : "3_Rebetika_photo3.mp4",
+												"filename" : "3_Rebetika_photo3.mp4",
+												"filekind" : "moviefile",
+												"id" : "u651014449",
+												"selection" : [ 0.15, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+													"vol" : 0,
+													"rate" : 1
+												}
+
+											}
+, 											{
+												"absolutepath" : "7_Rebetika Video_BBC1.mp4",
+												"filename" : "7_Rebetika Video_BBC1.mp4",
+												"filekind" : "moviefile",
+												"id" : "u393014450",
+												"selection" : [ 0.15, 1.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+													"vol" : 0,
+													"rate" : 1
 												}
 
 											}
@@ -6136,90 +6302,12 @@
 												"absolutepath" : "9_Metaxas Parade.mp4",
 												"filename" : "9_Metaxas Parade.mp4",
 												"filekind" : "moviefile",
-												"id" : "u244016602",
-												"selection" : [ 0.7, 1.0 ],
+												"id" : "u199014451",
+												"selection" : [ 0.15, 1.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 1,
-													"vol" : 0
-												}
-
-											}
-, 											{
-												"absolutepath" : "8_Rebetika_video_BBC_2.mp4",
-												"filename" : "8_Rebetika_video_BBC_2.mp4",
-												"filekind" : "moviefile",
-												"id" : "u314016594",
-												"selection" : [ 0.7, 1.0 ],
-												"loop" : 0,
-												"content_state" : 												{
-													"rate" : 1,
-													"vol" : 0
-												}
-
-											}
-, 											{
-												"absolutepath" : "1_Rebetika_photo1.jpg",
-												"filename" : "1_Rebetika_photo1.jpg",
-												"filekind" : "moviefile",
-												"id" : "u272016596",
-												"selection" : [ 0.7, 1.0 ],
-												"loop" : 0,
-												"content_state" : 												{
-													"rate" : 1,
-													"vol" : 0
-												}
-
-											}
-, 											{
-												"absolutepath" : "2_Rebetika_photo2.jpg",
-												"filename" : "2_Rebetika_photo2.jpg",
-												"filekind" : "moviefile",
-												"id" : "u990016597",
-												"selection" : [ 0.7, 1.0 ],
-												"loop" : 0,
-												"content_state" : 												{
-													"rate" : 1,
-													"vol" : 0
-												}
-
-											}
-, 											{
-												"absolutepath" : "4_Rebetika_photo4.jpg",
-												"filename" : "4_Rebetika_photo4.jpg",
-												"filekind" : "moviefile",
-												"id" : "u442016599",
-												"selection" : [ 0.7, 1.0 ],
-												"loop" : 0,
-												"content_state" : 												{
-													"rate" : 1,
-													"vol" : 0
-												}
-
-											}
-, 											{
-												"absolutepath" : "5_Rebetika_photo5.jpg",
-												"filename" : "5_Rebetika_photo5.jpg",
-												"filekind" : "moviefile",
-												"id" : "u435016600",
-												"selection" : [ 0.7, 1.0 ],
-												"loop" : 0,
-												"content_state" : 												{
-													"rate" : 1,
-													"vol" : 0
-												}
-
-											}
-, 											{
-												"absolutepath" : "6_Rebetika_photo6.jpg",
-												"filename" : "6_Rebetika_photo6.jpg",
-												"filekind" : "moviefile",
-												"id" : "u982016601",
-												"selection" : [ 0.7, 1.0 ],
-												"loop" : 0,
-												"content_state" : 												{
-													"rate" : 1,
-													"vol" : 0
+													"vol" : 0,
+													"rate" : 1
 												}
 
 											}
@@ -6235,7 +6323,7 @@
 									"outlettype" : [ "jit_matrix", "", "dictionary" ],
 									"output_texture" : 0,
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1032.5, 348.333337426185608, 231.0, 222.0 ]
+									"patching_rect" : [ 1032.5, 356.333334386348724, 231.0, 222.0 ]
 								}
 
 							}
@@ -6686,14 +6774,15 @@
 									"clipheight" : 20.0,
 									"data" : 									{
 										"clips" : [ 											{
-												"absolutepath" : "H_Jazz_photo5.jpg",
-												"filename" : "H_Jazz_photo5.jpg",
+												"absolutepath" : "V_Jazz Berlin_1928.mp4",
+												"filename" : "V_Jazz Berlin_1928.mp4",
 												"filekind" : "moviefile",
-												"id" : "u782016326",
+												"id" : "u127014182",
+												"selection" : [ 0.75, 6.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 1,
-													"vol" : 0
+													"vol" : 0,
+													"rate" : 1
 												}
 
 											}
@@ -6701,38 +6790,25 @@
 												"absolutepath" : "M_Hitler Youth_1940.mp4",
 												"filename" : "M_Hitler Youth_1940.mp4",
 												"filekind" : "moviefile",
-												"id" : "u805016331",
-												"selection" : [ 0.35, 1.0 ],
+												"id" : "u294014171",
+												"selection" : [ 0.75, 6.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 1,
-													"vol" : 0
+													"vol" : 0,
+													"rate" : 1
 												}
 
 											}
 , 											{
-												"absolutepath" : "C_Jazz_Weimar_1929.mp4",
-												"filename" : "C_Jazz_Weimar_1929.mp4",
+												"absolutepath" : "N_Hitler Youth_1938.mp4",
+												"filename" : "N_Hitler Youth_1938.mp4",
 												"filekind" : "moviefile",
-												"id" : "u066016321",
-												"selection" : [ 0.35, 1.0 ],
+												"id" : "u711014172",
+												"selection" : [ 0.75, 6.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 1,
-													"vol" : 0
-												}
-
-											}
-, 											{
-												"absolutepath" : "V_Jazz_Berlin_1928.mp4",
-												"filename" : "V_Jazz_Berlin_1928.mp4",
-												"filekind" : "moviefile",
-												"id" : "u050016322",
-												"selection" : [ 0.35, 1.0 ],
-												"loop" : 0,
-												"content_state" : 												{
-													"rate" : 1,
-													"vol" : 0
+													"vol" : 0,
+													"rate" : 1
 												}
 
 											}
@@ -6740,90 +6816,115 @@
 												"absolutepath" : "B_Hitler Youth_1937.mp4",
 												"filename" : "B_Hitler Youth_1937.mp4",
 												"filekind" : "moviefile",
-												"id" : "u997016323",
-												"selection" : [ 0.35, 1.0 ],
+												"id" : "u771014173",
+												"selection" : [ 0.75, 6.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 1,
-													"vol" : 0
+													"vol" : 0,
+													"rate" : 1
 												}
 
 											}
 , 											{
-												"absolutepath" : "N_Hitler Youth_ 1938.mp4",
-												"filename" : "N_Hitler Youth_ 1938.mp4",
+												"absolutepath" : "J_Jazz_photo6.mp4",
+												"filename" : "J_Jazz_photo6.mp4",
 												"filekind" : "moviefile",
-												"id" : "u983016324",
-												"selection" : [ 0.35, 1.0 ],
+												"id" : "u367014174",
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 1,
-													"vol" : 0
+													"vol" : 0,
+													"rate" : 1
 												}
 
 											}
 , 											{
-												"absolutepath" : "G_Swing Kids_photo3.jpg",
-												"filename" : "G_Swing Kids_photo3.jpg",
+												"absolutepath" : "C_Jazz_Weimar_1929_better.mp4",
+												"filename" : "C_Jazz_Weimar_1929_better.mp4",
 												"filekind" : "moviefile",
-												"id" : "u545016325",
-												"selection" : [ 0.35, 1.0 ],
+												"id" : "u915014175",
+												"selection" : [ 0.75, 6.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 1,
-													"vol" : 0
+													"vol" : 0,
+													"rate" : 1
 												}
 
 											}
 , 											{
-												"absolutepath" : "J_Jazz_photo6.jpg",
-												"filename" : "J_Jazz_photo6.jpg",
+												"absolutepath" : "U_Laban_photo4.mp4",
+												"filename" : "U_Laban_photo4.mp4",
 												"filekind" : "moviefile",
-												"id" : "u071016327",
-												"selection" : [ 0.35, 1.0 ],
+												"id" : "u085014176",
+												"selection" : [ 0.75, 6.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 1,
-													"vol" : 0
+													"vol" : 0,
+													"rate" : 1
 												}
 
 											}
 , 											{
-												"absolutepath" : "T_Nazi Celebration_photo1.jpg",
-												"filename" : "T_Nazi Celebration_photo1.jpg",
+												"absolutepath" : "G_Swing Kids_photo3.mp4",
+												"filename" : "G_Swing Kids_photo3.mp4",
 												"filekind" : "moviefile",
-												"id" : "u553016328",
-												"selection" : [ 0.35, 1.0 ],
+												"id" : "u476014177",
+												"selection" : [ 0.75, 6.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 1,
-													"vol" : 0
+													"vol" : 0,
+													"rate" : 1
 												}
 
 											}
 , 											{
-												"absolutepath" : "U_Laban_photo4.jpg",
-												"filename" : "U_Laban_photo4.jpg",
+												"absolutepath" : "H_Jazz_pho, M 5.mp4",
+												"filename" : "H_Jazz_pho, M 5.mp4",
 												"filekind" : "moviefile",
-												"id" : "u726016329",
-												"selection" : [ 0.35, 1.0 ],
+												"id" : "u562014178",
+												"selection" : [ 0.75, 6.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 1,
-													"vol" : 0
+													"vol" : 0,
+													"rate" : 1
 												}
 
 											}
 , 											{
-												"absolutepath" : "Y_Nazi Celebration_photo2.jpg",
-												"filename" : "Y_Nazi Celebration_photo2.jpg",
+												"absolutepath" : "C_Jazz_Weimar_1929.mp4",
+												"filename" : "C_Jazz_Weimar_1929.mp4",
 												"filekind" : "moviefile",
-												"id" : "u843016330",
-												"selection" : [ 0.35, 1.0 ],
+												"id" : "u396014179",
+												"selection" : [ 0.75, 6.0 ],
 												"loop" : 0,
 												"content_state" : 												{
-													"rate" : 1,
-													"vol" : 0
+													"vol" : 0,
+													"rate" : 1
+												}
+
+											}
+, 											{
+												"absolutepath" : "Y_Nazi Celebration_photo2.mp4",
+												"filename" : "Y_Nazi Celebration_photo2.mp4",
+												"filekind" : "moviefile",
+												"id" : "u063014180",
+												"selection" : [ 0.75, 6.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+													"vol" : 0,
+													"rate" : 1
+												}
+
+											}
+, 											{
+												"absolutepath" : "T_Nazi Celebration_photo1.mp4",
+												"filename" : "T_Nazi Celebration_photo1.mp4",
+												"filekind" : "moviefile",
+												"id" : "u971014181",
+												"selection" : [ 0.75, 6.0 ],
+												"loop" : 0,
+												"content_state" : 												{
+													"vol" : 0,
+													"rate" : 1
 												}
 
 											}
@@ -6839,7 +6940,7 @@
 									"outlettype" : [ "jit_matrix", "", "dictionary" ],
 									"output_texture" : 0,
 									"parameter_enable" : 0,
-									"patching_rect" : [ 792.5, 348.333337426185608, 231.0, 222.0 ]
+									"patching_rect" : [ 792.5, 356.333334386348724, 231.0, 222.0 ]
 								}
 
 							}
@@ -7290,11 +7391,10 @@
 									"clipheight" : 20.0,
 									"data" : 									{
 										"clips" : [ 											{
-												"absolutepath" : "K_Rock_photo6.jpg",
-												"filename" : "K_Rock_photo6.jpg",
+												"absolutepath" : "K_Rock_photo6.mp4",
+												"filename" : "K_Rock_photo6.mp4",
 												"filekind" : "moviefile",
-												"id" : "u314014782",
-												"selection" : [ 0.95, 3.0 ],
+												"id" : "u545015998",
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -7307,7 +7407,6 @@
 												"filename" : "Slash_O  zi din viata lui Ceausescu_dansuri de masa.mp4",
 												"filekind" : "moviefile",
 												"id" : "u820014787",
-												"selection" : [ 0.95, 3.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -7320,6 +7419,7 @@
 												"filename" : ",_Ceausescu  23 August 1986.mp4",
 												"filekind" : "moviefile",
 												"id" : "u458014776",
+												"selection" : [ 0.0, 2.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -7328,11 +7428,10 @@
 
 											}
 , 											{
-												"absolutepath" : "Back Slash_1983, Costineșt Serbările Tinereții.mp4",
-												"filename" : "Back Slash_1983, Costineșt Serbările Tinereții.mp4",
+												"absolutepath" : "_Black Slash_1983, Costinesti.mp4",
+												"filename" : "_Black Slash_1983, Costinesti.mp4",
 												"filekind" : "moviefile",
-												"id" : "u856014777",
-												"selection" : [ 0.95, 3.0 ],
+												"id" : "u947016015",
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -7345,7 +7444,7 @@
 												"filename" : "'_Discoteca Club CH Iasi 1989.mp4",
 												"filekind" : "moviefile",
 												"id" : "u439014778",
-												"selection" : [ 0.95, 3.0 ],
+												"selection" : [ 0.0, 2.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -7358,7 +7457,7 @@
 												"filename" : ";_Disco Ring Costinesti Techno Remix 1983.mp4",
 												"filekind" : "moviefile",
 												"id" : "u006014779",
-												"selection" : [ 0.95, 3.0 ],
+												"selection" : [ 0.0, 2.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -7367,11 +7466,10 @@
 
 											}
 , 											{
-												"absolutepath" : "[_Rock_photo4.jpg",
-												"filename" : "[_Rock_photo4.jpg",
+												"absolutepath" : "[_Rock_photo4.mp4",
+												"filename" : "[_Rock_photo4.mp4",
 												"filekind" : "moviefile",
-												"id" : "u793014780",
-												"selection" : [ 0.95, 3.0 ],
+												"id" : "u056016036",
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -7380,11 +7478,11 @@
 
 											}
 , 											{
-												"absolutepath" : "]_Rock_photo5.jpg",
-												"filename" : "]_Rock_photo5.jpg",
+												"absolutepath" : "]_Rock_photo5.mp4",
+												"filename" : "]_Rock_photo5.mp4",
 												"filekind" : "moviefile",
-												"id" : "u382014781",
-												"selection" : [ 0.95, 3.0 ],
+												"id" : "u104016061",
+												"selection" : [ 0.0, 2.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -7393,11 +7491,11 @@
 
 											}
 , 											{
-												"absolutepath" : "L_Rock_photo7.jpg",
-												"filename" : "L_Rock_photo7.jpg",
+												"absolutepath" : "L_Rock_photo7.mp4",
+												"filename" : "L_Rock_photo7.mp4",
 												"filekind" : "moviefile",
-												"id" : "u333014783",
-												"selection" : [ 0.95, 3.0 ],
+												"id" : "u751014094",
+												"selection" : [ 0.0, 2.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -7406,11 +7504,11 @@
 
 											}
 , 											{
-												"absolutepath" : "I_Rock_photo1.jpg",
-												"filename" : "I_Rock_photo1.jpg",
+												"absolutepath" : "I_Rock_photo1.mp4",
+												"filename" : "I_Rock_photo1.mp4",
 												"filekind" : "moviefile",
-												"id" : "u135014784",
-												"selection" : [ 0.95, 3.0 ],
+												"id" : "u470014115",
+												"selection" : [ 0.0, 2.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -7419,11 +7517,11 @@
 
 											}
 , 											{
-												"absolutepath" : "O_Rock_photo2.jpg",
-												"filename" : "O_Rock_photo2.jpg",
+												"absolutepath" : "O_Rock_photo2.mp4",
+												"filename" : "O_Rock_photo2.mp4",
 												"filekind" : "moviefile",
-												"id" : "u993014785",
-												"selection" : [ 0.95, 3.0 ],
+												"id" : "u522014160",
+												"selection" : [ 0.0, 2.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -7432,11 +7530,11 @@
 
 											}
 , 											{
-												"absolutepath" : "P_Rock_photo3.jpg",
-												"filename" : "P_Rock_photo3.jpg",
+												"absolutepath" : "P_Rock_photo3.mp4",
+												"filename" : "P_Rock_photo3.mp4",
 												"filekind" : "moviefile",
-												"id" : "u190014786",
-												"selection" : [ 0.95, 3.0 ],
+												"id" : "u565014199",
+												"selection" : [ 0.0, 2.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -7456,7 +7554,7 @@
 									"outlettype" : [ "jit_matrix", "", "dictionary" ],
 									"output_texture" : 0,
 									"parameter_enable" : 0,
-									"patching_rect" : [ 552.5, 348.333337426185608, 231.0, 222.0 ]
+									"patching_rect" : [ 552.5, 356.333334386348724, 231.0, 222.0 ]
 								}
 
 							}
@@ -8131,11 +8229,11 @@
 									"clipheight" : 20.0,
 									"data" : 									{
 										"clips" : [ 											{
-												"absolutepath" : "E_Foxtrot_photo_1.jpg",
-												"filename" : "E_Foxtrot_photo_1.jpg",
+												"absolutepath" : "E_Foxtrot_photo1.mp4",
+												"filename" : "E_Foxtrot_photo1.mp4",
 												"filekind" : "moviefile",
-												"id" : "u394014352",
-												"selection" : [ 0.65, 2.0 ],
+												"id" : "u464015692",
+												"selection" : [ 0.4, 7.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -8148,6 +8246,7 @@
 												"filename" : "X_URSS_mass fest_1945_part2.mp4",
 												"filekind" : "moviefile",
 												"id" : "u552014353",
+												"selection" : [ 0.4, 7.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -8160,7 +8259,7 @@
 												"filename" : "Z_URSS_mass fest_1945_part1.mp4",
 												"filekind" : "moviefile",
 												"id" : "u130014343",
-												"selection" : [ 0.65, 2.0 ],
+												"selection" : [ 0.4, 7.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -8173,7 +8272,7 @@
 												"filename" : "`_Foxtrot_Weimar Berlin_part2.mp4",
 												"filekind" : "moviefile",
 												"id" : "u432014344",
-												"selection" : [ 0.65, 2.0 ],
+												"selection" : [ 0.4, 7.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -8182,11 +8281,11 @@
 
 											}
 , 											{
-												"absolutepath" : "F_Foxtrot_Weimar Berlin_part1.mp4",
-												"filename" : "F_Foxtrot_Weimar Berlin_part1.mp4",
+												"absolutepath" : "F_Foxtrot_Weimar Berlin_part2.mp4",
+												"filename" : "F_Foxtrot_Weimar Berlin_part2.mp4",
 												"filekind" : "moviefile",
-												"id" : "u289014345",
-												"selection" : [ 0.65, 2.0 ],
+												"id" : "u299015715",
+												"selection" : [ 0.4, 7.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -8199,7 +8298,6 @@
 												"filename" : "D_Foxtrot_1930.mp4",
 												"filekind" : "moviefile",
 												"id" : "u092014346",
-												"selection" : [ 0.65, 2.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -8212,7 +8310,7 @@
 												"filename" : "S_Foxtrot _1937_Swedish Home Movie.mp4",
 												"filekind" : "moviefile",
 												"id" : "u582014347",
-												"selection" : [ 0.65, 2.0 ],
+												"selection" : [ 0.4, 7.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -8225,7 +8323,7 @@
 												"filename" : "A_Foxtrot_1930_Swedish Film Archive.mp4",
 												"filekind" : "moviefile",
 												"id" : "u806014348",
-												"selection" : [ 0.65, 2.0 ],
+												"selection" : [ 0.4, 7.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -8238,7 +8336,7 @@
 												"filename" : "R_Foxtrot Charleston_UK 1926.mp4",
 												"filekind" : "moviefile",
 												"id" : "u347014349",
-												"selection" : [ 0.65, 2.0 ],
+												"selection" : [ 0.4, 7.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -8247,11 +8345,11 @@
 
 											}
 , 											{
-												"absolutepath" : "W_Maxixe_photo_3.jpg",
-												"filename" : "W_Maxixe_photo_3.jpg",
+												"absolutepath" : "W_Maxixe_photo_3.mp4",
+												"filename" : "W_Maxixe_photo_3.mp4",
 												"filekind" : "moviefile",
-												"id" : "u814014350",
-												"selection" : [ 0.65, 2.0 ],
+												"id" : "u294015759",
+												"selection" : [ 0.4, 7.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -8264,7 +8362,7 @@
 												"filename" : "Q_Forbiden Music List_photo_2.jpg",
 												"filekind" : "moviefile",
 												"id" : "u770014351",
-												"selection" : [ 0.65, 2.0 ],
+												"selection" : [ 0.4, 7.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -8284,7 +8382,7 @@
 									"outlettype" : [ "jit_matrix", "", "dictionary" ],
 									"output_texture" : 0,
 									"parameter_enable" : 0,
-									"patching_rect" : [ 312.5, 348.333337426185608, 231.0, 222.0 ]
+									"patching_rect" : [ 312.5, 356.333334386348724, 231.0, 222.0 ]
 								}
 
 							}
@@ -8339,6 +8437,19 @@
 								}
 
 							}
+, 							{
+								"box" : 								{
+									"attr" : "fullscreen",
+									"id" : "obj-61",
+									"maxclass" : "attrui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 94.266660571098328, 871.0, 150.0, 22.0 ]
+								}
+
+							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
@@ -8379,64 +8490,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-15", 0 ],
-									"source" : [ "obj-13", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-16", 0 ],
-									"source" : [ "obj-13", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-17", 0 ],
-									"source" : [ "obj-13", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-18", 0 ],
-									"source" : [ "obj-13", 3 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
 									"source" : [ "obj-14", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-31", 0 ],
-									"source" : [ "obj-15", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-30", 0 ],
-									"source" : [ "obj-16", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-41", 0 ],
-									"source" : [ "obj-17", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-36", 0 ],
-									"source" : [ "obj-18", 0 ]
 								}
 
 							}
@@ -8451,13 +8506,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-43", 0 ],
 									"source" : [ "obj-2", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-13", 0 ],
-									"source" : [ "obj-20", 0 ]
 								}
 
 							}
@@ -8490,6 +8538,13 @@
 									"destination" : [ "obj-41", 0 ],
 									"order" : 1,
 									"source" : [ "obj-20", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-66", 0 ],
+									"source" : [ "obj-20", 0 ]
 								}
 
 							}
@@ -8736,6 +8791,14 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-53", 0 ],
+									"order" : 2,
+									"source" : [ "obj-42", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-25", 0 ],
 									"source" : [ "obj-43", 0 ]
 								}
@@ -8905,7 +8968,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-42", 0 ],
-									"midpoints" : [ 1292.5, 651.0, 386.333337008953094, 651.0 ],
+									"midpoints" : [ 1454.5, 651.0, 386.333337008953094, 651.0 ],
 									"source" : [ "obj-55", 0 ]
 								}
 
@@ -8947,6 +9010,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-53", 0 ],
+									"source" : [ "obj-61", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-63", 0 ],
 									"source" : [ "obj-62", 0 ]
 								}
@@ -8954,8 +9024,23 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-69", 0 ],
+									"source" : [ "obj-64", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-68", 0 ],
 									"source" : [ "obj-65", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-42", 0 ],
+									"midpoints" : [ 1288.5, 651.0, 386.333337008953094, 651.0 ],
+									"source" : [ "obj-66", 0 ]
 								}
 
 							}
@@ -8976,8 +9061,22 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-72", 0 ],
+									"source" : [ "obj-69", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-61", 0 ],
+									"source" : [ "obj-72", 0 ]
 								}
 
 							}
@@ -9044,7 +9143,7 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 131.0, 1055.5, 231.0, 135.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 771.75, 303.0, 960.0, 420.0 ],
+					"presentation_rect" : [ 766.75, 306.0, 960.0, 540.0 ],
 					"sync" : 1
 				}
 
@@ -9529,7 +9628,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3479.000034332275391, 1633.799996376037598, 51.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1440.75, 841.900000000000205, 51.0, 31.0 ],
+					"presentation_rect" : [ 529.849999308586121, 699.900000000000205, 51.0, 31.0 ],
 					"text" : "END"
 				}
 
@@ -9642,7 +9741,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2985.400026977062225, 1573.599996209144592, 65.0, 22.0 ],
-					"text" : "0, 1 10000"
+					"text" : "0, 2 10000"
 				}
 
 			}
@@ -9810,7 +9909,7 @@
 					"patching_rect" : [ 3183.350028395652771, 1496.599972248077393, 196.400000691413879, 144.400001704692841 ],
 					"pitchcorrection" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 1503.349999308586121, 732.900000000000091, 228.400000691413879, 140.0 ],
+					"presentation_rect" : [ 529.849999308586121, 732.900000000000091, 228.400000691413879, 140.0 ],
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
 				}
@@ -9824,7 +9923,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3172.850028395652771, 1420.799975037574768, 29.5, 22.0 ],
-					"text" : "4"
+					"text" : "2"
 				}
 
 			}
@@ -12914,7 +13013,7 @@
 								"filename" : "sov-loop2.wav",
 								"filekind" : "audiofile",
 								"id" : "u564012308",
-								"selection" : [ 0.35, 4.0 ],
+								"selection" : [ 0.5, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -12926,7 +13025,6 @@
 								"filename" : "rsr_loop3.wav",
 								"filekind" : "audiofile",
 								"id" : "u615001837",
-								"selection" : [ 0.35, 4.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -12938,7 +13036,7 @@
 								"filename" : "nazi-loop2.wav",
 								"filekind" : "audiofile",
 								"id" : "u233001081",
-								"selection" : [ 0.35, 4.0 ],
+								"selection" : [ 0.5, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -12950,6 +13048,7 @@
 								"filename" : "rebe-loop2.wav",
 								"filekind" : "audiofile",
 								"id" : "u236010981",
+								"selection" : [ 0.5, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -16385,6 +16484,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-290", 0 ],
+					"order" : 0,
+					"source" : [ "obj-159", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-388", 0 ],
+					"order" : 1,
 					"source" : [ "obj-159", 0 ]
 				}
 
@@ -17748,6 +17856,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-276", 0 ],
+					"order" : 0,
+					"source" : [ "obj-272", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-389", 0 ],
+					"order" : 1,
 					"source" : [ "obj-272", 0 ]
 				}
 
@@ -18955,6 +19072,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-367", 0 ],
+					"order" : 1,
+					"source" : [ "obj-418", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-408", 0 ],
+					"order" : 0,
 					"source" : [ "obj-418", 0 ]
 				}
 
@@ -20074,15 +20200,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "'_Discoteca Club CH Iasi 1989.mp4",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Rock Max",
-				"patcherrelativepath" : "./video/Rock Max",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/rock",
+				"patcherrelativepath" : "./video/rock",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : ",_Ceausescu  23 August 1986.mp4",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Rock Max",
-				"patcherrelativepath" : "./video/Rock Max",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/rock",
+				"patcherrelativepath" : "./video/rock",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
@@ -20101,164 +20227,192 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "1_Rebetika_photo1.jpg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Rebetika Max",
-				"patcherrelativepath" : "./video/Rebetika Max",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "2_Rebetika_photo2.jpg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Rebetika Max",
-				"patcherrelativepath" : "./video/Rebetika Max",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "3_Rebetika_photo3.jpg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Rebetika Max",
-				"patcherrelativepath" : "./video/Rebetika Max",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "4_Rebetika_photo4.jpg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Rebetika Max",
-				"patcherrelativepath" : "./video/Rebetika Max",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "5_Rebetika_photo5.jpg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Rebetika Max",
-				"patcherrelativepath" : "./video/Rebetika Max",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "6_Rebetika_photo6.jpg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Rebetika Max",
-				"patcherrelativepath" : "./video/Rebetika Max",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "7_Rebetika_video_BBC_1.mp4",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Rebetika Max",
-				"patcherrelativepath" : "./video/Rebetika Max",
+				"name" : "1_Rebetika_photo4.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/rebe",
+				"patcherrelativepath" : "./video/rebe",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "8_Rebetika_video_BBC_2.mp4",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Rebetika Max",
-				"patcherrelativepath" : "./video/Rebetika Max",
+				"name" : "2_Rebetika_photo6.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/rebe",
+				"patcherrelativepath" : "./video/rebe",
+				"type" : "mpg4",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "3_Rebetika_photo3.jpg",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/rebe",
+				"patcherrelativepath" : "./video/rebe",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "3_Rebetika_photo3.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/rebe",
+				"patcherrelativepath" : "./video/rebe",
+				"type" : "mpg4",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "4_Rebetika_photo4.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/rebe",
+				"patcherrelativepath" : "./video/rebe",
+				"type" : "mpg4",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "5_Rebetika_photo5.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/rebe",
+				"patcherrelativepath" : "./video/rebe",
+				"type" : "mpg4",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "6_Rebetika_photo6.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/rebe",
+				"patcherrelativepath" : "./video/rebe",
+				"type" : "mpg4",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "7_Rebetika Video_BBC1.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/rebe",
+				"patcherrelativepath" : "./video/rebe",
+				"type" : "mpg4",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "8_Rebetiko Video_BBC2.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/rebe",
+				"patcherrelativepath" : "./video/rebe",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "9_Metaxas Parade.mp4",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Rebetika Max",
-				"patcherrelativepath" : "./video/Rebetika Max",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/rebe",
+				"patcherrelativepath" : "./video/rebe",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : ";_Disco Ring Costinesti Techno Remix 1983.mp4",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Rock Max",
-				"patcherrelativepath" : "./video/Rock Max",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/rock",
+				"patcherrelativepath" : "./video/rock",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "A_Foxtrot_1930_Swedish Film Archive.mp4",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Foxtrot Max",
-				"patcherrelativepath" : "./video/Foxtrot Max",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/foxtrot",
+				"patcherrelativepath" : "./video/foxtrot",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "B_Hitler Youth_1937.mp4",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Jazz Max",
-				"patcherrelativepath" : "./video/Jazz Max",
-				"type" : "mpg4",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Back Slash_1983, Costineșt Serbările Tinereții.mp4",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Rock Max",
-				"patcherrelativepath" : "./video/Rock Max",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/jazz",
+				"patcherrelativepath" : "./video/jazz",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "C_Jazz_Weimar_1929.mp4",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Jazz Max",
-				"patcherrelativepath" : "./video/Jazz Max",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/jazz",
+				"patcherrelativepath" : "./video/jazz",
+				"type" : "mpg4",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "C_Jazz_Weimar_1929_better.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/jazz",
+				"patcherrelativepath" : "./video/jazz",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "D_Foxtrot_1930.mp4",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Foxtrot Max",
-				"patcherrelativepath" : "./video/Foxtrot Max",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/foxtrot",
+				"patcherrelativepath" : "./video/foxtrot",
+				"type" : "mpg4",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "E_Foxtrot_photo1.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/foxtrot",
+				"patcherrelativepath" : "./video/foxtrot",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "E_Foxtrot_photo_1.jpg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Foxtrot Max",
-				"patcherrelativepath" : "./video/Foxtrot Max",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/foxtrot",
+				"patcherrelativepath" : "./video/foxtrot",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "F_Foxtrot_Weimar Berlin_part1.mp4",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Foxtrot Max",
-				"patcherrelativepath" : "./video/Foxtrot Max",
+				"name" : "F_Foxtrot_Weimar Berlin_part2.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/foxtrot",
+				"patcherrelativepath" : "./video/foxtrot",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "G_Swing Kids_photo3.jpg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Jazz Max",
-				"patcherrelativepath" : "./video/Jazz Max",
-				"type" : "JPEG",
+				"name" : "G_Swing Kids_photo3.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/jazz",
+				"patcherrelativepath" : "./video/jazz",
+				"type" : "mpg4",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "H_Jazz_pho, M 5.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/jazz",
+				"patcherrelativepath" : "./video/jazz",
+				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "H_Jazz_photo5.jpg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Jazz Max",
-				"patcherrelativepath" : "./video/Jazz Max",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/jazz",
+				"patcherrelativepath" : "./video/jazz",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "I_Rock_photo1.jpg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Rock Max",
-				"patcherrelativepath" : "./video/Rock Max",
-				"type" : "JPEG",
+				"name" : "I_Rock_photo1.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/rock",
+				"patcherrelativepath" : "./video/rock",
+				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "J_Jazz_photo6.jpg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Jazz Max",
-				"patcherrelativepath" : "./video/Jazz Max",
-				"type" : "JPEG",
+				"name" : "J_Jazz_photo6.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/jazz",
+				"patcherrelativepath" : "./video/jazz",
+				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "K_Rock_photo6.jpg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Rock Max",
-				"patcherrelativepath" : "./video/Rock Max",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/rock",
+				"patcherrelativepath" : "./video/rock",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "L_Rock_photo7.jpg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Rock Max",
-				"patcherrelativepath" : "./video/Rock Max",
-				"type" : "JPEG",
+				"name" : "K_Rock_photo6.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/rock",
+				"patcherrelativepath" : "./video/rock",
+				"type" : "mpg4",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "L_Rock_photo7.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/rock",
+				"patcherrelativepath" : "./video/rock",
+				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
@@ -20269,30 +20423,30 @@
 			}
 , 			{
 				"name" : "M_Hitler Youth_1940.mp4",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Jazz Max",
-				"patcherrelativepath" : "./video/Jazz Max",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/jazz",
+				"patcherrelativepath" : "./video/jazz",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "N_Hitler Youth_ 1938.mp4",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Jazz Max",
-				"patcherrelativepath" : "./video/Jazz Max",
+				"name" : "N_Hitler Youth_1938.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/jazz",
+				"patcherrelativepath" : "./video/jazz",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "O_Rock_photo2.jpg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Rock Max",
-				"patcherrelativepath" : "./video/Rock Max",
-				"type" : "JPEG",
+				"name" : "O_Rock_photo2.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/rock",
+				"patcherrelativepath" : "./video/rock",
+				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "P_Rock_photo3.jpg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Rock Max",
-				"patcherrelativepath" : "./video/Rock Max",
-				"type" : "JPEG",
+				"name" : "P_Rock_photo3.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/rock",
+				"patcherrelativepath" : "./video/rock",
+				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
@@ -20304,50 +20458,50 @@
 			}
 , 			{
 				"name" : "Q_Forbiden Music List_photo_2.jpg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Foxtrot Max",
-				"patcherrelativepath" : "./video/Foxtrot Max",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/foxtrot",
+				"patcherrelativepath" : "./video/foxtrot",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "R_Foxtrot Charleston_UK 1926.mp4",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Foxtrot Max",
-				"patcherrelativepath" : "./video/Foxtrot Max",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/foxtrot",
+				"patcherrelativepath" : "./video/foxtrot",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "S_Foxtrot _1937_Swedish Home Movie.mp4",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Foxtrot Max",
-				"patcherrelativepath" : "./video/Foxtrot Max",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/foxtrot",
+				"patcherrelativepath" : "./video/foxtrot",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Slash_O  zi din viata lui Ceausescu_dansuri de masa.mp4",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Rock Max",
-				"patcherrelativepath" : "./video/Rock Max",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/rock",
+				"patcherrelativepath" : "./video/rock",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "T_Nazi Celebration_photo1.jpg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Jazz Max",
-				"patcherrelativepath" : "./video/Jazz Max",
-				"type" : "JPEG",
+				"name" : "T_Nazi Celebration_photo1.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/jazz",
+				"patcherrelativepath" : "./video/jazz",
+				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "U_Laban_photo4.jpg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Jazz Max",
-				"patcherrelativepath" : "./video/Jazz Max",
-				"type" : "JPEG",
+				"name" : "U_Laban_photo4.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/jazz",
+				"patcherrelativepath" : "./video/jazz",
+				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "V_Jazz_Berlin_1928.mp4",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Jazz Max",
-				"patcherrelativepath" : "./video/Jazz Max",
+				"name" : "V_Jazz Berlin_1928.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/jazz",
+				"patcherrelativepath" : "./video/jazz",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
@@ -20359,51 +20513,58 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "W_Maxixe_photo_3.jpg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Foxtrot Max",
-				"patcherrelativepath" : "./video/Foxtrot Max",
-				"type" : "JPEG",
+				"name" : "W_Maxixe_photo_3.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/foxtrot",
+				"patcherrelativepath" : "./video/foxtrot",
+				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "X_URSS_mass fest_1945_part2.mp4",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Foxtrot Max",
-				"patcherrelativepath" : "./video/Foxtrot Max",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/foxtrot",
+				"patcherrelativepath" : "./video/foxtrot",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Y_Nazi Celebration_photo2.jpg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Jazz Max",
-				"patcherrelativepath" : "./video/Jazz Max",
-				"type" : "JPEG",
+				"name" : "Y_Nazi Celebration_photo2.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/jazz",
+				"patcherrelativepath" : "./video/jazz",
+				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Z_URSS_mass fest_1945_part1.mp4",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Foxtrot Max",
-				"patcherrelativepath" : "./video/Foxtrot Max",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/foxtrot",
+				"patcherrelativepath" : "./video/foxtrot",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "[_Rock_photo4.jpg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Rock Max",
-				"patcherrelativepath" : "./video/Rock Max",
-				"type" : "JPEG",
+				"name" : "[_Rock_photo4.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/rock",
+				"patcherrelativepath" : "./video/rock",
+				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "]_Rock_photo5.jpg",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Rock Max",
-				"patcherrelativepath" : "./video/Rock Max",
-				"type" : "JPEG",
+				"name" : "]_Rock_photo5.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/rock",
+				"patcherrelativepath" : "./video/rock",
+				"type" : "mpg4",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_Black Slash_1983, Costinesti.mp4",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/rock",
+				"patcherrelativepath" : "./video/rock",
+				"type" : "mpg4",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "`_Foxtrot_Weimar Berlin_part2.mp4",
-				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/Foxtrot Max",
-				"patcherrelativepath" : "./video/Foxtrot Max",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/video/foxtrot",
+				"patcherrelativepath" : "./video/foxtrot",
 				"type" : "mpg4",
 				"implicit" : 1
 			}
