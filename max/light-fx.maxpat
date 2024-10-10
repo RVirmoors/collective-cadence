@@ -1764,9 +1764,9 @@
 								"filename" : "CC - Maini Semne-1.jpg",
 								"filekind" : "moviefile",
 								"id" : "u279007201",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -1775,9 +1775,9 @@
 								"filename" : "CC - Maini Semne-2.jpg",
 								"filekind" : "moviefile",
 								"id" : "u976007043",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -1786,9 +1786,9 @@
 								"filename" : "CC - Maini Semne-3.jpg",
 								"filekind" : "moviefile",
 								"id" : "u939007040",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -1797,9 +1797,9 @@
 								"filename" : "CC - Maini Semne-4.jpg",
 								"filekind" : "moviefile",
 								"id" : "u823007045",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -1808,9 +1808,9 @@
 								"filename" : "CC - Maini Semne-5.jpg",
 								"filekind" : "moviefile",
 								"id" : "u900007044",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -1819,9 +1819,9 @@
 								"filename" : "CC - Maini Semne-6.jpg",
 								"filekind" : "moviefile",
 								"id" : "u739006977",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -1830,9 +1830,9 @@
 								"filename" : "CC - Maini Semne-7.jpg",
 								"filekind" : "moviefile",
 								"id" : "u514006980",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -1841,9 +1841,9 @@
 								"filename" : "CC - Maini Semne-8.jpg",
 								"filekind" : "moviefile",
 								"id" : "u424006976",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -1852,9 +1852,9 @@
 								"filename" : "CC - Maini Semne-9.jpg",
 								"filekind" : "moviefile",
 								"id" : "u082006978",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -1863,9 +1863,9 @@
 								"filename" : "CC - Maini Semne-10.jpg",
 								"filekind" : "moviefile",
 								"id" : "u463006915",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -1885,9 +1885,9 @@
 								"filename" : "CC - Alien 1.jpg",
 								"filekind" : "moviefile",
 								"id" : "u508006794",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -1896,9 +1896,9 @@
 								"filename" : "CC - Alien 2.jpg",
 								"filekind" : "moviefile",
 								"id" : "u714006801",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -1907,9 +1907,9 @@
 								"filename" : "CC - Alien 3.jpg",
 								"filekind" : "moviefile",
 								"id" : "u226006800",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -1918,20 +1918,9 @@
 								"filename" : "CC - Alien 4.jpg",
 								"filekind" : "moviefile",
 								"id" : "u793006799",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
-								}
-
-							}
-, 							{
-								"absolutepath" : "CC - Alien 5.jpg",
-								"filename" : "CC - Alien 5.jpg",
-								"filekind" : "moviefile",
-								"id" : "u318006787",
-								"loop" : 0,
-								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -1940,9 +1929,20 @@
 								"filename" : "CC - Alien 6.jpg",
 								"filekind" : "moviefile",
 								"id" : "u619006797",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
+									"loop" : 1
+								}
 
+							}
+, 							{
+								"absolutepath" : "CC - Alien 5.jpg",
+								"filename" : "CC - Alien 5.jpg",
+								"filekind" : "moviefile",
+								"id" : "u318006787",
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
 								}
 
 							}
@@ -1951,9 +1951,9 @@
 								"filename" : "CC - Alien 7.jpg",
 								"filekind" : "moviefile",
 								"id" : "u648006796",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -1962,9 +1962,9 @@
 								"filename" : "CC - Alien 8.jpg",
 								"filekind" : "moviefile",
 								"id" : "u165006795",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -4283,8 +4283,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 614.0, 75.0, 76.0 ],
-					"text" : "0. 0. 0. 127.637011 43.15868 0. 0. 0. 0. 0."
+					"patching_rect" : [ 24.0, 614.0, 71.0, 76.0 ],
+					"text" : "12.003451 63.137811 0. 0. 0. 0. 0. 0. 0. 0."
 				}
 
 			}
