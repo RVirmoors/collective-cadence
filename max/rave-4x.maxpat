@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1612.0, 929.0 ],
+		"rect" : [ 34.0, 87.0, 1852.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2553,7 +2553,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2194.13336612780904, 255.966660857200623, 235.0, 235.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 32.38336612780904, 637.900000000000091, 235.0, 235.0 ],
+					"presentation_rect" : [ 5.25, 637.900000000000091, 235.0, 235.0 ],
 					"varname" : "rbtnk.autoBpatcher_12885",
 					"viewvisibility" : 1
 				}
@@ -2781,7 +2781,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2446.133366127809495, 255.966660857200623, 235.0, 235.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 284.383366127809495, 637.900000000000091, 235.0, 235.0 ],
+					"presentation_rect" : [ 243.783337732156269, 637.900000000000091, 235.0, 235.0 ],
 					"varname" : "rbtnk.autoBpatcher_68668",
 					"viewvisibility" : 1
 				}
@@ -2981,8 +2981,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
 					"patching_rect" : [ 3154.600028395652771, 712.5, 331.0, 171.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 485.25, 234.600006000000008, 273.0, 278.0 ],
 					"save" : [ "#N", "vst~", "loaduniqueid", 0, "C74_VST3:/ValhallaSupermassive", ";" ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -3075,12 +3073,11 @@
 								"filename" : "trumps1.wav",
 								"filekind" : "audiofile",
 								"id" : "u390005461",
-								"selection" : [ 0.0, 5.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 0.27975788859113,
+									"speed" : 1.0005,
 									"quality" : "better"
 								}
 
@@ -3090,12 +3087,11 @@
 								"filename" : "trumps2.wav",
 								"filekind" : "audiofile",
 								"id" : "u736005460",
-								"selection" : [ 0.0, 5.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 0.27975788859113,
+									"speed" : 1.0005,
 									"quality" : "better"
 								}
 
@@ -3105,12 +3101,11 @@
 								"filename" : "tambal.wav",
 								"filekind" : "audiofile",
 								"id" : "u385010670",
-								"selection" : [ 0.0, 5.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 0.27975788859113,
+									"speed" : 1.0005,
 									"quality" : "better"
 								}
 
@@ -3120,12 +3115,11 @@
 								"filename" : "vox-liebe.wav",
 								"filekind" : "audiofile",
 								"id" : "u091005462",
-								"selection" : [ 0.0, 5.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 0.27975788859113,
+									"speed" : 1.0005,
 									"quality" : "better"
 								}
 
@@ -3139,7 +3133,7 @@
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 0.27975788859113,
+									"speed" : 1.0005,
 									"quality" : "better"
 								}
 
@@ -3149,12 +3143,11 @@
 								"filename" : "strings1.wav",
 								"filekind" : "audiofile",
 								"id" : "u149010669",
-								"selection" : [ 0.0, 5.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 0.27975788859113,
+									"speed" : 1.0005,
 									"quality" : "better"
 								}
 
@@ -3631,7 +3624,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1135.0, 319.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1116.75, 3.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 1300.75, 8.000027716159821, 24.0, 24.0 ]
 				}
 
 			}
@@ -5328,7 +5321,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 87.0, 1612.0, 929.0 ],
+						"rect" : [ 34.0, 87.0, 704.0, 929.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -6200,10 +6193,11 @@
 												"filekind" : "moviefile",
 												"id" : "u348014452",
 												"selection" : [ 0.15, 1.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -6213,10 +6207,11 @@
 												"filekind" : "moviefile",
 												"id" : "u938014444",
 												"selection" : [ 0.15, 1.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -6226,10 +6221,11 @@
 												"filekind" : "moviefile",
 												"id" : "u031014445",
 												"selection" : [ 0.15, 1.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -6239,10 +6235,11 @@
 												"filekind" : "moviefile",
 												"id" : "u936014446",
 												"selection" : [ 0.15, 1.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -6252,10 +6249,11 @@
 												"filekind" : "moviefile",
 												"id" : "u474014447",
 												"selection" : [ 0.15, 1.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -6265,10 +6263,11 @@
 												"filekind" : "moviefile",
 												"id" : "u660014448",
 												"selection" : [ 0.15, 1.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -6278,10 +6277,11 @@
 												"filekind" : "moviefile",
 												"id" : "u651014449",
 												"selection" : [ 0.15, 1.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -6291,10 +6291,11 @@
 												"filekind" : "moviefile",
 												"id" : "u393014450",
 												"selection" : [ 0.15, 1.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -6304,10 +6305,11 @@
 												"filekind" : "moviefile",
 												"id" : "u199014451",
 												"selection" : [ 0.15, 1.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -6778,11 +6780,11 @@
 												"filename" : "V_Jazz Berlin_1928.mp4",
 												"filekind" : "moviefile",
 												"id" : "u127014182",
-												"selection" : [ 0.75, 6.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -6791,11 +6793,11 @@
 												"filename" : "M_Hitler Youth_1940.mp4",
 												"filekind" : "moviefile",
 												"id" : "u294014171",
-												"selection" : [ 0.75, 6.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -6804,11 +6806,11 @@
 												"filename" : "N_Hitler Youth_1938.mp4",
 												"filekind" : "moviefile",
 												"id" : "u711014172",
-												"selection" : [ 0.75, 6.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -6817,11 +6819,11 @@
 												"filename" : "B_Hitler Youth_1937.mp4",
 												"filekind" : "moviefile",
 												"id" : "u771014173",
-												"selection" : [ 0.75, 6.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -6830,10 +6832,11 @@
 												"filename" : "J_Jazz_photo6.mp4",
 												"filekind" : "moviefile",
 												"id" : "u367014174",
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -6842,11 +6845,11 @@
 												"filename" : "C_Jazz_Weimar_1929_better.mp4",
 												"filekind" : "moviefile",
 												"id" : "u915014175",
-												"selection" : [ 0.75, 6.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -6855,11 +6858,11 @@
 												"filename" : "U_Laban_photo4.mp4",
 												"filekind" : "moviefile",
 												"id" : "u085014176",
-												"selection" : [ 0.75, 6.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -6868,11 +6871,11 @@
 												"filename" : "G_Swing Kids_photo3.mp4",
 												"filekind" : "moviefile",
 												"id" : "u476014177",
-												"selection" : [ 0.75, 6.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -6881,11 +6884,11 @@
 												"filename" : "H_Jazz_pho, M 5.mp4",
 												"filekind" : "moviefile",
 												"id" : "u562014178",
-												"selection" : [ 0.75, 6.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -6894,11 +6897,11 @@
 												"filename" : "C_Jazz_Weimar_1929.mp4",
 												"filekind" : "moviefile",
 												"id" : "u396014179",
-												"selection" : [ 0.75, 6.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -6907,11 +6910,11 @@
 												"filename" : "Y_Nazi Celebration_photo2.mp4",
 												"filekind" : "moviefile",
 												"id" : "u063014180",
-												"selection" : [ 0.75, 6.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -6920,7 +6923,6 @@
 												"filename" : "T_Nazi Celebration_photo1.mp4",
 												"filekind" : "moviefile",
 												"id" : "u971014181",
-												"selection" : [ 0.75, 6.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -7395,10 +7397,11 @@
 												"filename" : "K_Rock_photo6.mp4",
 												"filekind" : "moviefile",
 												"id" : "u545015998",
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -7407,10 +7410,11 @@
 												"filename" : "Slash_O  zi din viata lui Ceausescu_dansuri de masa.mp4",
 												"filekind" : "moviefile",
 												"id" : "u820014787",
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -7419,11 +7423,11 @@
 												"filename" : ",_Ceausescu  23 August 1986.mp4",
 												"filekind" : "moviefile",
 												"id" : "u458014776",
-												"selection" : [ 0.0, 2.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -7432,10 +7436,11 @@
 												"filename" : "_Black Slash_1983, Costinesti.mp4",
 												"filekind" : "moviefile",
 												"id" : "u947016015",
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -7444,11 +7449,11 @@
 												"filename" : "'_Discoteca Club CH Iasi 1989.mp4",
 												"filekind" : "moviefile",
 												"id" : "u439014778",
-												"selection" : [ 0.0, 2.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -7457,11 +7462,11 @@
 												"filename" : ";_Disco Ring Costinesti Techno Remix 1983.mp4",
 												"filekind" : "moviefile",
 												"id" : "u006014779",
-												"selection" : [ 0.0, 2.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -7470,10 +7475,11 @@
 												"filename" : "[_Rock_photo4.mp4",
 												"filekind" : "moviefile",
 												"id" : "u056016036",
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -7482,11 +7488,11 @@
 												"filename" : "]_Rock_photo5.mp4",
 												"filekind" : "moviefile",
 												"id" : "u104016061",
-												"selection" : [ 0.0, 2.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -7495,11 +7501,11 @@
 												"filename" : "L_Rock_photo7.mp4",
 												"filekind" : "moviefile",
 												"id" : "u751014094",
-												"selection" : [ 0.0, 2.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -7508,11 +7514,11 @@
 												"filename" : "I_Rock_photo1.mp4",
 												"filekind" : "moviefile",
 												"id" : "u470014115",
-												"selection" : [ 0.0, 2.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -7521,11 +7527,11 @@
 												"filename" : "O_Rock_photo2.mp4",
 												"filekind" : "moviefile",
 												"id" : "u522014160",
-												"selection" : [ 0.0, 2.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -7534,7 +7540,6 @@
 												"filename" : "P_Rock_photo3.mp4",
 												"filekind" : "moviefile",
 												"id" : "u565014199",
-												"selection" : [ 0.0, 2.0 ],
 												"loop" : 0,
 												"content_state" : 												{
 													"vol" : 0,
@@ -8233,11 +8238,11 @@
 												"filename" : "E_Foxtrot_photo1.mp4",
 												"filekind" : "moviefile",
 												"id" : "u464015692",
-												"selection" : [ 0.4, 7.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -8246,11 +8251,11 @@
 												"filename" : "X_URSS_mass fest_1945_part2.mp4",
 												"filekind" : "moviefile",
 												"id" : "u552014353",
-												"selection" : [ 0.4, 7.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -8259,11 +8264,11 @@
 												"filename" : "Z_URSS_mass fest_1945_part1.mp4",
 												"filekind" : "moviefile",
 												"id" : "u130014343",
-												"selection" : [ 0.4, 7.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -8272,11 +8277,11 @@
 												"filename" : "`_Foxtrot_Weimar Berlin_part2.mp4",
 												"filekind" : "moviefile",
 												"id" : "u432014344",
-												"selection" : [ 0.4, 7.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -8285,11 +8290,11 @@
 												"filename" : "F_Foxtrot_Weimar Berlin_part2.mp4",
 												"filekind" : "moviefile",
 												"id" : "u299015715",
-												"selection" : [ 0.4, 7.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -8298,10 +8303,11 @@
 												"filename" : "D_Foxtrot_1930.mp4",
 												"filekind" : "moviefile",
 												"id" : "u092014346",
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -8310,11 +8316,11 @@
 												"filename" : "S_Foxtrot _1937_Swedish Home Movie.mp4",
 												"filekind" : "moviefile",
 												"id" : "u582014347",
-												"selection" : [ 0.4, 7.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -8323,11 +8329,11 @@
 												"filename" : "A_Foxtrot_1930_Swedish Film Archive.mp4",
 												"filekind" : "moviefile",
 												"id" : "u806014348",
-												"selection" : [ 0.4, 7.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -8336,11 +8342,11 @@
 												"filename" : "R_Foxtrot Charleston_UK 1926.mp4",
 												"filekind" : "moviefile",
 												"id" : "u347014349",
-												"selection" : [ 0.4, 7.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -8349,11 +8355,11 @@
 												"filename" : "W_Maxixe_photo_3.mp4",
 												"filekind" : "moviefile",
 												"id" : "u294015759",
-												"selection" : [ 0.4, 7.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -8362,11 +8368,11 @@
 												"filename" : "Q_Forbiden Music List_photo_2.jpg",
 												"filekind" : "moviefile",
 												"id" : "u770014351",
-												"selection" : [ 0.4, 7.0 ],
-												"loop" : 0,
+												"loop" : 1,
 												"content_state" : 												{
 													"vol" : 0,
-													"rate" : 1
+													"rate" : 1,
+													"loop" : 1
 												}
 
 											}
@@ -8572,6 +8578,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-20", 0 ],
+									"order" : 1,
+									"source" : [ "obj-23", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-66", 0 ],
+									"order" : 0,
 									"source" : [ "obj-23", 1 ]
 								}
 
@@ -8807,14 +8822,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-30", 0 ],
-									"order" : 2,
-									"source" : [ "obj-43", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-31", 0 ],
 									"order" : 3,
 									"source" : [ "obj-43", 1 ]
 								}
@@ -8822,8 +8829,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-31", 0 ],
+									"order" : 4,
+									"source" : [ "obj-43", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-36", 0 ],
-									"order" : 0,
+									"order" : 1,
 									"source" : [ "obj-43", 1 ]
 								}
 
@@ -8831,7 +8846,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-41", 0 ],
-									"order" : 1,
+									"order" : 2,
+									"source" : [ "obj-43", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-66", 0 ],
+									"order" : 0,
 									"source" : [ "obj-43", 1 ]
 								}
 
@@ -9092,7 +9115,7 @@
 ,
 					"patching_rect" : [ 131.0, 1026.0, 53.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1054.75, 276.0, 53.0, 22.0 ],
+					"presentation_rect" : [ 1238.75, 281.000027716159821, 53.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -9113,7 +9136,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 131.0, 905.0, 53.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1054.75, 227.399993999999992, 53.0, 22.0 ],
+					"presentation_rect" : [ 1238.75, 232.400021716159813, 53.0, 22.0 ],
 					"text" : "r cadran"
 				}
 
@@ -9130,7 +9153,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 131.0, 994.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1054.75, 251.399993999999992, 53.0, 22.0 ]
+					"presentation_rect" : [ 1238.75, 256.400021716159813, 53.0, 22.0 ]
 				}
 
 			}
@@ -9143,7 +9166,7 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 131.0, 1055.5, 231.0, 135.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 766.75, 306.0, 960.0, 540.0 ],
+					"presentation_rect" : [ 814.75, 316.0, 996.0, 600.0 ],
 					"sync" : 1
 				}
 
@@ -9628,7 +9651,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3479.000034332275391, 1633.799996376037598, 51.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 529.849999308586121, 699.900000000000205, 51.0, 31.0 ],
+					"presentation_rect" : [ 711.783337732156269, 841.899999999999977, 51.0, 31.0 ],
 					"text" : "END"
 				}
 
@@ -9909,7 +9932,7 @@
 					"patching_rect" : [ 3183.350028395652771, 1496.599972248077393, 196.400000691413879, 144.400001704692841 ],
 					"pitchcorrection" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 529.849999308586121, 732.900000000000091, 228.400000691413879, 140.0 ],
+					"presentation_rect" : [ 483.783337732156269, 732.900000000000091, 219.400000691413879, 140.0 ],
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
 				}
@@ -12873,7 +12896,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 652.5, 464.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1693.75, 235.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 1774.75, 222.000027716159821, 24.0, 24.0 ]
 				}
 
 			}
@@ -12887,7 +12910,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 516.333333333333258, 464.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1646.25, 235.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 1727.25, 222.000027716159821, 24.0, 24.0 ]
 				}
 
 			}
@@ -12901,7 +12924,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 357.666666666666629, 464.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1594.75, 235.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 1675.75, 222.000027716159821, 24.0, 24.0 ]
 				}
 
 			}
@@ -12915,7 +12938,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 218.0, 464.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1544.75, 235.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 1625.75, 222.000027716159821, 24.0, 24.0 ]
 				}
 
 			}
@@ -13013,7 +13036,6 @@
 								"filename" : "sov-loop2.wav",
 								"filekind" : "audiofile",
 								"id" : "u564012308",
-								"selection" : [ 0.5, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -13036,7 +13058,6 @@
 								"filename" : "nazi-loop2.wav",
 								"filekind" : "audiofile",
 								"id" : "u233001081",
-								"selection" : [ 0.5, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -13048,7 +13069,6 @@
 								"filename" : "rebe-loop2.wav",
 								"filekind" : "audiofile",
 								"id" : "u236010981",
-								"selection" : [ 0.5, 2.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -14394,7 +14414,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 246.5, 794.5, 127.0, 71.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1531.75, 73.0, 200.0, 150.0 ],
+					"presentation_rect" : [ 1612.75, 60.000027716159821, 200.0, 150.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 4
@@ -14995,7 +15015,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 50.25, 16.0, 18.0, 66.0 ],
 					"size" : 4,
-					"value" : 3
+					"value" : 0
 				}
 
 			}
@@ -15161,7 +15181,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 691.0, 661.0, 151.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1235.75, 4.0, 151.0, 22.0 ],
+					"presentation_rect" : [ 1419.75, 9.000027716159821, 151.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "scores-to-rotation-speed",
 						"parameter_enable" : 0
@@ -15844,7 +15864,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1036.0, 387.0, 85.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1144.75, 4.0, 85.0, 22.0 ],
+					"presentation_rect" : [ 1328.75, 9.000027716159821, 85.0, 22.0 ],
 					"text" : "aed 5 0 0 0.66"
 				}
 
@@ -15927,7 +15947,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 953.0, 435.0, 200.0, 200.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1116.75, 28.0, 270.0, 270.0 ],
+					"presentation_rect" : [ 1300.75, 33.000027716159821, 270.0, 270.0 ],
 					"varname" : "raves"
 				}
 

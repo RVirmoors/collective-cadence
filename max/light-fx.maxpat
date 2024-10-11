@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-264",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 183.0, 322.800000071525574, 150.0, 33.0 ],
+					"text" : "CHANGE TO # OF LIGHTS HERE"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-254",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -184,20 +196,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1295.400003135204315, 900.800013422966003, 61.0, 22.0 ],
 					"text" : "del 40000"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-256",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 29.0, 239.0, 150.0, 33.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 23.0, 234.302134692270556, 208.999987125396729, 20.0 ],
-					"text" : "*change to dmx-work-cndb for CNDB"
 				}
 
 			}
@@ -1753,6 +1751,7 @@
 								"filename" : "Collective Cadence April 2024.black.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u507009060",
+								"selection" : [ 0.15, 13.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1764,6 +1763,7 @@
 								"filename" : "CC - Maini Semne-1.jpg",
 								"filekind" : "moviefile",
 								"id" : "u279007201",
+								"selection" : [ 0.15, 13.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1775,6 +1775,7 @@
 								"filename" : "CC - Maini Semne-2.jpg",
 								"filekind" : "moviefile",
 								"id" : "u976007043",
+								"selection" : [ 0.15, 13.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1786,6 +1787,7 @@
 								"filename" : "CC - Maini Semne-3.jpg",
 								"filekind" : "moviefile",
 								"id" : "u939007040",
+								"selection" : [ 0.15, 13.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1797,6 +1799,7 @@
 								"filename" : "CC - Maini Semne-4.jpg",
 								"filekind" : "moviefile",
 								"id" : "u823007045",
+								"selection" : [ 0.15, 13.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1808,6 +1811,7 @@
 								"filename" : "CC - Maini Semne-5.jpg",
 								"filekind" : "moviefile",
 								"id" : "u900007044",
+								"selection" : [ 0.15, 13.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1819,6 +1823,7 @@
 								"filename" : "CC - Maini Semne-6.jpg",
 								"filekind" : "moviefile",
 								"id" : "u739006977",
+								"selection" : [ 0.15, 13.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1830,6 +1835,7 @@
 								"filename" : "CC - Maini Semne-7.jpg",
 								"filekind" : "moviefile",
 								"id" : "u514006980",
+								"selection" : [ 0.15, 13.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1841,6 +1847,7 @@
 								"filename" : "CC - Maini Semne-8.jpg",
 								"filekind" : "moviefile",
 								"id" : "u424006976",
+								"selection" : [ 0.15, 13.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1852,6 +1859,7 @@
 								"filename" : "CC - Maini Semne-9.jpg",
 								"filekind" : "moviefile",
 								"id" : "u082006978",
+								"selection" : [ 0.15, 13.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1863,6 +1871,7 @@
 								"filename" : "CC - Maini Semne-10.jpg",
 								"filekind" : "moviefile",
 								"id" : "u463006915",
+								"selection" : [ 0.15, 13.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1940,6 +1949,7 @@
 								"filename" : "CC - Alien 5.jpg",
 								"filekind" : "moviefile",
 								"id" : "u318006787",
+								"selection" : [ 0.15, 13.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1951,6 +1961,7 @@
 								"filename" : "CC - Alien 7.jpg",
 								"filekind" : "moviefile",
 								"id" : "u648006796",
+								"selection" : [ 0.15, 13.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1962,6 +1973,7 @@
 								"filename" : "CC - Alien 8.jpg",
 								"filekind" : "moviefile",
 								"id" : "u165006795",
+								"selection" : [ 0.15, 13.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1973,6 +1985,7 @@
 								"filename" : "Collective Cadence April 2024.black.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u294002338",
+								"selection" : [ 0.15, 13.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -2937,7 +2950,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 252.000003755092621, 828.000012338161469, 24.0, 24.0 ]
+					"patching_rect" : [ 352.000003755092621, 818.000012338161469, 24.0, 24.0 ]
 				}
 
 			}
@@ -2948,7 +2961,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 252.000003755092621, 798.400001645088196, 39.0, 22.0 ],
+					"patching_rect" : [ 352.000003755092621, 788.400001645088196, 39.0, 22.0 ],
 					"text" : "r start"
 				}
 
@@ -4284,7 +4297,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.0, 614.0, 71.0, 76.0 ],
-					"text" : "12.003451 63.137811 0. 0. 0. 0. 0. 0. 0. 0."
+					"text" : "87.164286 106.208095 0. 0. 0. 0. 0. 0. 0. 0."
 				}
 
 			}
@@ -4318,10 +4331,10 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 0,
-					"patching_rect" : [ 150.0, 829.302134692270556, 61.0, 22.0 ],
+					"patching_rect" : [ 150.0, 829.302134692270556, 120.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.0, 209.102134584982196, 61.0, 22.0 ],
-					"text" : "dmx-work"
+					"presentation_rect" : [ 41.0, 209.102134584982196, 113.0, 22.0 ],
+					"text" : "dmx-work-tanzhaus"
 				}
 
 			}
@@ -4624,13 +4637,14 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.415686274509804, 0.890196078431372, 0.76078431372549, 1.0 ],
 					"id" : "obj-33",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 89.0, 326.999991178512573, 99.0, 22.0 ],
-					"text" : "mc.mixdown~ 10"
+					"patching_rect" : [ 89.0, 326.999991178512573, 92.0, 22.0 ],
+					"text" : "mc.mixdown~ 8"
 				}
 
 			}
@@ -6944,7 +6958,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "dmx-work.maxpat",
+				"name" : "dmx-work-tanzhaus.maxpat",
 				"bootpath" : "~/Documents/GitHub/collective-cadence/max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
