@@ -20,8 +20,7 @@ llama-tokenizer
 /rave/_rave mp3
 /rave/dataset
 *.flac
-.DS_Store
-.DS_Store
+*/.DS_Store
 /reaper/rebetik
 *.wav
 *.aif
@@ -34,4 +33,10 @@ ableton/talking Project/Icon
 ableton/rebe Project/Icon
 .DS_Store
 /.venv
+.DS_Store
 max/.DS_Store
+*.mov
+max/.DS_Store
+paperspace-chatbot/app-groq.py
+paperspace-chatbot/groq-alien.py
+paperspace-chatbot/streaming.py

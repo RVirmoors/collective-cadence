@@ -67,7 +67,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ -70 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[20]",
+							"parameter_longname" : "live.dial[9]",
 							"parameter_mmax" : 0.0,
 							"parameter_mmin" : -99.0,
 							"parameter_shortname" : "floor",
@@ -1233,7 +1233,7 @@
 							"parameter_exponent" : 3.0,
 							"parameter_initial" : [ 30.000000000000011 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[21]",
+							"parameter_longname" : "live.dial[7]",
 							"parameter_mmax" : 1000.0,
 							"parameter_shortname" : "lockout",
 							"parameter_type" : 0,
@@ -1259,7 +1259,7 @@
 						"valueof" : 						{
 							"parameter_initial" : [ 50.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.dial[22]",
+							"parameter_longname" : "live.dial[8]",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "sensitivity",
 							"parameter_type" : 0,
@@ -1611,7 +1611,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "signal", "signal" ],
-					"patching_rect" : [ 387.0, 345.0, 219.0, 22.0 ],
+					"patching_rect" : [ 387.0, 345.0, 222.0, 22.0 ],
 					"text" : "sp.onset~ @lockout 200 @sensitivity #2"
 				}
 
@@ -1757,7 +1757,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 276.0, 157.0, 166.0, 23.0 ],
+					"patching_rect" : [ 276.0, 157.0, 168.0, 23.0 ],
 					"text" : "combine #1. i @triggers 1"
 				}
 
@@ -1780,7 +1780,7 @@
 							"parameter_initial" : [ 1 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[9]",
+							"parameter_longname" : "number[5]",
 							"parameter_mmax" : 8.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "number",
@@ -1800,7 +1800,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 105.0, 203.0, 93.0, 22.0 ],
+					"patching_rect" : [ 105.0, 203.0, 95.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
