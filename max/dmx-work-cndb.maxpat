@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-31",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 327.0, 213.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-34",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -63,13 +75,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-46",
-					"linecount" : 5,
+					"linecount" : 6,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 37.0, 1116.000014543533325, 189.0, 76.0 ],
-					"text" : "0 254 254 254 0 0 0 254 254 254 0 0 0 254 254 254 0 0 0 254 254 254 0 0 0 254 254 254 0 0 0 254 254 254 0 0 0 254 254 254 0 0 0 254 254 254 0 0 0 0 0 0 0 0 0 0"
+					"patching_rect" : [ 37.0, 1116.000014543533325, 189.0, 89.0 ],
+					"text" : "124 254 254 254 0 0 113 254 254 254 0 0 101 254 254 254 0 0 88 254 254 254 0 0 69 254 254 254 0 0 39 254 254 254 0 0 35 254 254 254 0 0 30 254 254 254 0 0 0 0 0 34 0 0 0 24"
 				}
 
 			}
@@ -139,7 +151,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-8",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -1422,6 +1433,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-31", 0 ]
 				}
 
 			}
