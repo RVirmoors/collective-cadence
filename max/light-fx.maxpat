@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 57.0, 133.0, 1239.0, 779.0 ],
+		"rect" : [ 19.0, -929.0, 1582.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,53 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-271",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 2443.0, 342.0, 41.0, 22.0 ],
+					"text" : "sel 15"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-270",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2482.5, 377.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-256",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2482.5, 414.733337461948395, 135.0, 22.0 ],
+					"text" : "udpsend localhost 5556"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-243",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 42.75, 279.0, 29.5, 22.0 ],
+					"text" : "* 2."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-264",
 					"linecount" : 2,
@@ -1916,6 +1963,7 @@
 								"filename" : "CC - Alien 4.jpg",
 								"filekind" : "moviefile",
 								"id" : "u793006799",
+								"selection" : [ 0.7, 6.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1927,6 +1975,7 @@
 								"filename" : "CC - Alien 6.jpg",
 								"filekind" : "moviefile",
 								"id" : "u619006797",
+								"selection" : [ 0.7, 6.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1938,6 +1987,7 @@
 								"filename" : "CC - Alien 5.jpg",
 								"filekind" : "moviefile",
 								"id" : "u318006787",
+								"selection" : [ 0.7, 6.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1949,6 +1999,7 @@
 								"filename" : "CC - Alien 7.jpg",
 								"filekind" : "moviefile",
 								"id" : "u648006796",
+								"selection" : [ 0.7, 6.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1960,6 +2011,7 @@
 								"filename" : "CC - Alien 8.jpg",
 								"filekind" : "moviefile",
 								"id" : "u165006795",
+								"selection" : [ 0.7, 6.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -1971,6 +2023,7 @@
 								"filename" : "Collective Cadence April 2024.black.jpeg",
 								"filekind" : "moviefile",
 								"id" : "u294002338",
+								"selection" : [ 0.7, 6.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -4276,13 +4329,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"linecount" : 5,
+					"linecount" : 6,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 614.0, 67.0, 76.0 ],
-					"text" : "0. 0. 0. 131.098617 59.720965 0. 0. 0. 0. 0."
+					"patching_rect" : [ 24.0, 614.0, 67.0, 89.0 ],
+					"text" : "0. 0. 0. 0. 0. 314.473073 105.227178 0. 0. 0."
 				}
 
 			}
@@ -4318,8 +4371,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 150.0, 829.302134692270556, 120.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.0, 209.102134584982196, 91.0, 22.0 ],
-					"text" : "dmx-work-cndb"
+					"presentation_rect" : [ 41.0, 209.102134584982196, 87.0, 22.0 ],
+					"text" : "dmx-work-kino"
 				}
 
 			}
@@ -4423,7 +4476,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 74.0, 192.999991178512573, 62.0, 22.0 ],
+					"patching_rect" : [ 77.0, 192.999991178512573, 62.0, 22.0 ],
 					"text" : "phasor~ 5"
 				}
 
@@ -4615,7 +4668,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 10,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 89.0, 362.166662573814392, 113.5, 22.0 ],
+					"patching_rect" : [ 90.0, 392.000000476837158, 113.5, 22.0 ],
 					"text" : "mc.unpack~ 10"
 				}
 
@@ -4628,8 +4681,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 89.0, 326.999991178512573, 99.0, 22.0 ],
-					"text" : "mc.mixdown~ 10"
+					"patching_rect" : [ 89.0, 326.999991178512573, 92.0, 22.0 ],
+					"text" : "mc.mixdown~ 8"
 				}
 
 			}
@@ -5478,6 +5531,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-177", 0 ],
+					"order" : 1,
+					"source" : [ "obj-185", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-271", 0 ],
+					"order" : 0,
 					"source" : [ "obj-185", 0 ]
 				}
 
@@ -5853,13 +5915,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-247", 0 ],
-					"source" : [ "obj-232", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-230", 0 ],
 					"source" : [ "obj-233", 0 ]
 				}
@@ -5940,6 +5995,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-238", 0 ],
 					"source" : [ "obj-241", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"source" : [ "obj-243", 0 ]
 				}
 
 			}
@@ -6090,6 +6152,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-256", 0 ],
+					"source" : [ "obj-270", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-270", 0 ],
+					"source" : [ "obj-271", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"source" : [ "obj-28", 0 ]
 				}
@@ -6233,7 +6309,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
+					"destination" : [ "obj-243", 0 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -6943,7 +7019,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "dmx-work-cndb.maxpat",
+				"name" : "dmx-work-kino.maxpat",
 				"bootpath" : "~/Documents/GitHub/collective-cadence/max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
