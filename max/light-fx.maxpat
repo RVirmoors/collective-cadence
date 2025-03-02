@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-266",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ 650.099999070167542, 1114.0, 60.0, 22.0 ],
+					"text" : "mc.*~ 0.5"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-280",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -1613,7 +1625,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-234",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -3683,7 +3694,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 0,
-					"patching_rect" : [ 650.099999070167542, 1131.200015068054199, 75.0, 22.0 ],
+					"patching_rect" : [ 650.099999070167542, 1213.200015068054199, 75.0, 22.0 ],
 					"text" : "dac~ 1 2 4 3"
 				}
 
@@ -3695,7 +3706,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 650.099999070167542, 1082.502149760324755, 84.0, 22.0 ],
+					"patching_rect" : [ 650.099999070167542, 1164.502149760324755, 84.0, 22.0 ],
 					"text" : "mc.unpack~ 4"
 				}
 
@@ -4394,13 +4405,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 614.0, 67.0, 49.0 ],
-					"text" : "0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
+					"patching_rect" : [ 24.0, 614.0, 67.0, 62.0 ],
+					"text" : "0. 0. 0. 0. 0. 0. 0. 0. 2.573962 104.038477"
 				}
 
 			}
@@ -6175,6 +6186,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-266", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-185", 3 ],
 					"source" : [ "obj-267", 0 ]
 				}
@@ -6622,7 +6640,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
+					"destination" : [ "obj-266", 0 ],
 					"source" : [ "obj-62", 0 ]
 				}
 

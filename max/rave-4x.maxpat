@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1852.0, 1079.0 ],
+		"rect" : [ 34.0, 87.0, 1612.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-429",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 3423.750031173229218, 1542.0, 29.5, 22.0 ],
+					"text" : "1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-456",
 					"maxclass" : "newobj",
@@ -590,8 +602,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 492.333333333333258, 874.5, 33.0, 35.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1300.0, 168.0, 135.0, 135.0 ],
 					"proportion" : 0.5
 				}
 
@@ -1389,7 +1399,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1762.0, 1064.0, 50.0, 22.0 ],
-					"text" : "4"
+					"text" : "2"
 				}
 
 			}
@@ -2634,7 +2644,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"patching_rect" : [ 3154.600028395652771, 136.0, 36.0, 22.0 ],
-					"text" : "urn 6"
+					"text" : "urn 7"
 				}
 
 			}
@@ -3693,7 +3703,7 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
-					"clipheight" : 40.333333333333336,
+					"clipheight" : 34.428571428571431,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "trumps1.wav",
@@ -3704,7 +3714,7 @@
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 1.275652676825528,
+									"speed" : 1.0005,
 									"quality" : "better"
 								}
 
@@ -3714,12 +3724,12 @@
 								"filename" : "trumps2.wav",
 								"filekind" : "audiofile",
 								"id" : "u736005460",
-								"selection" : [ 0.95, 1.0 ],
+								"selection" : [ 0.3, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 1.275652676825528,
+									"speed" : 1.0005,
 									"quality" : "better"
 								}
 
@@ -3729,12 +3739,12 @@
 								"filename" : "tambal.wav",
 								"filekind" : "audiofile",
 								"id" : "u385010670",
-								"selection" : [ 0.95, 1.0 ],
+								"selection" : [ 0.3, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 1.275652676825528,
+									"speed" : 1.0005,
 									"quality" : "better"
 								}
 
@@ -3744,12 +3754,12 @@
 								"filename" : "vox-liebe.wav",
 								"filekind" : "audiofile",
 								"id" : "u091005462",
-								"selection" : [ 0.95, 1.0 ],
+								"selection" : [ 0.3, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 1.275652676825528,
+									"speed" : 1.0005,
 									"quality" : "better"
 								}
 
@@ -3759,13 +3769,24 @@
 								"filename" : "piano1.wav",
 								"filekind" : "audiofile",
 								"id" : "u875005463",
-								"selection" : [ 0.95, 1.0 ],
+								"selection" : [ 0.3, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 1.275652676825528,
+									"speed" : 1.0005,
 									"quality" : "better"
+								}
+
+							}
+, 							{
+								"absolutepath" : "rockguit.wav",
+								"filename" : "rockguit.wav",
+								"filekind" : "audiofile",
+								"id" : "u352014043",
+								"loop" : 0,
+								"content_state" : 								{
+
 								}
 
 							}
@@ -3774,12 +3795,12 @@
 								"filename" : "strings1.wav",
 								"filekind" : "audiofile",
 								"id" : "u149010669",
-								"selection" : [ 0.95, 1.0 ],
+								"selection" : [ 0.3, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 1.275652676825528,
+									"speed" : 1.0005,
 									"quality" : "better"
 								}
 
@@ -8144,7 +8165,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1445.0, 288.333337426185608, 50.0, 22.0 ],
-									"text" : "3"
+									"text" : "1"
 								}
 
 							}
@@ -9459,7 +9480,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 3479.000034332275391, 1702.599997401237488, 41.0, 22.0 ],
-					"text" : "line 0."
+					"text" : "line 1."
 				}
 
 			}
@@ -9804,7 +9825,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3172.850028395652771, 1420.799975037574768, 29.5, 22.0 ],
-					"text" : "4"
+					"text" : "2"
 				}
 
 			}
@@ -12838,7 +12859,6 @@
 								"filename" : "sov-loop2.wav",
 								"filekind" : "audiofile",
 								"id" : "u564012308",
-								"selection" : [ 0.5, 4.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -12850,7 +12870,6 @@
 								"filename" : "rsr_loop3.wav",
 								"filekind" : "audiofile",
 								"id" : "u615001837",
-								"selection" : [ 0.5, 4.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -12862,7 +12881,6 @@
 								"filename" : "nazi-loop2.wav",
 								"filekind" : "audiofile",
 								"id" : "u233001081",
-								"selection" : [ 0.5, 4.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -14824,7 +14842,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 50.25, 16.0, 18.0, 66.0 ],
 					"size" : 4,
-					"value" : 2
+					"value" : 0
 				}
 
 			}
@@ -15768,7 +15786,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3194.5, 136.0, 35.0, 22.0 ],
+					"patching_rect" : [ 3223.600028395652771, 136.0, 35.0, 22.0 ],
 					"text" : "clear"
 				}
 
@@ -17491,6 +17509,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-260", 1 ],
+					"order" : 1,
+					"source" : [ "obj-258", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-429", 0 ],
+					"order" : 0,
 					"source" : [ "obj-258", 0 ]
 				}
 
@@ -19009,6 +19036,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-289", 0 ],
+					"source" : [ "obj-429", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-88", 0 ],
 					"source" : [ "obj-43", 0 ]
 				}
@@ -20359,6 +20393,13 @@
 				"bootpath" : "~/Documents/GitHub/collective-cadence/max",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rockguit.wav",
+				"bootpath" : "~/Documents/GitHub/collective-cadence/max/extra-sounds",
+				"patcherrelativepath" : "./extra-sounds",
+				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
