@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1044.0, 1079.0 ],
+		"rect" : [ 34.0, 87.0, 1612.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -288,7 +288,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1406.0, 160.833337604999542, 80.0, 13.0 ]
+					"patching_rect" : [ 1397.0, 80.699992060661316, 80.0, 13.0 ]
 				}
 
 			}
@@ -351,7 +351,7 @@
 					"patching_rect" : [ 1493.0, 72.0, 52.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 641.0, 15.0, 52.0, 22.0 ],
-					"text" : "dac~ 21"
+					"text" : "dac~ 19"
 				}
 
 			}
@@ -365,7 +365,7 @@
 					"patching_rect" : [ 1493.0, 27.0, 45.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 594.0, 15.0, 45.0, 22.0 ],
-					"text" : "adc~ 7"
+					"text" : "adc~ 1"
 				}
 
 			}
@@ -4203,6 +4203,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-142",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -4405,13 +4406,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"linecount" : 4,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 614.0, 67.0, 62.0 ],
-					"text" : "0. 0. 0. 0. 0. 0. 0. 0. 2.573962 104.038477"
+					"patching_rect" : [ 24.0, 614.0, 73.0, 35.0 ],
+					"text" : "0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
 				}
 
 			}

@@ -45,6 +45,19 @@ apple M1 inference using [llama.cpp](https://github.com/ggerganov/llama.cpp):
 ./main -m /Volumes/Extreme\ SSD/_llama/models/Xwin-LM-13B-V0.2/ggml-model-Q4_K_M --lora /Volumes/Extreme\ SSD/_llama/loras/his-ana-the-512/ggml-adapter-model.bin  -n 8 --prompt "What is dance?"
 ```
 
+## Paperspace
+
+https://console.paperspace.com/account/settings/ssh-keys
+
+```
+pip install faiss-cpu sentence-transformers groq
+scp -i SHA256:my_SSH_key ../datasets/02-HIS-ANA-THE.txt paperspace@74.82.28.60:~
+scp -i SHA256:my_SSH_key faiss_index.index paperspace@74.82.28.60:~
+scp -i SHA256:my_SSH_key app-groq.py paperspace@74.82.28.60:~
+/.
+python3 app-groq.py
+```
+
 
 
 ## RAVE

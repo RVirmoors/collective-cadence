@@ -996,7 +996,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1617.0, 10.0, 45.0, 22.0 ],
-					"text" : "adc~ 1"
+					"text" : "adc~ 3"
 				}
 
 			}
@@ -3724,7 +3724,6 @@
 								"filename" : "trumps2.wav",
 								"filekind" : "audiofile",
 								"id" : "u736005460",
-								"selection" : [ 0.3, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
@@ -3739,7 +3738,6 @@
 								"filename" : "tambal.wav",
 								"filekind" : "audiofile",
 								"id" : "u385010670",
-								"selection" : [ 0.3, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
@@ -3754,7 +3752,6 @@
 								"filename" : "vox-liebe.wav",
 								"filekind" : "audiofile",
 								"id" : "u091005462",
-								"selection" : [ 0.3, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
@@ -3769,7 +3766,6 @@
 								"filename" : "piano1.wav",
 								"filekind" : "audiofile",
 								"id" : "u875005463",
-								"selection" : [ 0.3, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
@@ -3786,7 +3782,9 @@
 								"id" : "u352014043",
 								"loop" : 0,
 								"content_state" : 								{
-
+									"timestretch" : 1,
+									"quality" : "better",
+									"speed" : 1.0005
 								}
 
 							}
@@ -3795,7 +3793,6 @@
 								"filename" : "strings1.wav",
 								"filekind" : "audiofile",
 								"id" : "u149010669",
-								"selection" : [ 0.3, 1.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
@@ -3836,7 +3833,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 2214.13336612780904, 76.96666145324707, 45.0, 22.0 ],
-					"text" : "adc~ 1"
+					"text" : "adc~ 3"
 				}
 
 			}
@@ -6002,7 +5999,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-87",
@@ -6221,7 +6217,6 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-8",
@@ -12570,10 +12565,10 @@
 					"id" : "obj-154",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 1401.5, 6.0, 75.0, 22.0 ],
-					"text" : "adc~ 1 6 7 8"
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 1401.5, 6.0, 55.0, 22.0 ],
+					"text" : "adc~ 1 2"
 				}
 
 			}
@@ -16287,21 +16282,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-156", 0 ],
-					"source" : [ "obj-154", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-156", 0 ],
-					"order" : 1,
-					"source" : [ "obj-154", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-156", 0 ],
 					"source" : [ "obj-154", 1 ]
 				}
 
@@ -16309,6 +16289,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-156", 0 ],
+					"order" : 1,
 					"source" : [ "obj-154", 0 ]
 				}
 
@@ -16317,7 +16298,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-245", 0 ],
 					"order" : 0,
-					"source" : [ "obj-154", 2 ]
+					"source" : [ "obj-154", 0 ]
 				}
 
 			}
