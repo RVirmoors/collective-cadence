@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 388.671875, 693.75, 56.0, 22.0 ],
+					"patching_rect" : [ 392.5, 683.0, 56.0, 22.0 ],
 					"text" : "-70 5000"
 				}
 
@@ -257,8 +257,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 363.0, 719.0, 63.0, 22.0 ],
-					"text" : "-20 15000"
+					"patching_rect" : [ 358.0, 717.75, 63.0, 22.0 ],
+					"text" : "-24 15000"
 				}
 
 			}
