@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,12 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-61",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 388.671875, 693.75, 56.0, 22.0 ],
+					"text" : "-70 5000"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-82",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 290.0, 719.0, 29.5, 22.0 ],
+					"patching_rect" : [ 282.6500004529953, 719.0, 29.5, 22.0 ],
 					"text" : "-8"
 				}
 
@@ -245,8 +257,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 374.0, 719.0, 63.0, 22.0 ],
-					"text" : "-70 15000"
+					"patching_rect" : [ 363.0, 719.0, 63.0, 22.0 ],
+					"text" : "-20 15000"
 				}
 
 			}
@@ -269,7 +281,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 325.0, 676.0, 54.0, 22.0 ],
+					"patching_rect" : [ 325.0, 649.21875, 54.0, 22.0 ],
 					"text" : "sel 0 1 2"
 				}
 
@@ -281,7 +293,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 325.0, 642.0, 42.0, 22.0 ],
+					"patching_rect" : [ 325.0, 623.046875, 42.0, 22.0 ],
 					"text" : "r state"
 				}
 
@@ -417,6 +429,7 @@
 							"parameter_longname" : "live.gain~[7]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "1: KICK",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -795,6 +808,7 @@
 							"parameter_longname" : "live.gain~[5]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "LAYER 5",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -857,6 +871,7 @@
 							"parameter_longname" : "live.gain~[6]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "LAYER 4",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -919,6 +934,7 @@
 							"parameter_longname" : "live.gain~[4]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "LAYER 3",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -1012,6 +1028,7 @@
 							"parameter_longname" : "live.gain~[2]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "LAYER 2",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -1115,8 +1132,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1161,8 +1178,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1361,8 +1378,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1546,8 +1563,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 5,
-											"revision" : 6,
+											"minor" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1913,6 +1930,7 @@
 							"parameter_longname" : "live.gain~[3]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -2392,6 +2410,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"source" : [ "obj-42", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
 					"order" : 1,
 					"source" : [ "obj-42", 1 ]
@@ -2489,6 +2514,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 1 ],
 					"source" : [ "obj-60", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"order" : 0,
+					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-76", 0 ],
+					"order" : 1,
+					"source" : [ "obj-61", 0 ]
 				}
 
 			}
@@ -2975,29 +3016,29 @@
 			}
 , 			{
 				"name" : "dk.ArrowOff.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/media/Icons",
-				"patcherrelativepath" : "../../../Max 8/Packages/SP-Tools/media/Icons",
+				"bootpath" : "~/Documents/Max 8/Packages/Data Knot/media/Icons",
+				"patcherrelativepath" : "../../../Max 8/Packages/Data Knot/media/Icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.ArrowOn.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/media/Icons",
-				"patcherrelativepath" : "../../../Max 8/Packages/SP-Tools/media/Icons",
+				"bootpath" : "~/Documents/Max 8/Packages/Data Knot/media/Icons",
+				"patcherrelativepath" : "../../../Max 8/Packages/Data Knot/media/Icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.loopIconImageOff.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/media/Icons",
-				"patcherrelativepath" : "../../../Max 8/Packages/SP-Tools/media/Icons",
+				"bootpath" : "~/Documents/Max 8/Packages/Data Knot/media/Icons",
+				"patcherrelativepath" : "../../../Max 8/Packages/Data Knot/media/Icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.loopIconImageOn.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/media/Icons",
-				"patcherrelativepath" : "../../../Max 8/Packages/SP-Tools/media/Icons",
+				"bootpath" : "~/Documents/Max 8/Packages/Data Knot/media/Icons",
+				"patcherrelativepath" : "../../../Max 8/Packages/Data Knot/media/Icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -3054,8 +3095,8 @@
 			}
 , 			{
 				"name" : "resizeBpatcherWindow.js",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/javascript",
-				"patcherrelativepath" : "../../../Max 8/Packages/SP-Tools/javascript",
+				"bootpath" : "~/Documents/Max 8/Packages/Data Knot/javascript",
+				"patcherrelativepath" : "../../../Max 8/Packages/Data Knot/javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -3075,8 +3116,8 @@
 			}
 , 			{
 				"name" : "samplerRampFadeDisplay.js",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/jsui",
-				"patcherrelativepath" : "../../../Max 8/Packages/SP-Tools/jsui",
+				"bootpath" : "~/Documents/Max 8/Packages/Data Knot/jsui",
+				"patcherrelativepath" : "../../../Max 8/Packages/Data Knot/jsui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
