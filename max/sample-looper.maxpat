@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -476,12 +476,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-287",
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "signal", "signal" ],
-					"patching_rect" : [ 417.10000342130661, 423.800000190734863, 174.0, 22.0 ],
-					"text" : "sp.descriptors~ @sensitivity 90"
+					"patching_rect" : [ 417.10000342130661, 423.800000190734863, 101.0, 49.0 ],
+					"text" : "sp.descriptors~ @sensitivity 90 @lockout 100"
 				}
 
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -105.0, -993.0, 1852.0, 959.0 ],
+		"rect" : [ 34.0, 87.0, 1612.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,42 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontsize" : 16.0,
+					"id" : "obj-126",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1615.0, 35.0, 194.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1623.75, 65.0, 185.25, 24.0 ],
+					"text" : "1          2         3          4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-124",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "sp.descriptordisplay.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2701.0, 216.0, 235.0, 235.0 ],
+					"varname" : "rbtnk.autoBpatcher_81897[1]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-463",
 					"maxclass" : "newobj",
@@ -595,7 +631,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2170.836066981157273, 1266.216131687164307, 469.0, 22.0 ],
-					"text" : "0. 0.477419 0. 0.394583 0.223545 0.49615 0.008544 0."
+					"text" : "0.273071 0.452241 0. 0.583935 0.000069 0.460004 0.008544 0."
 				}
 
 			}
@@ -2019,7 +2055,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 415.0, -750.0, 969.0, 627.0 ],
+						"rect" : [ 134.0, 159.0, 969.0, 627.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3342,8 +3378,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 492.333333333333258, 874.5, 33.0, 35.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1300.0, 168.0, 135.0, 135.0 ],
 					"proportion" : 0.5
 				}
 
@@ -4459,7 +4493,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1908.999968826770782, 1785.999999999999773, 47.0, 22.0 ],
-					"text" : "*~ 0.05"
+					"text" : "*~ 0.25"
 				}
 
 			}
@@ -4499,7 +4533,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1807.499968826770782, 1785.999999999999773, 47.0, 22.0 ],
-					"text" : "*~ 0.05"
+					"text" : "*~ 0.15"
 				}
 
 			}
@@ -6240,12 +6274,11 @@
 								"filename" : "trumps1.wav",
 								"filekind" : "audiofile",
 								"id" : "u390005461",
-								"selection" : [ 0.0, 4.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 0.54020282609813,
+									"speed" : 1.0005,
 									"quality" : "better"
 								}
 
@@ -6255,12 +6288,11 @@
 								"filename" : "trumps2.wav",
 								"filekind" : "audiofile",
 								"id" : "u736005460",
-								"selection" : [ 0.0, 4.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 0.54020282609813,
+									"speed" : 1.0005,
 									"quality" : "better"
 								}
 
@@ -6270,12 +6302,11 @@
 								"filename" : "tambal.wav",
 								"filekind" : "audiofile",
 								"id" : "u385010670",
-								"selection" : [ 0.0, 4.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 0.54020282609813,
+									"speed" : 1.0005,
 									"quality" : "better"
 								}
 
@@ -6289,7 +6320,7 @@
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 0.54020282609813,
+									"speed" : 1.0005,
 									"quality" : "better"
 								}
 
@@ -6299,12 +6330,11 @@
 								"filename" : "piano1.wav",
 								"filekind" : "audiofile",
 								"id" : "u875005463",
-								"selection" : [ 0.0, 4.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 0.54020282609813,
+									"speed" : 1.0005,
 									"quality" : "better"
 								}
 
@@ -6314,12 +6344,11 @@
 								"filename" : "rockguit.wav",
 								"filekind" : "audiofile",
 								"id" : "u352014043",
-								"selection" : [ 0.0, 4.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"timestretch" : 1,
 									"quality" : "better",
-									"speed" : 0.54020282609813
+									"speed" : 1.0005
 								}
 
 							}
@@ -6328,12 +6357,11 @@
 								"filename" : "strings1.wav",
 								"filekind" : "audiofile",
 								"id" : "u149010669",
-								"selection" : [ 0.0, 4.0 ],
 								"loop" : 0,
 								"content_state" : 								{
 									"loop" : 0,
 									"timestretch" : 1,
-									"speed" : 0.54020282609813,
+									"speed" : 1.0005,
 									"quality" : "better"
 								}
 
@@ -13870,7 +13898,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 652.5, 464.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1772.75, 221.000027716159821, 24.0, 24.0 ]
+					"presentation_rect" : [ 1772.75, 255.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -13884,7 +13912,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 516.333333333333258, 464.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1725.25, 221.000027716159821, 24.0, 24.0 ]
+					"presentation_rect" : [ 1724.75, 255.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -13898,7 +13926,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 357.666666666666629, 464.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1673.75, 221.000027716159821, 24.0, 24.0 ]
+					"presentation_rect" : [ 1673.75, 255.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -13912,7 +13940,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 218.0, 464.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1623.75, 221.000027716159821, 24.0, 24.0 ]
+					"presentation_rect" : [ 1623.75, 255.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -14010,7 +14038,6 @@
 								"filename" : "sov-loop2.wav",
 								"filekind" : "audiofile",
 								"id" : "u564012308",
-								"selection" : [ 0.65, 4.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -14022,7 +14049,6 @@
 								"filename" : "rsr_loop3.wav",
 								"filekind" : "audiofile",
 								"id" : "u615001837",
-								"selection" : [ 0.65, 4.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -14034,7 +14060,6 @@
 								"filename" : "nazi-loop2.wav",
 								"filekind" : "audiofile",
 								"id" : "u233001081",
-								"selection" : [ 0.65, 4.0 ],
 								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 1
@@ -15394,7 +15419,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 246.5, 794.5, 127.0, 71.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1610.75, 59.000027716159821, 200.0, 150.0 ],
+					"presentation_rect" : [ 1610.75, 93.0, 200.0, 150.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 1,
 					"size" : 4,
@@ -15996,7 +16021,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 50.25, 16.0, 18.0, 66.0 ],
 					"size" : 4,
-					"value" : 3
+					"value" : 0
 				}
 
 			}
@@ -19753,7 +19778,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-373", 0 ],
+					"destination" : [ "obj-250", 0 ],
 					"order" : 1,
 					"source" : [ "obj-376", 0 ]
 				}
@@ -20926,6 +20951,10 @@
 			"obj-107::obj-64" : [ "live.numbox[12]", "live.numbox", 0 ],
 			"obj-107::obj-67" : [ "live.numbox[14]", "live.numbox", 0 ],
 			"obj-107::obj-68" : [ "live.numbox[15]", "live.numbox", 0 ],
+			"obj-124::obj-61" : [ "live.numbox[16]", "live.numbox", 0 ],
+			"obj-124::obj-64" : [ "live.numbox[17]", "live.numbox", 0 ],
+			"obj-124::obj-67" : [ "live.numbox[18]", "live.numbox", 0 ],
+			"obj-124::obj-68" : [ "live.numbox[19]", "live.numbox", 0 ],
 			"obj-181::obj-11::obj-104" : [ "live.drop[7]", "live.drop", 0 ],
 			"obj-181::obj-11::obj-11" : [ "loop[3]", "loop", 0 ],
 			"obj-181::obj-11::obj-126" : [ "lengthabsolute[3]", "lengthabsolute", 0 ],
@@ -21064,6 +21093,22 @@
 ,
 				"obj-107::obj-68" : 				{
 					"parameter_longname" : "live.numbox[15]"
+				}
+,
+				"obj-124::obj-61" : 				{
+					"parameter_longname" : "live.numbox[16]"
+				}
+,
+				"obj-124::obj-64" : 				{
+					"parameter_longname" : "live.numbox[17]"
+				}
+,
+				"obj-124::obj-67" : 				{
+					"parameter_longname" : "live.numbox[18]"
+				}
+,
+				"obj-124::obj-68" : 				{
+					"parameter_longname" : "live.numbox[19]"
 				}
 ,
 				"obj-181::obj-11::obj-104" : 				{
@@ -21433,15 +21478,15 @@
 			}
 , 			{
 				"name" : "dk.ArrowOff.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/media/Icons",
-				"patcherrelativepath" : "../../../Max 8/Packages/SP-Tools/media/Icons",
+				"bootpath" : "~/Documents/Max 8/Packages/Data Knot/media/Icons",
+				"patcherrelativepath" : "../../../Max 8/Packages/Data Knot/media/Icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.ArrowOn.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/media/Icons",
-				"patcherrelativepath" : "../../../Max 8/Packages/SP-Tools/media/Icons",
+				"bootpath" : "~/Documents/Max 8/Packages/Data Knot/media/Icons",
+				"patcherrelativepath" : "../../../Max 8/Packages/Data Knot/media/Icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
@@ -21475,15 +21520,15 @@
 			}
 , 			{
 				"name" : "dk.loopIconImageOff.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/media/Icons",
-				"patcherrelativepath" : "../../../Max 8/Packages/SP-Tools/media/Icons",
+				"bootpath" : "~/Documents/Max 8/Packages/Data Knot/media/Icons",
+				"patcherrelativepath" : "../../../Max 8/Packages/Data Knot/media/Icons",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dk.loopIconImageOn.svg",
-				"bootpath" : "~/Documents/Max 8/Packages/SP-Tools/media/Icons",
-				"patcherrelativepath" : "../../../Max 8/Packages/SP-Tools/media/Icons",
+				"bootpath" : "~/Documents/Max 8/Packages/Data Knot/media/Icons",
+				"patcherrelativepath" : "../../../Max 8/Packages/Data Knot/media/Icons",
 				"type" : "svg",
 				"implicit" : 1
 			}

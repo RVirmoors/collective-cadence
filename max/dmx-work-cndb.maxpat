@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 174.0, 1852.0, 959.0 ],
+		"rect" : [ 34.0, 87.0, 1852.0, 1079.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 327.0, 213.0, 50.0, 22.0 ]
+					"patching_rect" : [ 544.0, 37.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -93,7 +93,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 37.0, 1116.000014543533325, 189.0, 89.0 ],
-					"text" : "0 0 0 0 0 0 0 254 254 254 0 0 0 254 254 254 0 0 0 254 254 254 0 0 0 254 254 254 0 0 0 254 254 254 0 0 0 254 254 254 0 0 0 254 254 254 0 0 0 254 254 254 0 0 0 0 0 0 0 0"
+					"text" : "0 254 254 254 0 0 0 254 254 254 0 0 0 254 254 254 0 0 0 254 254 254 0 0 0 254 254 254 0 0 0 254 254 254 0 0 0 254 254 254 0 0 0 254 254 254 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 				}
 
 			}
@@ -192,8 +192,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 428.0, 130.999990344047546, 112.0, 22.0 ],
-					"text" : "$1 254 254 254 0 0"
+					"patching_rect" : [ 428.0, 130.999990344047546, 72.0, 22.0 ],
+					"text" : "0 0 0 $1 0 0"
 				}
 
 			}
@@ -288,8 +288,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1219.0, 246.5, 72.0, 22.0 ],
-					"text" : "0 0 0 $1 0 0"
+					"patching_rect" : [ 1219.0, 246.5, 112.0, 22.0 ],
+					"text" : "$1 254 254 254 0 0"
 				}
 
 			}
@@ -486,8 +486,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1172,6 +1172,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[194]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1458,7 +1459,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
+					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
